@@ -29,3 +29,12 @@ public/uploads/*
 /node_modules
 yarn-debug.log*
 .yarn-integrity
+
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
