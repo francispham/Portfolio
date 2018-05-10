@@ -14,11 +14,14 @@ const FooterLinks = [
   }
 ]
 
-const Menu = () => (
-  <div style={{
-    background: '#f4f4f4',
-    paddingTop: '10px'
-  }}>
+const Sidebar = () => (
+  <div
+    style={{
+      border: '2px solid #e6e6e6',
+      maxWidth: 960,
+      padding: '0.5rem',
+      marginBottom: '25px'
+    }}>
   <h3>Where to find me</h3>
   <ul className="social">
     {FooterLinks.map(link => (
@@ -32,4 +35,4 @@ const Menu = () => (
   </div>
 )
 
-export default Menu
+export default Sidebar

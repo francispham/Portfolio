@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2719804a787d23f60b8f3805c843c59f",
+        "contentDigest": "7c17c83d38125baeccf87d401931dd03",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -245,7 +245,7 @@
       "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.11",
+      "version": "2.0.10",
       "pluginOptions": {
         "plugins": []
       },
@@ -258,7 +258,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "2.0.11",
+        "version": "2.0.10",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -276,7 +276,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -310,7 +313,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7b51eb9cc9cb2677797871c874d610ea",
+        "contentDigest": "63d5f10526d09874e9e1c2663acc1303",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -338,7 +341,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -398,7 +404,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -498,7 +507,10 @@
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -634,7 +646,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -699,7 +714,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -786,7 +804,7 @@
       "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0ee45f7375116cea381248c7206c5645",
+      "version": "71e10002a083c8c5a322f9d3c4c6e94d",
       "pluginOptions": {
         "plugins": []
       },
@@ -843,6 +861,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-media",
+            "version": "^1.8.0"
           }
         ],
         "devDependencies": [
@@ -858,7 +880,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7f7f697bae1ea532aa96a6b67227ca9a",
+        "contentDigest": "bf26b72b4b4e3f23835374f18a576c27",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -871,12 +893,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-09T23:05:47.932Z",
+      "buildTime": "2018-05-10T01:41:20.606Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fa4244c6436066084c0087a9455a61dd",
+        "contentDigest": "008b39640c1cd38295c7198a1b216f5c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -886,7 +908,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ca9084ac767b05113f7074ff53e11120",
+        "contentDigest": "71a3defa490b204f5ef368598805b8b3",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -898,7 +920,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-05-09T23:04:55.607Z",
-      "accessTime": "2018-05-09T23:05:52.414Z",
+      "accessTime": "2018-05-10T01:41:23.669Z",
       "changeTime": "2018-05-09T23:04:55.607Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
@@ -916,11 +938,11 @@
       "blksize": 4194304,
       "ino": 4321291060,
       "blocks": 0,
-      "atimeMs": 1525907152413.5708,
+      "atimeMs": 1525916483669.1936,
       "mtimeMs": 1525907095606.5032,
       "ctimeMs": 1525907095606.5032,
       "birthtimeMs": 1525590546244.883,
-      "atime": "2018-05-09T23:05:52.414Z",
+      "atime": "2018-05-10T01:41:23.669Z",
       "mtime": "2018-05-09T23:04:55.607Z",
       "ctime": "2018-05-09T23:04:55.607Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
@@ -943,7 +965,7 @@
       "size": 326,
       "prettySize": "326 B",
       "modifiedTime": "2018-05-09T19:38:32.596Z",
-      "accessTime": "2018-05-09T19:38:32.608Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
       "changeTime": "2018-05-09T19:38:32.596Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
@@ -961,11 +983,11 @@
       "blksize": 4194304,
       "ino": 4321291062,
       "blocks": 8,
-      "atimeMs": 1525894712607.606,
+      "atimeMs": 1525916133498.2644,
       "mtimeMs": 1525894712595.9856,
       "ctimeMs": 1525894712595.9856,
       "birthtimeMs": 1525590546245.039,
-      "atime": "2018-05-09T19:38:32.608Z",
+      "atime": "2018-05-10T01:35:33.498Z",
       "mtime": "2018-05-09T19:38:32.596Z",
       "ctime": "2018-05-09T19:38:32.596Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
@@ -988,7 +1010,7 @@
       "size": 171,
       "prettySize": "171 B",
       "modifiedTime": "2018-05-08T14:47:57.824Z",
-      "accessTime": "2018-05-09T05:30:05.933Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
       "changeTime": "2018-05-08T14:47:57.824Z",
       "birthTime": "2018-05-08T13:55:10.186Z",
       "root": "/",
@@ -1006,41 +1028,41 @@
       "blksize": 4194304,
       "ino": 4321403500,
       "blocks": 8,
-      "atimeMs": 1525843805933.0454,
+      "atimeMs": 1525916133498.2542,
       "mtimeMs": 1525790877824.281,
       "ctimeMs": 1525790877824.281,
       "birthtimeMs": 1525787710186.33,
-      "atime": "2018-05-09T05:30:05.933Z",
+      "atime": "2018-05-10T01:35:33.498Z",
       "mtime": "2018-05-08T14:47:57.824Z",
       "ctime": "2018-05-08T14:47:57.824Z",
       "birthtime": "2018-05-08T13:55:10.186Z"
     },
-    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file": {
-      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file",
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d1635a027019a69a36523f3b5700fbcf",
+        "contentDigest": "5e902a21e46169cb1d01038e9ba9304c",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/pages/contact.js\"",
+        "description": "File \"src/pages/resume.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
-      "relativePath": "contact.js",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js",
+      "relativePath": "resume.js",
       "extension": "js",
-      "size": 153,
-      "prettySize": "153 B",
-      "modifiedTime": "2018-05-08T15:03:47.087Z",
-      "accessTime": "2018-05-09T05:30:05.933Z",
-      "changeTime": "2018-05-08T15:03:47.087Z",
-      "birthTime": "2018-05-08T14:17:10.569Z",
+      "size": 150,
+      "prettySize": "150 B",
+      "modifiedTime": "2018-05-08T14:48:15.822Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
+      "changeTime": "2018-05-08T14:48:15.822Z",
+      "birthTime": "2018-05-08T14:18:01.069Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
-      "base": "contact.js",
+      "base": "resume.js",
       "ext": ".js",
-      "name": "contact",
+      "name": "resume",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1049,16 +1071,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4321403809,
+      "ino": 4321403849,
       "blocks": 8,
-      "atimeMs": 1525843805933.0771,
-      "mtimeMs": 1525791827087.214,
-      "ctimeMs": 1525791827087.214,
-      "birthtimeMs": 1525789030569.338,
-      "atime": "2018-05-09T05:30:05.933Z",
-      "mtime": "2018-05-08T15:03:47.087Z",
-      "ctime": "2018-05-08T15:03:47.087Z",
-      "birthtime": "2018-05-08T14:17:10.569Z"
+      "atimeMs": 1525916133498.2747,
+      "mtimeMs": 1525790895822.242,
+      "ctimeMs": 1525790895822.242,
+      "birthtimeMs": 1525789081068.9128,
+      "atime": "2018-05-10T01:35:33.498Z",
+      "mtime": "2018-05-08T14:48:15.822Z",
+      "ctime": "2018-05-08T14:48:15.822Z",
+      "birthtime": "2018-05-08T14:18:01.069Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js absPath of file": {
       "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js absPath of file",
@@ -1078,7 +1100,7 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-05-06T07:09:06.245Z",
-      "accessTime": "2018-05-09T05:30:05.933Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
       "changeTime": "2018-05-06T07:09:06.245Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
@@ -1096,11 +1118,11 @@
       "blksize": 4194304,
       "ino": 4321291061,
       "blocks": 8,
-      "atimeMs": 1525843805933.0513,
+      "atimeMs": 1525916133498.2493,
       "mtimeMs": 1525590546244.9744,
       "ctimeMs": 1525590546244.9744,
       "birthtimeMs": 1525590546244.9329,
-      "atime": "2018-05-09T05:30:05.933Z",
+      "atime": "2018-05-10T01:35:33.498Z",
       "mtime": "2018-05-06T07:09:06.245Z",
       "ctime": "2018-05-06T07:09:06.245Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
@@ -1123,7 +1145,7 @@
       "size": 245,
       "prettySize": "245 B",
       "modifiedTime": "2018-05-06T07:09:06.245Z",
-      "accessTime": "2018-05-09T05:30:05.933Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
       "changeTime": "2018-05-06T07:09:06.245Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
@@ -1141,41 +1163,41 @@
       "blksize": 4194304,
       "ino": 4321291063,
       "blocks": 8,
-      "atimeMs": 1525843805933.057,
+      "atimeMs": 1525916133498.27,
       "mtimeMs": 1525590546245.203,
       "ctimeMs": 1525590546245.203,
       "birthtimeMs": 1525590546245.1448,
-      "atime": "2018-05-09T05:30:05.933Z",
+      "atime": "2018-05-10T01:35:33.498Z",
       "mtime": "2018-05-06T07:09:06.245Z",
       "ctime": "2018-05-06T07:09:06.245Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
     },
-    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js absPath of file": {
-      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js absPath of file",
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e902a21e46169cb1d01038e9ba9304c",
+        "contentDigest": "d1635a027019a69a36523f3b5700fbcf",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/pages/resume.js\"",
+        "description": "File \"src/pages/contact.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js",
-      "relativePath": "resume.js",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
+      "relativePath": "contact.js",
       "extension": "js",
-      "size": 150,
-      "prettySize": "150 B",
-      "modifiedTime": "2018-05-08T14:48:15.822Z",
-      "accessTime": "2018-05-09T05:30:05.933Z",
-      "changeTime": "2018-05-08T14:48:15.822Z",
-      "birthTime": "2018-05-08T14:18:01.069Z",
+      "size": 153,
+      "prettySize": "153 B",
+      "modifiedTime": "2018-05-09T23:04:55.607Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
+      "changeTime": "2018-05-09T23:04:55.607Z",
+      "birthTime": "2018-05-09T23:04:55.606Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
-      "base": "resume.js",
+      "base": "contact.js",
       "ext": ".js",
-      "name": "resume",
+      "name": "contact",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1184,16 +1206,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4321403849,
+      "ino": 4321531986,
       "blocks": 8,
-      "atimeMs": 1525843805933.072,
-      "mtimeMs": 1525790895822.242,
-      "ctimeMs": 1525790895822.242,
-      "birthtimeMs": 1525789081068.9128,
-      "atime": "2018-05-09T05:30:05.933Z",
-      "mtime": "2018-05-08T14:48:15.822Z",
-      "ctime": "2018-05-08T14:48:15.822Z",
-      "birthtime": "2018-05-08T14:18:01.069Z"
+      "atimeMs": 1525916133498.2593,
+      "mtimeMs": 1525907095607.0696,
+      "ctimeMs": 1525907095607.0696,
+      "birthtimeMs": 1525907095606.4912,
+      "atime": "2018-05-10T01:35:33.498Z",
+      "mtime": "2018-05-09T23:04:55.607Z",
+      "ctime": "2018-05-09T23:04:55.607Z",
+      "birthtime": "2018-05-09T23:04:55.606Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js absPath of file": {
       "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js absPath of file",
@@ -1213,7 +1235,7 @@
       "size": 404,
       "prettySize": "404 B",
       "modifiedTime": "2018-05-09T23:45:12.591Z",
-      "accessTime": "2018-05-09T23:45:12.595Z",
+      "accessTime": "2018-05-10T01:35:33.498Z",
       "changeTime": "2018-05-09T23:45:12.591Z",
       "birthTime": "2018-05-08T14:17:39.157Z",
       "root": "/",
@@ -1231,11 +1253,11 @@
       "blksize": 4194304,
       "ino": 4321403835,
       "blocks": 8,
-      "atimeMs": 1525909512595.4712,
+      "atimeMs": 1525916133498.2795,
       "mtimeMs": 1525909512591.2559,
       "ctimeMs": 1525909512591.2559,
       "birthtimeMs": 1525789059157.167,
-      "atime": "2018-05-09T23:45:12.595Z",
+      "atime": "2018-05-10T01:35:33.498Z",
       "mtime": "2018-05-09T23:45:12.591Z",
       "ctime": "2018-05-09T23:45:12.591Z",
       "birthtime": "2018-05-08T14:17:39.157Z"
@@ -1245,7 +1267,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f999dddb6faed59ec2a3944eb8defd0f",
+        "contentDigest": "d6012a4769abb23fa064e01042bf0524",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -1257,7 +1279,7 @@
       "size": 64,
       "prettySize": "64 B",
       "modifiedTime": "2018-05-09T05:32:50.854Z",
-      "accessTime": "2018-05-09T23:05:52.423Z",
+      "accessTime": "2018-05-10T01:41:23.686Z",
       "changeTime": "2018-05-09T05:32:50.854Z",
       "birthTime": "2018-05-09T05:32:50.854Z",
       "root": "/",
@@ -1275,11 +1297,11 @@
       "blksize": 4194304,
       "ino": 4321483432,
       "blocks": 0,
-      "atimeMs": 1525907152423.0413,
+      "atimeMs": 1525916483685.664,
       "mtimeMs": 1525843970854.0195,
       "ctimeMs": 1525843970854.0195,
       "birthtimeMs": 1525843970854.0195,
-      "atime": "2018-05-09T23:05:52.423Z",
+      "atime": "2018-05-10T01:41:23.686Z",
       "mtime": "2018-05-09T05:32:50.854Z",
       "ctime": "2018-05-09T05:32:50.854Z",
       "birthtime": "2018-05-09T05:32:50.854Z"
@@ -1300,7 +1322,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a202942ab19924926a7dee668d12acfe",
+        "contentDigest": "774249f1816f254fec9cc56edf6d4fc3",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1321,7 +1343,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a8846ef4b43253cd4af63fd1c7664225",
+        "contentDigest": "26a977310123ee7baf3e7cf20bf514e6",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1342,7 +1364,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "650e2b41b608849e549884f79920ab14",
+        "contentDigest": "9e7783f8f62400935df8831fca254a6f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1363,7 +1385,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3649097fac197d17449373e52a6f901d",
+        "contentDigest": "43138d818f56ed0cd6c7c55522900dae",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1384,7 +1406,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "093c88e12895ce190a87f337b4b7da07",
+        "contentDigest": "85ab46203d8bcd105ef176156a911035",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1405,7 +1427,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a610da261ab4d0d03ba9c9917dca1af",
+        "contentDigest": "570c25c475af5c144403aaf84d526015",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1426,7 +1448,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2070c6b021504d69a1b138c5876259f3",
+        "contentDigest": "1fe51738dc244d00fbfb4f0908622a56",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1447,7 +1469,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a069408921b4e3e22592dfffa486529",
+        "contentDigest": "5b7f675f24c7a8bee9924fb14d388d05",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1455,7 +1477,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "71ce48eb621da500ed88c851d618c74a"
+    "PLUGINS_HASH": "cec683a1441b56abfdd95492eba443a1"
   },
   "componentDataDependencies": {
     "nodes": {
