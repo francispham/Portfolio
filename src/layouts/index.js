@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
+import FaGithub from 'react-icons/lib/fa/github'
 
 import Header from '../components/header'
 import Sidebar from '../components/Sidebar'
@@ -11,18 +12,7 @@ import './index.css'
 import "../styles/layout-overide.css";
 
 
-const FooterLinks = [
-  {
-    name: 'Github',
-    link: 'https://github.com/phongpt1989'
-  },{
-    name: 'LinkedIn',
-    link: 'http://linkedin.com/in/francispham89'
-  },{
-    name: 'Gmail',
-    link: 'fransicpham89@gmail.com'
-  }
-]
+
 
 
 const Layout = ({ children, data }) => (
@@ -67,13 +57,6 @@ const Layout = ({ children, data }) => (
                 <Sidebar
                   title="Francis Pham"
                   description="I am a Full Stack Web Developer"
-                  contact = {FooterLinks.map(link => (
-                    <div className="social" style = {{display: 'flex'}}>
-                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-                        <i className = "text">{link.name}</i>
-                      </a>
-                    </div>
-                  ))}
                 />
               </div>
             </div>
@@ -93,13 +76,6 @@ const Layout = ({ children, data }) => (
                 <Sidebar
                   title="Francis Pham"
                   description="I am a Full Stack Web Developer"
-                  contact = {FooterLinks.map(link => (
-                    <div className="social" style = {{marginRight: '.5em'}}>
-                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-                        <i className = "text">{link.name}</i>
-                      </a>
-                    </div>
-                  ))}
                 />
               </div>
             </div>
