@@ -11,6 +11,20 @@ import './index.css'
 import "../styles/layout-overide.css";
 
 
+const FooterLinks = [
+  {
+    name: 'Github',
+    link: 'https://github.com/phongpt1989'
+  },{
+    name: 'LinkedIn',
+    link: 'http://linkedin.com/in/francispham89'
+  },{
+    name: 'Gmail',
+    link: 'fransicpham89@gmail.com'
+  }
+]
+
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
@@ -65,8 +79,16 @@ const Layout = ({ children, data }) => (
               </div>
 <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="Codestack"
-                  description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."
+                  title="Where to find me"
+                  description = {FooterLinks.map(link => (
+                    <ul className="social">
+                    <li>
+                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+                        <i className = "text">{link.name}</i>
+                      </a>
+                    </li>
+                    </ul>
+                  ))}
                 />
                 <Sidebar
                   title="About author"

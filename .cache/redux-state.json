@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7c17c83d38125baeccf87d401931dd03",
+        "contentDigest": "e67d354a631af6d81129b99e03935999",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -887,18 +887,16 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Francis Pham 's Portfolio"
+        "title": "Francis's Portfolio"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-05-10T01:41:20.606Z",
+      "buildTime": "2018-05-10T02:38:22.375Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "008b39640c1cd38295c7198a1b216f5c",
+        "contentDigest": "57d55581e52e1f756e7932854e2f63b4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -908,7 +906,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "71a3defa490b204f5ef368598805b8b3",
+        "contentDigest": "bd3157eed0397e8eb629a0241b8c6612",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -920,7 +918,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-05-09T23:04:55.607Z",
-      "accessTime": "2018-05-10T01:41:23.669Z",
+      "accessTime": "2018-05-10T02:38:26.973Z",
       "changeTime": "2018-05-09T23:04:55.607Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
@@ -938,11 +936,11 @@
       "blksize": 4194304,
       "ino": 4321291060,
       "blocks": 0,
-      "atimeMs": 1525916483669.1936,
+      "atimeMs": 1525919906972.983,
       "mtimeMs": 1525907095606.5032,
       "ctimeMs": 1525907095606.5032,
       "birthtimeMs": 1525590546244.883,
-      "atime": "2018-05-10T01:41:23.669Z",
+      "atime": "2018-05-10T02:38:26.973Z",
       "mtime": "2018-05-09T23:04:55.607Z",
       "ctime": "2018-05-09T23:04:55.607Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
@@ -1267,7 +1265,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d6012a4769abb23fa064e01042bf0524",
+        "contentDigest": "2006edb39112a77db3d966e8f2db4c0a",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -1279,7 +1277,7 @@
       "size": 64,
       "prettySize": "64 B",
       "modifiedTime": "2018-05-09T05:32:50.854Z",
-      "accessTime": "2018-05-10T01:41:23.686Z",
+      "accessTime": "2018-05-10T02:38:26.986Z",
       "changeTime": "2018-05-09T05:32:50.854Z",
       "birthTime": "2018-05-09T05:32:50.854Z",
       "root": "/",
@@ -1297,11 +1295,11 @@
       "blksize": 4194304,
       "ino": 4321483432,
       "blocks": 0,
-      "atimeMs": 1525916483685.664,
+      "atimeMs": 1525919906985.783,
       "mtimeMs": 1525843970854.0195,
       "ctimeMs": 1525843970854.0195,
       "birthtimeMs": 1525843970854.0195,
-      "atime": "2018-05-10T01:41:23.686Z",
+      "atime": "2018-05-10T02:38:26.986Z",
       "mtime": "2018-05-09T05:32:50.854Z",
       "ctime": "2018-05-09T05:32:50.854Z",
       "birthtime": "2018-05-09T05:32:50.854Z"
@@ -1322,7 +1320,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "774249f1816f254fec9cc56edf6d4fc3",
+        "contentDigest": "7d692d135554cf3138bab8cd5664bdcf",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1343,7 +1341,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "26a977310123ee7baf3e7cf20bf514e6",
+        "contentDigest": "70fda49a76c2a41eba6edb6c9765eac0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1364,7 +1362,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9e7783f8f62400935df8831fca254a6f",
+        "contentDigest": "40b90da4f10eedde866ae3670928d0f3",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1385,7 +1383,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43138d818f56ed0cd6c7c55522900dae",
+        "contentDigest": "c7507d619daf9a6bc31c293f0e8ab892",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1406,7 +1404,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "85ab46203d8bcd105ef176156a911035",
+        "contentDigest": "c615cac9b1110b693be73ca2aae2fece",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1427,7 +1425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "570c25c475af5c144403aaf84d526015",
+        "contentDigest": "02b6c5c81e8da816f2d38eca500fe22a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1448,7 +1446,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fe51738dc244d00fbfb4f0908622a56",
+        "contentDigest": "f98fba48f3eb454071b8c77d3b602af3",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1469,7 +1467,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5b7f675f24c7a8bee9924fb14d388d05",
+        "contentDigest": "37b6ab70bfaf290bddaf608ee0d9e930",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
