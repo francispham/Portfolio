@@ -60,24 +60,19 @@ const Layout = ({ children, data }) => (
               <div
                 style= {{
                   display: 'grid',
-                  gridTemplateColumns: 'auto auto',
-                  gridGap: '1em'
+                  justifyTtems: 'center',
+                  alignTtems: 'center',
                 }}
                 >
                 <Sidebar
                   title="Francis Pham"
                   description="I am a Full Stack Web Developer"
-                />
-                <Sidebar
-                  title="Where to find me"
-                  description = {FooterLinks.map(link => (
-                    <ul className="social">
-                      <li style = {{listStyleType: 'none'}}>
-                        <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-                          <i className = "text">{link.name}</i>
-                        </a>
-                      </li>
-                    </ul>
+                  contact = {FooterLinks.map(link => (
+                    <div className="social" style = {{display: 'flex'}}>
+                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+                        <i className = "text">{link.name}</i>
+                      </a>
+                    </div>
                   ))}
                 />
               </div>
@@ -88,6 +83,7 @@ const Layout = ({ children, data }) => (
                 maxWidth: 980,
                 display: "grid",
                 gridTemplateColumns: 'repeat(12, 1fr)',
+                gridGap: '1em',
                 height: "100%",
                 padding: "25px"
               }}
@@ -97,17 +93,12 @@ const Layout = ({ children, data }) => (
                 <Sidebar
                   title="Francis Pham"
                   description="I am a Full Stack Web Developer"
-                />
-                <Sidebar
-                  title="Where to find me"
-                  description = {FooterLinks.map(link => (
-                    <ul className="social">
-                      <li style = {{listStyleType: 'none'}}>
-                        <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-                          <i className = "text">{link.name}</i>
-                        </a>
-                      </li>
-                    </ul>
+                  contact = {FooterLinks.map(link => (
+                    <div className="social" style = {{marginRight: '.5em'}}>
+                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+                        <i className = "text">{link.name}</i>
+                      </a>
+                    </div>
                   ))}
                 />
               </div>

@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         paddingLeft: '0'
       }}
       >
-        <h3 style={{ margin: 0 }}>
+        <h1 style={{ margin: 0 }}>
           <Link
             to="/"
             style={{
@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
             >
               {siteTitle}
             </Link>
-          </h3>
+          </h1>
         </div>
     <div style={{
       background: '#f4f4f4',
@@ -46,8 +46,8 @@ const Header = ({ siteTitle }) => (
         }}>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/skills">My Skills</Link></li>
-        <li> <a href = 'https://www.dropbox.com/s/x6j6d7baxrtwdna/FrancisResume.pdf?dl=0' target = "_blank">Resume</a></li>
         <li><Link to="/contact">Contact</Link></li>
+        <li> <a href = 'https://www.dropbox.com/s/x6j6d7baxrtwdna/FrancisResume.pdf?dl=0' target = "_blank">Resume</a></li>
       </ul>
     </div>
   </div>

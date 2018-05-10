@@ -12,9 +12,12 @@ const Sidebar = (props) => (
       padding: '0.5rem',
       marginBottom: '25px'
     }}>
-    <strong>{props.title}.</strong>
+    <strong>{props.title}</strong>
     <hr></hr>
     {props.description}
+    <div style = {{display: 'flex', margin: '1em' }}>
+      {props.contact}
+    </div>
   </div>
 )
 
