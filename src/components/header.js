@@ -4,8 +4,10 @@ import Link from 'gatsby-link'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'black',
+      background: '#f4f4f4',
       marginBottom: '0',
+      display: 'grid',
+      gridTemplateColumns: 'auto auto',
     }}
   >
     <div
@@ -15,17 +17,33 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: 'black',
             textDecoration: 'none',
           }}
         >
           {siteTitle}
         </Link>
-      </h1>
+      </h3>
+    </div>
+    <div style={{
+      background: '#f4f4f4',
+      paddingTop:30,
+    }}>
+      <ul style={{
+        listStyle: 'none',
+        display: 'flex',
+        justifyContent: 'space-evenly'
+      }}>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/skills">My Skills</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/resume">Resume</Link></li>
+      </ul>
     </div>
   </div>
 )

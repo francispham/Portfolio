@@ -1,24 +1,34 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+const FooterLinks = [
+  {
+    name: 'Github',
+    link: 'https://github.com/phongpt1989'
+  },{
+    name: 'LinkedIn',
+    link: 'http://linkedin.com/in/francispham89'
+  },{
+    name: 'Gmail',
+    link: 'fransicpham89@gmail.com'
+  }
+]
+
 const Menu = () => (
   <div style={{
     background: '#f4f4f4',
     paddingTop: '10px'
   }}>
-    <ul style={{
-      listStyle: 'none',
-      display: 'flex',
-      justifyContent: 'space-evenly'
-    }}>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/skills">My Skills</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/resume">Resume</Link></li>
-
-
-    </ul>
+  <h3>Where to find me</h3>
+  <ul className="social">
+    {FooterLinks.map(link => (
+      <li>
+        <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+          <i className = "text">{link.name}</i>
+        </a>
+      </li>
+    ))}
+  </ul>
   </div>
 )
 
