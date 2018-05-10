@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71ce485f588bb98c73c0d8992a94225b",
+        "contentDigest": "61ec57ff7a19c031f2f4c046facd5489",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -245,7 +245,7 @@
       "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.11",
+      "version": "2.0.10",
       "pluginOptions": {
         "plugins": []
       },
@@ -258,7 +258,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "2.0.11",
+        "version": "2.0.10",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -276,7 +276,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -310,7 +313,489 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7b51eb9cc9cb2677797871c874d610ea",
+        "contentDigest": "63d5f10526d09874e9e1c2663acc1303",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7503e1f3f87037d75d5b4a5c9fa332e5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.35",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "img",
+        "path": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.35",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "173a1541f7a63ddce37700cd87f11aa4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.40",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.40",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5129fb0fce0b2ff4c98a2aa57492dbe4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.24",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8f33db3a067eac3bd650048454d4b2f5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.44",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c0eb70f58f1f70ae8914f553951eecea",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -319,7 +804,7 @@
       "resolve": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "30fed3ef4151a642290ed74870846202",
+      "version": "919ed6f12bf51f56e5616454ef1d5236",
       "pluginOptions": {
         "plugins": []
       },
@@ -342,16 +827,48 @@
             "version": "^1.9.247"
           },
           {
+            "name": "gatsby-image",
+            "version": "^1.0.51"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.22"
           },
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.10"
           },
           {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.35"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.40"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.24"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-media",
+            "version": "^1.8.0"
           }
         ],
         "devDependencies": [
@@ -367,28 +884,341 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7e5d1dd8bc57b314213418d2f496d4a2",
+        "contentDigest": "2aca7a88e1d6ad948cea458009ca6c64",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Francis Pham 's Portfolio"
+        "title": "PORTFOLIO"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-08T14:44:43.168Z",
+      "buildTime": "2018-05-10T09:01:36.931Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8ff8e8049e7c50caf528fe0c73b5301f",
+        "contentDigest": "0d26100a0206318368d67da3bce0fe49",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "775d97db4404be3342efe51f923a2db5",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-05-10T05:32:35.041Z",
+      "accessTime": "2018-05-10T09:01:41.728Z",
+      "changeTime": "2018-05-10T05:32:35.041Z",
+      "birthTime": "2018-05-06T07:09:06.245Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321291060,
+      "blocks": 0,
+      "atimeMs": 1525942901728.4683,
+      "mtimeMs": 1525930355041.1348,
+      "ctimeMs": 1525930355041.1348,
+      "birthtimeMs": 1525590546244.883,
+      "atime": "2018-05-10T09:01:41.728Z",
+      "mtime": "2018-05-10T05:32:35.041Z",
+      "ctime": "2018-05-10T05:32:35.041Z",
+      "birthtime": "2018-05-06T07:09:06.245Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b193b081a659190750c8243b514d429e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js",
+      "relativePath": "about.js",
+      "extension": "js",
+      "size": 205,
+      "prettySize": "205 B",
+      "modifiedTime": "2018-05-10T07:26:43.686Z",
+      "accessTime": "2018-05-10T08:19:00.812Z",
+      "changeTime": "2018-05-10T07:26:43.686Z",
+      "birthTime": "2018-05-08T13:55:10.186Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321403500,
+      "blocks": 8,
+      "atimeMs": 1525940340811.6729,
+      "mtimeMs": 1525937203686.2288,
+      "ctimeMs": 1525937203686.2288,
+      "birthtimeMs": 1525787710186.33,
+      "atime": "2018-05-10T08:19:00.812Z",
+      "mtime": "2018-05-10T07:26:43.686Z",
+      "ctime": "2018-05-10T07:26:43.686Z",
+      "birthtime": "2018-05-08T13:55:10.186Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2018-05-06T07:09:06.245Z",
+      "accessTime": "2018-05-10T08:19:00.812Z",
+      "changeTime": "2018-05-06T07:09:06.245Z",
+      "birthTime": "2018-05-06T07:09:06.245Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321291061,
+      "blocks": 8,
+      "atimeMs": 1525940340811.6797,
+      "mtimeMs": 1525590546244.9744,
+      "ctimeMs": 1525590546244.9744,
+      "birthtimeMs": 1525590546244.9329,
+      "atime": "2018-05-10T08:19:00.812Z",
+      "mtime": "2018-05-06T07:09:06.245Z",
+      "ctime": "2018-05-06T07:09:06.245Z",
+      "birthtime": "2018-05-06T07:09:06.245Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "681667aa38f3825d1dee776e39198c63",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 277,
+      "prettySize": "277 B",
+      "modifiedTime": "2018-05-10T07:32:15.091Z",
+      "accessTime": "2018-05-10T08:19:00.812Z",
+      "changeTime": "2018-05-10T07:32:15.091Z",
+      "birthTime": "2018-05-06T07:09:06.245Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321291062,
+      "blocks": 8,
+      "atimeMs": 1525940340811.6985,
+      "mtimeMs": 1525937535091.1243,
+      "ctimeMs": 1525937535091.1243,
+      "birthtimeMs": 1525590546245.039,
+      "atime": "2018-05-10T08:19:00.812Z",
+      "mtime": "2018-05-10T07:32:15.091Z",
+      "ctime": "2018-05-10T07:32:15.091Z",
+      "birthtime": "2018-05-06T07:09:06.245Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7f187b4d144d1c06cf1ce204fdd6240d",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
+      "relativePath": "contact.js",
+      "extension": "js",
+      "size": 779,
+      "prettySize": "779 B",
+      "modifiedTime": "2018-05-10T09:05:11.946Z",
+      "accessTime": "2018-05-10T09:05:12.158Z",
+      "changeTime": "2018-05-10T09:05:11.946Z",
+      "birthTime": "2018-05-09T23:04:55.606Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321531986,
+      "blocks": 8,
+      "atimeMs": 1525943112157.538,
+      "mtimeMs": 1525943111946.2678,
+      "ctimeMs": 1525943111946.2678,
+      "birthtimeMs": 1525907095606.4912,
+      "atime": "2018-05-10T09:05:12.158Z",
+      "mtime": "2018-05-10T09:05:11.946Z",
+      "ctime": "2018-05-10T09:05:11.946Z",
+      "birthtime": "2018-05-09T23:04:55.606Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "587ea6a3cf31cdd2d473a79c8b35e442",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/skills.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js",
+      "relativePath": "skills.js",
+      "extension": "js",
+      "size": 465,
+      "prettySize": "465 B",
+      "modifiedTime": "2018-05-10T09:10:12.896Z",
+      "accessTime": "2018-05-10T09:10:12.903Z",
+      "changeTime": "2018-05-10T09:10:12.896Z",
+      "birthTime": "2018-05-08T14:17:39.157Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "skills.js",
+      "ext": ".js",
+      "name": "skills",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321403835,
+      "blocks": 8,
+      "atimeMs": 1525943412903.05,
+      "mtimeMs": 1525943412895.9717,
+      "ctimeMs": 1525943412895.9717,
+      "birthtimeMs": 1525789059157.167,
+      "atime": "2018-05-10T09:10:12.903Z",
+      "mtime": "2018-05-10T09:10:12.896Z",
+      "ctime": "2018-05-10T09:10:12.896Z",
+      "birthtime": "2018-05-08T14:17:39.157Z"
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/ absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "19f56f38ca2ef93d410afe4075777631",
+        "type": "Directory",
+        "description": "Directory \"src/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/",
+      "relativePath": "",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2018-05-09T05:32:50.854Z",
+      "accessTime": "2018-05-10T09:01:41.739Z",
+      "changeTime": "2018-05-09T05:32:50.854Z",
+      "birthTime": "2018-05-09T05:32:50.854Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4321483432,
+      "blocks": 0,
+      "atimeMs": 1525942901739.4463,
+      "mtimeMs": 1525843970854.0195,
+      "ctimeMs": 1525843970854.0195,
+      "birthtimeMs": 1525843970854.0195,
+      "atime": "2018-05-10T09:01:41.739Z",
+      "mtime": "2018-05-09T05:32:50.854Z",
+      "ctime": "2018-05-09T05:32:50.854Z",
+      "birthtime": "2018-05-09T05:32:50.854Z"
     },
     "SitePage /404/": {
       "layout": "index",
@@ -406,7 +1236,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1579ed4f01f81e4aee5011c9d42d8f48",
+        "contentDigest": "102a562e8c8b6c53b7f960210b736c8f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -427,7 +1257,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "40c474ac705b378ea83ae7d214997a46",
+        "contentDigest": "c14b04bb9570ab3f400564d4fe1bd3e8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -448,7 +1278,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e316566492866c6e58bf6f620e029720",
+        "contentDigest": "b25c6f5f83c537a885385269f318be5e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -469,49 +1299,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "153e16ad97a2b902ddb1718a74c400e9",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a538dd5aa33646a21ff8d453e81d221e",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /resume/": {
-      "layout": "index",
-      "jsonName": "resume.json",
-      "internalComponentName": "ComponentResume",
-      "path": "/resume/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js",
-      "componentChunkName": "component---src-pages-resume-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/resume.js",
-      "id": "SitePage /resume/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "53a84a1c12c88f8e55aff4f1eef69d57",
+        "contentDigest": "5782e1eedecd378a1bf3f307ba8d6605",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -532,7 +1320,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "750a19996770592a2ede3e17b1c4da83",
+        "contentDigest": "0fb3fe23c203cf3ce623685c17d54ad5",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -553,7 +1341,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "754149c1cb81dde055f8621e35657c62",
+        "contentDigest": "225eda1fa2bd04da686bca28c8d80030",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -561,7 +1349,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "147568234b2aae4e6bcb0d25ef33ad57"
+    "PLUGINS_HASH": "ffd2c80c4483d652ccb9cc8f37b2bf8d"
   },
   "componentDataDependencies": {
     "nodes": {

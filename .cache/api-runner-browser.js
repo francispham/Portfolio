@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks
 // basically like:
 // var plugins = [
