@@ -40,9 +40,6 @@ const Layout = ({ children, data }) => (
       style={{
         margin: "0 auto",
         maxWidth: 980,
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-between",
         height: "100%"
       }}
     >
@@ -53,46 +50,65 @@ const Layout = ({ children, data }) => (
               style={{
                 margin: "0 auto",
                 maxWidth: 980,
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
+                display: "grid",
+                gridTemplateColumns: 'repeat(12, 1fr)',
                 height: "100%",
                 padding: "25px"
               }}
             >
-              <div style={{ flex: 1 }}>{children()}</div>
-            </div>
-          ) : (
-            <div
-              style={{
-                margin: "0 auto",
-                maxWidth: 980,
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-                height: "100%",
-                padding: "25px"
-              }}
-            >
-              <div style={{ flex: 2.5, paddingRight: "30px" }}>
-                {children()}
-              </div>
-<div style={{ flex: 1 }}>
+              <div style= {{ gridColumn: 'span 12' }}>{children()}</div>
+              <div
+                style= {{
+                  display: 'grid',
+                  gridTemplateColumns: 'auto auto',
+                  gridGap: '1em'
+                }}
+                >
+                <Sidebar
+                  title="Francis Pham"
+                  description="I am a Full Stack Web Developer"
+                />
                 <Sidebar
                   title="Where to find me"
                   description = {FooterLinks.map(link => (
                     <ul className="social">
-                    <li>
-                      <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-                        <i className = "text">{link.name}</i>
-                      </a>
-                    </li>
+                      <li style = {{listStyleType: 'none'}}>
+                        <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+                          <i className = "text">{link.name}</i>
+                        </a>
+                      </li>
                     </ul>
                   ))}
                 />
+              </div>
+            </div>
+          ) : (
+            <div
+              style={{
+                maxWidth: 980,
+                display: "grid",
+                gridTemplateColumns: 'repeat(12, 1fr)',
+                height: "100%",
+                padding: "25px"
+              }}
+            >
+              <div style= {{ gridColumn: 'span 8' }}>{children()}</div>
+              <div style= {{ gridColumn: 'span 4' }}>
                 <Sidebar
-                  title="About author"
-                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+                  title="Francis Pham"
+                  description="I am a Full Stack Web Developer"
+                />
+                <Sidebar
+                  title="Where to find me"
+                  description = {FooterLinks.map(link => (
+                    <ul className="social">
+                      <li style = {{listStyleType: 'none'}}>
+                        <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+                          <i className = "text">{link.name}</i>
+                        </a>
+                      </li>
+                    </ul>
+                  ))}
                 />
               </div>
             </div>

@@ -42,13 +42,6 @@
         "path": "/page-2/"
     },
     {
-        "componentChunkName": "component---src-pages-resume-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "resume.json",
-        "path": "/resume/"
-    },
-    {
         "componentChunkName": "component---src-pages-skills-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
