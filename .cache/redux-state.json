@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "451d28dcff19b5e6aefd3e3b4b04af52",
+        "contentDigest": "942050a19064c76619b76a3b00d81893",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -897,12 +897,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-10T20:27:55.953Z",
+      "buildTime": "2018-05-10T20:41:42.040Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "37faafc14e93ce996beba644dd150cbb",
+        "contentDigest": "0cdfdb130a49d25d0e50258cd605b03c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -912,7 +912,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bec01e6f702c139ef89f23e2f9455ad0",
+        "contentDigest": "41621867f047f2735b4f114a24c66a1e",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -923,9 +923,9 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-05-10T09:53:20.098Z",
-      "accessTime": "2018-05-10T20:28:01.668Z",
-      "changeTime": "2018-05-10T09:53:20.098Z",
+      "modifiedTime": "2018-05-10T20:41:25.299Z",
+      "accessTime": "2018-05-10T20:41:43.766Z",
+      "changeTime": "2018-05-10T20:41:25.299Z",
       "birthTime": "2018-05-06T07:09:06.245Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src",
@@ -942,13 +942,13 @@
       "blksize": 4194304,
       "ino": 4321291060,
       "blocks": 0,
-      "atimeMs": 1525984081667.9673,
-      "mtimeMs": 1525946000097.7285,
-      "ctimeMs": 1525946000097.7285,
+      "atimeMs": 1525984903765.8853,
+      "mtimeMs": 1525984885299.0432,
+      "ctimeMs": 1525984885299.0432,
       "birthtimeMs": 1525590546244.883,
-      "atime": "2018-05-10T20:28:01.668Z",
-      "mtime": "2018-05-10T09:53:20.098Z",
-      "ctime": "2018-05-10T09:53:20.098Z",
+      "atime": "2018-05-10T20:41:43.766Z",
+      "mtime": "2018-05-10T20:41:25.299Z",
+      "ctime": "2018-05-10T20:41:25.299Z",
       "birthtime": "2018-05-06T07:09:06.245Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file": {
@@ -1192,7 +1192,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e0ed32ec7c770f74c370fc9821a86c0",
+        "contentDigest": "d8efe114ed4b2e77a4410fc7b337031a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1213,7 +1213,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a9e657cc04474792ef55bddf80dd2975",
+        "contentDigest": "856418e2c105474724316d2e46a7b562",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1234,7 +1234,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9828158198fc6c64faf2dae49c49bfb6",
+        "contentDigest": "be38d0c25706653eebec15980f29cc7a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1255,7 +1255,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a23c07c1e92ed90dc08f295500fb2ab8",
+        "contentDigest": "e0e743f4d6a4073ad6b8ce3b005815dd",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1276,7 +1276,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a317a76a7820d0df9db1b8f5e82de24",
+        "contentDigest": "2fb3897b8e161ae5b63798d79c6f15f4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1297,7 +1297,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1eb535076675e420aebd4883fffe7c46",
+        "contentDigest": "490d47fa233a6f1fab7ba3ae15794965",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
