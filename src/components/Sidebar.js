@@ -11,13 +11,20 @@ const Sidebar = (props) => (
     style={{
       border: '2px solid #e6e6e6',
       maxWidth: 960,
-      minWidth: 250,
+      minWidth: 300,
       padding: '0.5rem',
-      marginBottom: '25px'
+      marginBottom: '25px',
     }}>
-    <strong>{props.title}</strong>
-    <hr></hr>
-    {props.description}
+      <img
+        src = "https://s3-us-west-2.amazonaws.com/awesome-answers-2018/uploads/Portfolio/16864894_10155851013324377_3371467569757199283_n.jpg"
+        alt = "Avatar"
+        style={{
+          display: 'block',
+        }}
+      />
+    <h3>{props.title}</h3>
+    <h4>{props.description}</h4>
+
     <div style = {{ display: 'flex' }}>
       <big>
         <a target = "_blank" href = 'https://github.com/phongpt1989'>

@@ -1,56 +1,27 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
+import g from "glamorous"
+import { css } from "glamor"
 
-
-const Header = ({ siteTitle }) => (
-  <div
+const Header = ({ headerImage }) => (
+  <g.Div
     style={{
       background: '#f4f4f4',
-      marginBottom: '3rem',
-      borderBottom: '2px solid #e6e6e6',
-      display: 'grid',
-      gridTemplateColumns: 'auto auto',
-      marginRight: 'auto'
+      marginRight: 'auto',
+
     }}
   >
-    <div
+    <Img
+      title="Header image"
+      alt="Greek food laid out on table"
+      sizes={headerImage.sizes}
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-        paddingLeft: '0'
+        height: '25vh'
       }}
-      >
-        <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: 'black',
-              textDecoration: 'none',
-            }}
-            >
-              {siteTitle}
-            </Link>
-          </h1>
-        </div>
-    <div style={{
-      background: '#f4f4f4',
-      paddingTop:30,
-      maxWidth: 980,
-    }}>
-      <ul style = {{
-      listStyle: 'none',
-      display: 'flex',
-      justifyContent: 'space-evenly'
-        }}>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/skills">My Skills</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li> <a href = 'https://www.dropbox.com/s/x6j6d7baxrtwdna/FrancisResume.pdf?dl=0' target = "_blank">Resume</a></li>
-      </ul>
-    </div>
-  </div>
+    />
+  </g.Div>
 )
 
 export default Header
