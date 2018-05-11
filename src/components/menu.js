@@ -1,9 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Img from 'gatsby-image'
 
 
-const Header = ({ siteTitle, headerImage }) => (
+const Menu = ({ siteTitle }) => (
   <div
     style={{
       background: '#f4f4f4',
@@ -52,12 +51,7 @@ const Header = ({ siteTitle, headerImage }) => (
         <li> <a href = 'https://www.dropbox.com/s/x6j6d7baxrtwdna/FrancisResume.pdf?dl=0' target = "_blank">Resume</a></li>
       </ul>
     </div>
-    <Img
-      title="Header image"
-      alt="Greek food laid out on table"
-      sizes={headerImage.sizes}
-    />
   </div>
 )
 
-export default Header
+export default Menu

@@ -3,10 +3,12 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
-import FaGithub from 'react-icons/lib/fa/github'
+
 
 import Header from '../components/header'
+import Menu from '../components/menu'
 import Sidebar from '../components/Sidebar'
+
 
 import './index.css'
 import "../styles/layout-overide.css";
@@ -24,7 +26,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
+    <Header siteTitle={data.site.siteMetadata.title} headerImage={data.headerImage}/>
+    <Menu siteTitle={data.site.siteMetadata.title} />
 
     <div
       style={{
@@ -89,11 +92,17 @@ const Layout = ({ children, data }) => (
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query headerImageQueryAndSiteTitleQuery {
     site {
       siteMetadata {
         title
       }
     }
+    headerImage: imageSharp(id: { regex: "/header/" }) {
+      sizes(maxWidth: 1240 ) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
   }
+
 `
