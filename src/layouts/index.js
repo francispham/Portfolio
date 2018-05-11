@@ -4,18 +4,12 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
 
-
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Sidebar from '../components/Sidebar'
 
-
 import './index.css'
 import "../styles/layout-overide.css";
-
-
-
-
 
 const Layout = ({ children, data }) => (
   <div>
@@ -26,7 +20,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} headerImage={data.headerImage}/>
+    <Header headerImage={data.headerImage}/>
     <Menu siteTitle={data.site.siteMetadata.title} />
 
     <div

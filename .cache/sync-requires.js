@@ -12,7 +12,8 @@ exports.components = {
   "component---src-pages-about-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js")),
-  "component---src-pages-skills-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js"))
+  "component---src-pages-skills-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js")),
+  "component---src-pages-work-js": preferDefault(require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/work.js"))
 }
 
 exports.json = {
@@ -23,5 +24,6 @@ exports.json = {
   "contact.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/contact.json"),
   "index.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/index.json"),
   "skills.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/skills.json"),
-  "404-html.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json")
+  "404-html.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json"),
+  "work.json": require("/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/work.json")
 }
