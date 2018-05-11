@@ -2,12 +2,15 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 
+import g from "glamorous"
+import { css } from "glamor"
 
 const Header = ({ headerImage }) => (
-  <div
+  <g.Div
     style={{
       background: '#f4f4f4',
       marginRight: 'auto',
+
     }}
   >
     <Img
@@ -15,10 +18,10 @@ const Header = ({ headerImage }) => (
       alt="Greek food laid out on table"
       sizes={headerImage.sizes}
       style={{
-
+        height: '25vh'
       }}
     />
-  </div>
+  </g.Div>
 )
 
 export default Header

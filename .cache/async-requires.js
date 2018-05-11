@@ -19,8 +19,8 @@ exports.json = {
   "contact.json": require("gatsby-module-loader?name=path---contact!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/contact.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/index.json"),
   "skills.json": require("gatsby-module-loader?name=path---skills!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/skills.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json"),
-  "work.json": require("gatsby-module-loader?name=path---work!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/work.json")
+  "work.json": require("gatsby-module-loader?name=path---work!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/work.json"),
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json")
 }
 
 exports.layouts = {

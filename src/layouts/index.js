@@ -1,5 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import g from "glamorous"
+import { css } from "glamor"
+
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
@@ -11,8 +14,14 @@ import Sidebar from '../components/Sidebar'
 import './index.css'
 import "../styles/layout-overide.css";
 
+import { rhythm } from "../utils/typography";
+
+
+
 const Layout = ({ children, data }) => (
-  <div>
+  <g.Div
+    paddingTop={rhythm(1)}
+    >
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -23,7 +32,7 @@ const Layout = ({ children, data }) => (
     <Header headerImage={data.headerImage}/>
     <Menu siteTitle={data.site.siteMetadata.title} />
 
-    <div
+    <g.Div
       style={{
         margin: "0 auto",
         maxWidth: 980,
@@ -33,7 +42,7 @@ const Layout = ({ children, data }) => (
       <Media query={{ maxWidth: 848 }}>
         {matches =>
           matches ? (
-            <div
+            <g.Div
               style={{
                 margin: "0 auto",
                 maxWidth: 980,
@@ -43,8 +52,8 @@ const Layout = ({ children, data }) => (
                 padding: "25px"
               }}
             >
-              <div style= {{ gridColumn: 'span 12' }}>{children()}</div>
-              <div
+              <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
+              <g.Div
                 style= {{
                   display: 'grid',
                   justifyTtems: 'center',
@@ -53,12 +62,12 @@ const Layout = ({ children, data }) => (
                 >
                 <Sidebar
                   title="Francis Pham"
-                  description="I am a Full Stack Web Developer"
+                  description="Full Stack Web Developer"
                 />
-              </div>
-            </div>
+              </g.Div>
+            </g.Div>
           ) : (
-            <div
+            <g.Div
               style={{
                 maxWidth: 980,
                 display: "grid",
@@ -68,25 +77,25 @@ const Layout = ({ children, data }) => (
                 padding: "25px"
               }}
             >
-              <div style= {{ gridColumn: 'span 8' }}>{children()}</div>
-              <div style= {{ gridColumn: 'span 4' }}>
+              <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
+              <g.Div style= {{ gridColumn: 'span 4' }}>
                 <Sidebar
                   title="Francis Pham"
-                  description="I am a Full Stack Web Developer"
+                  description="Full Stack Web Developer"
                 />
-              </div>
-            </div>
+              </g.Div>
+            </g.Div>
           )
         }
       </Media>
-    </div>
-  </div>
+    </g.Div>
+  </g.Div>
 )
 
 export default Layout
 
 export const query = graphql`
-  query headerImageQueryAndSiteTitleQuery {
+  query headerImageQueryAndSiteTitleQueryAndLayoutQuery {
     site {
       siteMetadata {
         title
@@ -97,6 +106,10 @@ export const query = graphql`
         ...GatsbyImageSharpSizes_tracedSVG
       }
     }
+    site {
+      siteMetadata {
+        title
+      }
+    }
   }
-
 `
