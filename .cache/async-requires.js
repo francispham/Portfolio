@@ -7,7 +7,8 @@ exports.components = {
   "component---src-pages-about-js": require("gatsby-module-loader?name=component---src-pages-about-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js"),
   "component---src-pages-contact-js": require("gatsby-module-loader?name=component---src-pages-contact-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js"),
-  "component---src-pages-skills-js": require("gatsby-module-loader?name=component---src-pages-skills-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js")
+  "component---src-pages-skills-js": require("gatsby-module-loader?name=component---src-pages-skills-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js"),
+  "component---src-pages-thankyou-js": require("gatsby-module-loader?name=component---src-pages-thankyou-js!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js")
 }
 
 exports.json = {
@@ -18,7 +19,8 @@ exports.json = {
   "contact.json": require("gatsby-module-loader?name=path---contact!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/contact.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/index.json"),
   "skills.json": require("gatsby-module-loader?name=path---skills!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/skills.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/404-html.json"),
+  "thankyou.json": require("gatsby-module-loader?name=path---thankyou!/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/.cache/json/thankyou.json")
 }
 
 exports.layouts = {

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "63db6cee0cacec2e4c2c38bdc03d3568",
+        "contentDigest": "7de1397195c48f1977bf1c48d5cad0f4",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1056,12 +1056,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-15T18:55:03.108Z",
+      "buildTime": "2018-05-15T19:35:32.087Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9239967a8cb7105080404be3d708cafb",
+        "contentDigest": "ebffb7c71ba68d96ba5d6f9c4cfa02e7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1071,7 +1071,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d67cbe69ab9dd131d8bd5f9ea1468021",
+        "contentDigest": "16a44bbaf92f39d491308b6b89579393",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1083,7 +1083,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-05-15T18:26:25.855Z",
-      "accessTime": "2018-05-15T18:55:07.939Z",
+      "accessTime": "2018-05-15T19:35:36.109Z",
       "changeTime": "2018-05-15T18:26:25.855Z",
       "birthTime": "2018-05-10T22:29:16.629Z",
       "root": "/",
@@ -1101,11 +1101,11 @@
       "blksize": 4194304,
       "ino": 4321670955,
       "blocks": 0,
-      "atimeMs": 1526410507939.2222,
+      "atimeMs": 1526412936108.763,
       "mtimeMs": 1526408785854.5378,
       "ctimeMs": 1526408785854.5378,
       "birthtimeMs": 1525991356629.4595,
-      "atime": "2018-05-15T18:55:07.939Z",
+      "atime": "2018-05-15T19:35:36.109Z",
       "mtime": "2018-05-15T18:26:25.855Z",
       "ctime": "2018-05-15T18:26:25.855Z",
       "birthtime": "2018-05-10T22:29:16.629Z"
@@ -1160,7 +1160,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "268690b814fae8d9a6878217642aac1d",
+        "contentDigest": "cce96dc0cbc8768d2072599791668c82",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/contact.js\"",
@@ -1170,11 +1170,11 @@
       "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
       "relativePath": "contact.js",
       "extension": "js",
-      "size": 1504,
-      "prettySize": "1.5 kB",
-      "modifiedTime": "2018-05-15T19:05:22.542Z",
-      "accessTime": "2018-05-15T19:05:23.110Z",
-      "changeTime": "2018-05-15T19:05:22.542Z",
+      "size": 1411,
+      "prettySize": "1.41 kB",
+      "modifiedTime": "2018-05-15T19:43:46.903Z",
+      "accessTime": "2018-05-15T19:43:47.114Z",
+      "changeTime": "2018-05-15T19:43:46.903Z",
       "birthTime": "2018-05-15T18:26:25.855Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
@@ -1191,13 +1191,13 @@
       "blksize": 4194304,
       "ino": 4322361543,
       "blocks": 8,
-      "atimeMs": 1526411123110.357,
-      "mtimeMs": 1526411122541.9158,
-      "ctimeMs": 1526411122541.9158,
+      "atimeMs": 1526413427113.6177,
+      "mtimeMs": 1526413426903.0942,
+      "ctimeMs": 1526413426903.0942,
       "birthtimeMs": 1526408785854.5317,
-      "atime": "2018-05-15T19:05:23.110Z",
-      "mtime": "2018-05-15T19:05:22.542Z",
-      "ctime": "2018-05-15T19:05:22.542Z",
+      "atime": "2018-05-15T19:43:47.114Z",
+      "mtime": "2018-05-15T19:43:46.903Z",
+      "ctime": "2018-05-15T19:43:46.903Z",
       "birthtime": "2018-05-15T18:26:25.855Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file": {
@@ -1340,7 +1340,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9b22e50660fe89d34db3c13a56d61cf2",
+        "contentDigest": "aa100c16a6fe9f049df7d8d32154671b",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -1352,7 +1352,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-05-15T18:26:25.853Z",
-      "accessTime": "2018-05-15T18:55:07.951Z",
+      "accessTime": "2018-05-15T19:35:36.117Z",
       "changeTime": "2018-05-15T18:26:25.853Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
@@ -1370,11 +1370,11 @@
       "blksize": 4194304,
       "ino": 4322236681,
       "blocks": 0,
-      "atimeMs": 1526410507950.5286,
+      "atimeMs": 1526412936116.94,
       "mtimeMs": 1526408785853.1377,
       "ctimeMs": 1526408785853.1377,
       "birthtimeMs": 1526350988684.7798,
-      "atime": "2018-05-15T18:55:07.951Z",
+      "atime": "2018-05-15T19:35:36.117Z",
       "mtime": "2018-05-15T18:26:25.853Z",
       "ctime": "2018-05-15T18:26:25.853Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
@@ -1384,7 +1384,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "87d4a2d7b958646f7dc3ac3717ed2952",
+        "contentDigest": "64361830e0e1a843d9545bb228168f09",
         "type": "Directory",
         "description": "Directory \"src/img/header\"",
         "owner": "gatsby-source-filesystem"
@@ -1396,7 +1396,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-05-15T02:23:08.685Z",
-      "accessTime": "2018-05-15T18:55:07.952Z",
+      "accessTime": "2018-05-15T19:35:36.118Z",
       "changeTime": "2018-05-15T02:23:08.685Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
@@ -1414,11 +1414,11 @@
       "blksize": 4194304,
       "ino": 4322236682,
       "blocks": 0,
-      "atimeMs": 1526410507951.523,
+      "atimeMs": 1526412936118.4397,
       "mtimeMs": 1526350988684.9434,
       "ctimeMs": 1526350988684.9434,
       "birthtimeMs": 1526350988684.8477,
-      "atime": "2018-05-15T18:55:07.952Z",
+      "atime": "2018-05-15T19:35:36.118Z",
       "mtime": "2018-05-15T02:23:08.685Z",
       "ctime": "2018-05-15T02:23:08.685Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
@@ -1485,7 +1485,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6c968ee008720f0dd2a36db98e39c353",
+        "contentDigest": "7288e5105df0039a5af799141c4f166f",
         "type": "Directory",
         "description": "Directory \"src/img/icon\"",
         "owner": "gatsby-source-filesystem"
@@ -1497,7 +1497,7 @@
       "size": 704,
       "prettySize": "704 B",
       "modifiedTime": "2018-05-15T16:57:55.516Z",
-      "accessTime": "2018-05-15T18:55:07.952Z",
+      "accessTime": "2018-05-15T19:35:36.118Z",
       "changeTime": "2018-05-15T16:57:55.516Z",
       "birthTime": "2018-05-15T02:23:08.688Z",
       "root": "/",
@@ -1515,11 +1515,11 @@
       "blksize": 4194304,
       "ino": 4322236684,
       "blocks": 0,
-      "atimeMs": 1526410507951.5447,
+      "atimeMs": 1526412936117.9854,
       "mtimeMs": 1526403475516.1497,
       "ctimeMs": 1526403475516.1497,
       "birthtimeMs": 1526350988687.6873,
-      "atime": "2018-05-15T18:55:07.952Z",
+      "atime": "2018-05-15T19:35:36.118Z",
       "mtime": "2018-05-15T16:57:55.516Z",
       "ctime": "2018-05-15T16:57:55.516Z",
       "birthtime": "2018-05-15T02:23:08.688Z"
@@ -2782,7 +2782,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d060be72e982191bb4f4716c198557fd",
+        "contentDigest": "a630fdcba97efe180cecc3e3248bb871",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2803,7 +2803,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "32cd0a7121a894fe3837476359f11fbc",
+        "contentDigest": "02215e3c37e1c779bb11c52d09eeae0d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2824,7 +2824,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2cd3baef3ec635c2e59367c3e7a92094",
+        "contentDigest": "8d343396195d6a29fe73efbe150f9d0e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2845,7 +2845,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fbe5c49c5a2c991e0556292c0f4950fe",
+        "contentDigest": "bab4c8ce1c6b0197538dcf437c391b4f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2866,7 +2866,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cb5691b84a28199014858f2642a09c8e",
+        "contentDigest": "3a1be841c88728b017839bcc16c898cc",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2887,10 +2887,76 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "faba0651675c923c949487b3f5bce4c1",
+        "contentDigest": "e17d38f110a68cc50b979918f286d25e",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /thankyou/": {
+      "layout": "index",
+      "jsonName": "thankyou.json",
+      "internalComponentName": "ComponentThankyou",
+      "path": "/thankyou/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js",
+      "componentChunkName": "component---src-pages-thankyou-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js",
+      "id": "SitePage /thankyou/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "13d21bd2925e5b7d931a3ec6f603d134",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js absPath of file": {
+      "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce526e216e26dc2210b4ca1e245d314e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/thankyou.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/thankyou.js",
+      "relativePath": "thankyou.js",
+      "extension": "js",
+      "size": 179,
+      "prettySize": "179 B",
+      "modifiedTime": "2018-05-15T19:44:07.254Z",
+      "accessTime": "2018-05-15T19:44:07.526Z",
+      "changeTime": "2018-05-15T19:44:07.254Z",
+      "birthTime": "2018-05-15T19:38:41.493Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
+      "base": "thankyou.js",
+      "ext": ".js",
+      "name": "thankyou",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4322371762,
+      "blocks": 8,
+      "atimeMs": 1526413447525.5923,
+      "mtimeMs": 1526413447254,
+      "ctimeMs": 1526413447254,
+      "birthtimeMs": 1526413121493.3125,
+      "atime": "2018-05-15T19:44:07.526Z",
+      "mtime": "2018-05-15T19:44:07.254Z",
+      "ctime": "2018-05-15T19:44:07.254Z",
+      "birthtime": "2018-05-15T19:38:41.493Z"
     }
   },
   "status": {

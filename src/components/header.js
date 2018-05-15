@@ -18,7 +18,7 @@ const Header = ({ headerImage }) => (
       alt="Greek food laid out on table"
       sizes={headerImage.sizes}
       style={{
-        height: '25vh'
+        height: '15vh'
       }}
     />
   </g.Div>

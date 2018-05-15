@@ -9,7 +9,7 @@ const Menu = ({ siteTitle }) => (
   <g.Div
     style={{
       background: 'transparent',
-      marginBottom: '3rem',
+      marginBottom: '2rem',
       borderBottom: '2px solid #e6e6e6',
       display: 'grid',
       gridTemplateColumns: 'auto auto',
