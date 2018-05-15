@@ -18,7 +18,23 @@ const Contact = () => {
     <div>
       <h2>CONTACT</h2>
       <p>I am available for hire and open to any ideas of cooperation.</p>
-      <div style = {{display: 'flex'}}>
+      <div>
+        <form
+          className="form flex"
+          name = "contact"
+          method = "post"
+          data-netlify = "true"
+          data-netlify-honeypot = 'bot-field'
+          >
+            <input name = "name" placeholder = "Your Name" type = "text" />
+            <input name = "email" placeholder = "name@name.com" type = "email" />
+            <textarea name = 'message' placeholder = "Your message" />
+            <button>Send</button>
+        </form>
+      </div>
+      <br/>
+      <hr/>
+      <div style = {{display: 'flex', justifyContent:'center'}}>
         {FooterLinks.map(link => (
           <div className="social" style = {{marginRight: '2em'}}>
             <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
@@ -27,6 +43,7 @@ const Contact = () => {
           </div>
         ))}
       </div>
+      <br/>
     </div>
   )
 }

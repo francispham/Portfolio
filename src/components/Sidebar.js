@@ -4,6 +4,7 @@ import FaGithub from 'react-icons/lib/fa/github'
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square'
 import FaEnvelope from 'react-icons/lib/fa/envelope'
 
+import sidebar from '../img/sidebar.jpg'
 
 
 const Sidebar = (props) => (
@@ -17,7 +18,7 @@ const Sidebar = (props) => (
       textAlign: 'center'
     }}>
       <img
-        src = "https://s3-us-west-2.amazonaws.com/awesome-answers-2018/uploads/Portfolio/16864894_10155851013324377_3371467569757199283_n.jpg"
+        src = {sidebar}
         alt = "Avatar"
         style={{
           display: 'block',
