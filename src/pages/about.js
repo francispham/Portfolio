@@ -4,11 +4,11 @@ const About = () => {
   return (
     <div>
       <h2>ABOUT</h2>
-      <p>I am recently graduated from CodeCore Full Stack Web Development Program.
-        In 3 months, I learnt many technologies such as Node.js, PostgresQL,
-        React.js, HTML, CSS, Ruby on Rails and other great web technology.
-        I know that I am new to web development world, like very senior developers
-        used to be, however, I would love to be come one.</p>
+      <p>Graduated from CodeCore Full Stack Web Development Program.</p>
+      <p>Currently working as a freelancer, and also available for hire.</p>
+      <p>Specialized in Rudy on Rails, Node.js, PostgresQL, React.js, Bootstrap,
+         HTML and CSS</p>
+      <p>Since the sky is limitless, I am always ready for new challenges...</p>
     </div>
   )
 }
