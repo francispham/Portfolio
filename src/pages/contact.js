@@ -20,7 +20,7 @@ const Contact = () => {
       <p>I am available for hire and open to any ideas of cooperation.</p>
       <p>More Questions? Please send me a message, Thank you!</p>
       <form className="form flex" name = "FormContact" method = "POST"
-            action ="/thankyou" data-netlify='true' netlify>
+            data-netlify='true' netlify-honeypot="bot-field">
         <input name = "name" placeholder= "Your Name" type = "text" />
         <input name = "email" placeholder = "name@name.com" type = "email" />
         <textarea name = 'message' placeholder = "Your Message" />
