@@ -23,8 +23,7 @@ const Contact = () => {
           className="form flex"
           name = "contact"
           method = "post"
-          data-netlify = "true"
-          data-netlify-honeypot = 'bot-field'
+          netlify
           >
             <input name = "name" placeholder = "Your Name" type = "text" />
             <input name = "email" placeholder = "name@name.com" type = "email" />
