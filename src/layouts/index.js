@@ -30,6 +30,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header headerImage={data.headerImage}/>
+
     <Menu siteTitle={data.site.siteMetadata.title} />
 
     <g.Div
@@ -53,6 +54,7 @@ const Layout = ({ children, data }) => (
               }}
             >
               <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
+
               <g.Div
                 style= {{
                   display: 'grid',
@@ -78,6 +80,7 @@ const Layout = ({ children, data }) => (
               }}
             >
               <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
+
               <g.Div style= {{ gridColumn: 'span 4' }}>
                 <Sidebar
                   title="Francis Pham"
@@ -89,6 +92,7 @@ const Layout = ({ children, data }) => (
         }
       </Media>
     </g.Div>
+
   </g.Div>
 )
 

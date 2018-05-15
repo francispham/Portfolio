@@ -26,7 +26,7 @@ const Sidebar = (props) => (
     <h3>{props.title}</h3>
     <h4>{props.description}</h4>
 
-    <div style = {{ display: 'flex' }}>
+    <div className ='gridBox'>
       <big>
         <a target = "_blank" href = 'https://github.com/phongpt1989'>
           <FaGithub  style = {{ marginRight: '1em' }}/>

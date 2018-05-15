@@ -6,6 +6,20 @@ html {
     height: 100%;
 }
 body {
-    height: 100%;
+    /* height: 100%; */
     border: 2px solid black;
+}
+.box {
+  border: 1px solid #ddd;
+  paddingTop: 10px
+}
+.gridBox {
+  display: grid;
+  text-align: center;
+}
+.gridBox img {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
 }
