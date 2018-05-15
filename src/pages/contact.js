@@ -19,17 +19,13 @@ const Contact = () => {
       <h2>CONTACT</h2>
       <p>I am available for hire and open to any ideas of cooperation.</p>
       <p>More Questions? Please send me a message, Thank you!</p>
-      <div>
-        <form className="form flex" name = "Form" method = "POST"
-              action ="/thankyou" data-netlify='true'
-              netlify-honeypot="bot-field" netlify
-        >
-            <input name = "name" placeholder= "Your Name" type = "text" />
-            <input name = "email" placeholder = "name@name.com" type = "email" />
-            <textarea name = 'message' placeholder = "Your Message" />
-            <button>Send</button>
-        </form>
-      </div>
+      <form className="form flex" name = "FormContact" method = "POST"
+            action ="/thankyou" data-netlify='true' netlify>
+        <input name = "name" placeholder= "Your Name" type = "text" />
+        <input name = "email" placeholder = "name@name.com" type = "email" />
+        <textarea name = 'message' placeholder = "Your Message" />
+        <button>Send</button>
+      </form>
       <br/>
       <hr/>
       <div style = {{display: 'flex', justifyContent:'center'}}>
