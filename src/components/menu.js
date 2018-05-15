@@ -33,7 +33,7 @@ const Menu = ({ siteTitle }) => (
               textDecoration: 'none',
             }}
             >
-              {siteTitle}
+              Francis Pham
             </Link>
           </g.H1>
         </g.Div>
@@ -48,7 +48,7 @@ const Menu = ({ siteTitle }) => (
       justifyContent: 'space-evenly'
         }}>
         <li><Link  to="/about">About</Link></li>
-        <li><Link  to="/work">My Projects</Link></li>
+        <li><Link  to="/">Portfolio</Link></li>
         <li><Link  to="/skills">My Skills</Link></li>
         <li><Link  to="/contact">Contact</Link></li>
         <li> <a
