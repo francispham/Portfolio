@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ae0ec0b3a5778a93c5bb6893e214337",
+        "contentDigest": "63db6cee0cacec2e4c2c38bdc03d3568",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1056,12 +1056,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-15T17:02:02.817Z",
+      "buildTime": "2018-05-15T18:55:03.108Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "229a1175f7ed51b033a68feb871913e8",
+        "contentDigest": "9239967a8cb7105080404be3d708cafb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1071,7 +1071,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cf185fa8a85a04c698f21332cff95abc",
+        "contentDigest": "d67cbe69ab9dd131d8bd5f9ea1468021",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1082,9 +1082,9 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-05-15T16:57:55.518Z",
-      "accessTime": "2018-05-15T17:02:06.044Z",
-      "changeTime": "2018-05-15T16:57:55.518Z",
+      "modifiedTime": "2018-05-15T18:26:25.855Z",
+      "accessTime": "2018-05-15T18:55:07.939Z",
+      "changeTime": "2018-05-15T18:26:25.855Z",
       "birthTime": "2018-05-10T22:29:16.629Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src",
@@ -1101,13 +1101,13 @@
       "blksize": 4194304,
       "ino": 4321670955,
       "blocks": 0,
-      "atimeMs": 1526403726043.882,
-      "mtimeMs": 1526403475517.6436,
-      "ctimeMs": 1526403475517.6436,
+      "atimeMs": 1526410507939.2222,
+      "mtimeMs": 1526408785854.5378,
+      "ctimeMs": 1526408785854.5378,
       "birthtimeMs": 1525991356629.4595,
-      "atime": "2018-05-15T17:02:06.044Z",
-      "mtime": "2018-05-15T16:57:55.518Z",
-      "ctime": "2018-05-15T16:57:55.518Z",
+      "atime": "2018-05-15T18:55:07.939Z",
+      "mtime": "2018-05-15T18:26:25.855Z",
+      "ctime": "2018-05-15T18:26:25.855Z",
       "birthtime": "2018-05-10T22:29:16.629Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js absPath of file": {
@@ -1160,7 +1160,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1641a2f321209bce3e57aaca44e4a791",
+        "contentDigest": "268690b814fae8d9a6878217642aac1d",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/contact.js\"",
@@ -1170,12 +1170,12 @@
       "absolutePath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
       "relativePath": "contact.js",
       "extension": "js",
-      "size": 1333,
-      "prettySize": "1.33 kB",
-      "modifiedTime": "2018-05-15T18:16:20.941Z",
-      "accessTime": "2018-05-15T18:16:20.948Z",
-      "changeTime": "2018-05-15T18:16:20.941Z",
-      "birthTime": "2018-05-10T22:29:16.631Z",
+      "size": 1504,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2018-05-15T19:05:22.542Z",
+      "accessTime": "2018-05-15T19:05:23.110Z",
+      "changeTime": "2018-05-15T19:05:22.542Z",
+      "birthTime": "2018-05-15T18:26:25.855Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages",
       "base": "contact.js",
@@ -1189,16 +1189,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4321670958,
+      "ino": 4322361543,
       "blocks": 8,
-      "atimeMs": 1526408180947.6433,
-      "mtimeMs": 1526408180941.4897,
-      "ctimeMs": 1526408180941.4897,
-      "birthtimeMs": 1525991356631.02,
-      "atime": "2018-05-15T18:16:20.948Z",
-      "mtime": "2018-05-15T18:16:20.941Z",
-      "ctime": "2018-05-15T18:16:20.941Z",
-      "birthtime": "2018-05-10T22:29:16.631Z"
+      "atimeMs": 1526411123110.357,
+      "mtimeMs": 1526411122541.9158,
+      "ctimeMs": 1526411122541.9158,
+      "birthtimeMs": 1526408785854.5317,
+      "atime": "2018-05-15T19:05:23.110Z",
+      "mtime": "2018-05-15T19:05:22.542Z",
+      "ctime": "2018-05-15T19:05:22.542Z",
+      "birthtime": "2018-05-15T18:26:25.855Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file": {
       "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js absPath of file",
@@ -1340,7 +1340,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fcd45a0072ad0fdccd6400241bd68b5d",
+        "contentDigest": "9b22e50660fe89d34db3c13a56d61cf2",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -1351,9 +1351,9 @@
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
-      "modifiedTime": "2018-05-15T17:01:17.944Z",
-      "accessTime": "2018-05-15T17:02:06.051Z",
-      "changeTime": "2018-05-15T17:01:17.944Z",
+      "modifiedTime": "2018-05-15T18:26:25.853Z",
+      "accessTime": "2018-05-15T18:55:07.951Z",
+      "changeTime": "2018-05-15T18:26:25.853Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src",
@@ -1370,13 +1370,13 @@
       "blksize": 4194304,
       "ino": 4322236681,
       "blocks": 0,
-      "atimeMs": 1526403726051.3225,
-      "mtimeMs": 1526403677944.2307,
-      "ctimeMs": 1526403677944.2307,
+      "atimeMs": 1526410507950.5286,
+      "mtimeMs": 1526408785853.1377,
+      "ctimeMs": 1526408785853.1377,
       "birthtimeMs": 1526350988684.7798,
-      "atime": "2018-05-15T17:02:06.051Z",
-      "mtime": "2018-05-15T17:01:17.944Z",
-      "ctime": "2018-05-15T17:01:17.944Z",
+      "atime": "2018-05-15T18:55:07.951Z",
+      "mtime": "2018-05-15T18:26:25.853Z",
+      "ctime": "2018-05-15T18:26:25.853Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
     },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/header absPath of file": {
@@ -1384,7 +1384,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cce70f973a2e0201ef1a4215cce0b5e0",
+        "contentDigest": "87d4a2d7b958646f7dc3ac3717ed2952",
         "type": "Directory",
         "description": "Directory \"src/img/header\"",
         "owner": "gatsby-source-filesystem"
@@ -1396,7 +1396,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-05-15T02:23:08.685Z",
-      "accessTime": "2018-05-15T17:02:06.053Z",
+      "accessTime": "2018-05-15T18:55:07.952Z",
       "changeTime": "2018-05-15T02:23:08.685Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
@@ -1414,11 +1414,11 @@
       "blksize": 4194304,
       "ino": 4322236682,
       "blocks": 0,
-      "atimeMs": 1526403726052.8203,
+      "atimeMs": 1526410507951.523,
       "mtimeMs": 1526350988684.9434,
       "ctimeMs": 1526350988684.9434,
       "birthtimeMs": 1526350988684.8477,
-      "atime": "2018-05-15T17:02:06.053Z",
+      "atime": "2018-05-15T18:55:07.952Z",
       "mtime": "2018-05-15T02:23:08.685Z",
       "ctime": "2018-05-15T02:23:08.685Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
@@ -1485,7 +1485,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "82252d86ad3b1b86d7e21f378d3e8448",
+        "contentDigest": "6c968ee008720f0dd2a36db98e39c353",
         "type": "Directory",
         "description": "Directory \"src/img/icon\"",
         "owner": "gatsby-source-filesystem"
@@ -1497,7 +1497,7 @@
       "size": 704,
       "prettySize": "704 B",
       "modifiedTime": "2018-05-15T16:57:55.516Z",
-      "accessTime": "2018-05-15T17:02:06.053Z",
+      "accessTime": "2018-05-15T18:55:07.952Z",
       "changeTime": "2018-05-15T16:57:55.516Z",
       "birthTime": "2018-05-15T02:23:08.688Z",
       "root": "/",
@@ -1515,11 +1515,11 @@
       "blksize": 4194304,
       "ino": 4322236684,
       "blocks": 0,
-      "atimeMs": 1526403726052.8232,
+      "atimeMs": 1526410507951.5447,
       "mtimeMs": 1526403475516.1497,
       "ctimeMs": 1526403475516.1497,
       "birthtimeMs": 1526350988687.6873,
-      "atime": "2018-05-15T17:02:06.053Z",
+      "atime": "2018-05-15T18:55:07.952Z",
       "mtime": "2018-05-15T16:57:55.516Z",
       "ctime": "2018-05-15T16:57:55.516Z",
       "birthtime": "2018-05-15T02:23:08.688Z"
@@ -2709,132 +2709,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4659f04a30f97f27f77b9903fa0a2fa6",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1b96e6b16f04dea17fd4578a36a4dde5",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bde833df6b1c653c41fc395f50174b25",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2367d5ee7aee9b60a11403cabb731193",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /skills/": {
-      "layout": "index",
-      "jsonName": "skills.json",
-      "internalComponentName": "ComponentSkills",
-      "path": "/skills/",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js",
-      "componentChunkName": "component---src-pages-skills-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js",
-      "id": "SitePage /skills/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2f2d5f0f17561f504aa92b0a5bd054f1",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "527ffc61e56b8209ac64eb0c774b5a27",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
     "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/sidebar.jpg absPath of file": {
       "id": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/img/sidebar.jpg absPath of file",
       "children": [
@@ -2890,6 +2764,132 @@
         "contentDigest": "61fd818c46c727e2c7aa6e92982e1c3d",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d060be72e982191bb4f4716c198557fd",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "32cd0a7121a894fe3837476359f11fbc",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2cd3baef3ec635c2e59367c3e7a92094",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fbe5c49c5a2c991e0556292c0f4950fe",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /skills/": {
+      "layout": "index",
+      "jsonName": "skills.json",
+      "internalComponentName": "ComponentSkills",
+      "path": "/skills/",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js",
+      "componentChunkName": "component---src-pages-skills-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/skills.js",
+      "id": "SitePage /skills/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cb5691b84a28199014858f2642a09c8e",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "faba0651675c923c949487b3f5bce4c1",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
       }
     }
   },
