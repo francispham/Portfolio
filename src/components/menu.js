@@ -33,7 +33,7 @@ const Menu = ({ siteTitle }) => (
               textDecoration: 'none',
             }}
             >
-              {siteTitle}
+              Francis Pham
             </Link>
           </g.H1>
         </g.Div>
@@ -48,10 +48,14 @@ const Menu = ({ siteTitle }) => (
       justifyContent: 'space-evenly'
         }}>
         <li><Link  to="/about">About</Link></li>
+        <li><Link  to="/">Portfolio</Link></li>
         <li><Link  to="/skills">My Skills</Link></li>
-        <li><Link  to="/work">My Work</Link></li>
         <li><Link  to="/contact">Contact</Link></li>
-        <li> <a  href = 'https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0' target = "_blank">Resume</a></li>
+        <li> <a
+          href = 'https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0'
+          target = "_blank">Resume
+            </a>
+        </li>
       </ul>
     </g.Div>
   </g.Div>

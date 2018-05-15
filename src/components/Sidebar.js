@@ -14,6 +14,7 @@ const Sidebar = (props) => (
       minWidth: 300,
       padding: '0.5rem',
       marginBottom: '25px',
+      textAlign: 'center'
     }}>
       <img
         src = "https://s3-us-west-2.amazonaws.com/awesome-answers-2018/uploads/Portfolio/16864894_10155851013324377_3371467569757199283_n.jpg"

@@ -1,6 +1,12 @@
 var plugins = [{
       plugin: require('/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-catch-links/gatsby-browser'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-glamor/gatsby-browser'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/pp-macbookpro/Documents/WebAppProjects/Portfolio/node_modules/gatsby-plugin-typography/gatsby-browser'),
+      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks
 // basically like:
