@@ -49,7 +49,7 @@ const Menu = ({ siteTitle }) => (
         }}>
         <li><Link  to="/about">About</Link></li>
         <li><Link  to="/">Portfolio</Link></li>
-        <li><Link  to="/skills">My Skills</Link></li>
+        <li><Link  to="/skills">Skills</Link></li>
         <li><Link  to="/contact">Contact</Link></li>
         <li> <a
           href = 'https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0'
