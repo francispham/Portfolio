@@ -33,7 +33,7 @@ export default class Contact extends React.Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      body: encode({ "form-name": "contactmeme", ...this.state })
     })
       .then(() => navigateTo('/thankyou/'))
       .catch(error => alert(error));
@@ -49,7 +49,7 @@ export default class Contact extends React.Component {
           <p>More Questions? Please send me a message, Thank you!</p>
         <form
           className="form flex"
-          name="contactme"
+          name="contactmeme"
           method="post"
           action="/thankyou/"
           data-netlify="true"
