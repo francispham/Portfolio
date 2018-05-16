@@ -19,15 +19,19 @@ const Contact = () => {
       <h2>CONTACT</h2>
       <p>I am available for hire and open to any ideas of cooperation.</p>
       <p>More Questions? Please send me a message, Thank you!</p>
-      <form className="form flex" name = "FormContact" method = "POST"
-            data-netlify='true' netlify-honeypot="bot-field">
+
+      <form className="form flex" name ="ContactMe" method ="POST" action="/thankyou"
+            data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="bot-field" />
         <input name = "name" placeholder= "Your Name" type = "text" />
         <input name = "email" placeholder = "name@name.com" type = "email" />
         <textarea name = 'message' placeholder = "Your Message" />
-        <button>Send</button>
+        <input className="button" type="submit" value="Send Message"/>
       </form>
+
       <br/>
       <hr/>
+
       <div style = {{display: 'flex', justifyContent:'center'}}>
         {FooterLinks.map(link => (
           <div className="social" style = {{marginRight: '2em'}}>

@@ -50,10 +50,10 @@ body {
   border-radius: 5px;
 
 }
-.flex button {
+.flex .button {
   padding: 5px 15px;
   margin: 5px;
-  max-width: 100px;
+  max-width: 150px;
   border-radius: 5px;
 
 }
