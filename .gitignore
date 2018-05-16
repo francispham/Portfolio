@@ -38,3 +38,4 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+.cache/redux-state.json

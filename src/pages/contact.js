@@ -6,6 +6,18 @@ function encode(data) {
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&");
 }
+const FooterLinks = [
+  {
+    name: 'Github',
+    link: 'https://github.com/phongpt1989'
+  },{
+    name: 'LinkedIn',
+    link: 'http://linkedin.com/in/francispham89'
+  },{
+    name: 'Gmail',
+    link: 'mailto:fransicpham89@gmail.com'
+  }
+]
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -32,42 +44,37 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contact</h1>
+        <h2>CONTACT</h2>
+          <p>I am available for hire and open to any ideas of cooperation.</p>
+          <p>More Questions? Please send me a message, Thank you!</p>
         <form
-          name="contact"
+          className="form flex"
+          name="contactme"
           method="post"
           action="/thankyou/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
         >
-          <p hidden>
-            <label>
-              Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your name:<br />
-            <input type="text" name="name" onChange={this.handleChange}/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Your email:<br />
-              <input type="email" name="email" onChange={this.handleChange}/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Message:<br />
-              <textarea name="message" onChange={this.handleChange}/>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+          <input type="hidden" name="bot-field" onChange={this.handleChange}/>
+          <input name = "name" placeholder= "Your Name" type = "text" onChange={this.handleChange}/>
+          <input name = "email" placeholder = "name@name.com" type = "email" onChange={this.handleChange}/>
+          <textarea name = 'message' placeholder = "Your Message" onChange={this.handleChange}/>
+          <input className="button" type="submit" value="Send Message"/>
         </form>
+        <br/>
+      <hr/>
+
+      <div style = {{display: 'flex', justifyContent:'center'}}>
+        {FooterLinks.map(link => (
+          <div className="social" style = {{marginRight: '2em'}}>
+            <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
+              {link.name}
+            </a>
+          </div>
+        ))}
+      </div>
+        <br/>
       </div>
     );
   }
