@@ -9,10 +9,7 @@ import stmedi from '../img/stmedi.png'
 const IndexPage = () => (
   <div>
     <h2>My Projects</h2>
-    <ul style = {{
-    listStyle: 'none',
-    padding: '10px'
-      }}>
+    <ul style = {{ listStyle: 'none', padding: '10px'}} >
       <li>
         <a  href = 'https://github.com/phongpt1989/drill-ninjaz' target = '_black'>
           <img src={ninja} alt='ninja'/>

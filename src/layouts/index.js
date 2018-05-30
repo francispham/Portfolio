@@ -1,3 +1,5 @@
+/* @flow */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import g from "glamorous"
@@ -16,21 +18,15 @@ import "../styles/layout-overide.css";
 
 import { rhythm } from "../utils/typography";
 
-
-
 const Layout = ({ children, data }) => (
-  <g.Div
-    paddingTop={rhythm(1)}
-    >
+  <g.Div paddingTop={ rhythm(1) }>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Portfolio Website, Resume, Projects, Languages, Skills' },
         { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
-      ]}
-    />
+      ]}/>
     <Header headerImage={data.headerImage}/>
-
     <Menu siteTitle={data.site.siteMetadata.title} />
 
     <g.Div
@@ -51,8 +47,7 @@ const Layout = ({ children, data }) => (
                 gridTemplateColumns: 'repeat(12, 1fr)',
                 height: "100%",
                 padding: "25px"
-              }}
-            >
+              }}>
               <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
 
               <g.Div
@@ -60,8 +55,7 @@ const Layout = ({ children, data }) => (
                   display: 'grid',
                   justifyTtems: 'center',
                   alignTtems: 'center',
-                }}
-                >
+                }}>
                 <Sidebar
                   title="Francis Pham"
                   description="Full Stack Web Developer"
@@ -77,8 +71,7 @@ const Layout = ({ children, data }) => (
                 gridGap: '1em',
                 height: "100%",
                 padding: "25px"
-              }}
-            >
+              }}>
               <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
 
               <g.Div style= {{ gridColumn: 'span 4' }}>
@@ -110,10 +103,5 @@ export const query = graphql`
         ...GatsbyImageSharpSizes_tracedSVG
       }
     }
-    site {
-      siteMetadata {
-        title
-      }
-    }
   }
-`
+`;
