@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "25ef01e70e0759813e554dbb0e3b4059",
+        "contentDigest": "1f4d2645ddfcbb563cb4ceca029b1d7b",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1068,12 +1068,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-07T00:15:32.357Z",
+      "buildTime": "2018-07-20T07:46:46.059Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "44e60fca0e06da17c8772a2b2d45c7b5",
+        "contentDigest": "d56b04b2e689bcd5d73da54053274f8e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1083,7 +1083,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8a7bac5b7e5957eeab7c8ee6afcd57d9",
+        "contentDigest": "f92bc4b1196e897629f6cf93584ae9fe",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1094,9 +1094,9 @@
       "extension": "",
       "size": 256,
       "prettySize": "256 B",
-      "modifiedTime": "2018-05-15T22:18:09.331Z",
-      "accessTime": "2018-06-07T00:15:36.555Z",
-      "changeTime": "2018-05-15T22:18:09.331Z",
+      "modifiedTime": "2018-07-19T20:29:09.328Z",
+      "accessTime": "2018-07-20T07:46:50.915Z",
+      "changeTime": "2018-07-19T20:29:09.328Z",
       "birthTime": "2018-05-10T22:29:16.629Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src",
@@ -1113,13 +1113,13 @@
       "blksize": 4194304,
       "ino": 4321670955,
       "blocks": 0,
-      "atimeMs": 1528330536554.973,
-      "mtimeMs": 1526422689331.1853,
-      "ctimeMs": 1526422689331.1853,
+      "atimeMs": 1532072810914.9817,
+      "mtimeMs": 1532032149327.7312,
+      "ctimeMs": 1532032149327.7312,
       "birthtimeMs": 1525991356629.4595,
-      "atime": "2018-06-07T00:15:36.555Z",
-      "mtime": "2018-05-15T22:18:09.331Z",
-      "ctime": "2018-05-15T22:18:09.331Z",
+      "atime": "2018-07-20T07:46:50.915Z",
+      "mtime": "2018-07-19T20:29:09.328Z",
+      "ctime": "2018-07-19T20:29:09.328Z",
       "birthtime": "2018-05-10T22:29:16.629Z"
     },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/about.js absPath of file": {
@@ -1262,7 +1262,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5ccee88b3bc937e60cc2bd0ab2d350d5",
+        "contentDigest": "9700edb254c84cfb4f8ed9e747bedc6a",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/skills.js\"",
@@ -1274,10 +1274,10 @@
       "extension": "js",
       "size": 3294,
       "prettySize": "3.29 kB",
-      "modifiedTime": "2018-06-07T00:16:38.908Z",
-      "accessTime": "2018-06-07T00:16:38.916Z",
-      "changeTime": "2018-06-07T00:16:38.908Z",
-      "birthTime": "2018-05-15T16:57:55.518Z",
+      "modifiedTime": "2018-07-19T20:29:09.328Z",
+      "accessTime": "2018-07-19T20:29:10.507Z",
+      "changeTime": "2018-07-19T20:29:09.328Z",
+      "birthTime": "2018-07-19T20:29:09.328Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages",
       "base": "skills.js",
@@ -1291,23 +1291,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4322359175,
+      "ino": 4327040842,
       "blocks": 8,
-      "atimeMs": 1528330598916.1616,
-      "mtimeMs": 1528330598907.829,
-      "ctimeMs": 1528330598907.829,
-      "birthtimeMs": 1526403475517.6345,
-      "atime": "2018-06-07T00:16:38.916Z",
-      "mtime": "2018-06-07T00:16:38.908Z",
-      "ctime": "2018-06-07T00:16:38.908Z",
-      "birthtime": "2018-05-15T16:57:55.518Z"
+      "atimeMs": 1532032150506.7498,
+      "mtimeMs": 1532032149327.934,
+      "ctimeMs": 1532032149327.934,
+      "birthtimeMs": 1532032149327.7256,
+      "atime": "2018-07-19T20:29:10.507Z",
+      "mtime": "2018-07-19T20:29:09.328Z",
+      "ctime": "2018-07-19T20:29:09.328Z",
+      "birthtime": "2018-07-19T20:29:09.328Z"
     },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/index.js absPath of file": {
       "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/index.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2cf3502963088fa3d86e64441bbffc02",
+        "contentDigest": "c0a2feff512c1df16880b94547253894",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/index.js\"",
@@ -1317,12 +1317,12 @@
       "absolutePath": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 1291,
-      "prettySize": "1.29 kB",
-      "modifiedTime": "2018-05-30T21:17:59.763Z",
-      "accessTime": "2018-06-07T00:13:13.410Z",
-      "changeTime": "2018-05-30T21:17:59.763Z",
-      "birthTime": "2018-05-15T22:18:09.331Z",
+      "size": 1667,
+      "prettySize": "1.67 kB",
+      "modifiedTime": "2018-07-20T07:50:05.296Z",
+      "accessTime": "2018-07-20T07:50:05.299Z",
+      "changeTime": "2018-07-20T07:50:05.296Z",
+      "birthTime": "2018-07-19T20:29:09.327Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages",
       "base": "index.js",
@@ -1336,16 +1336,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4322413274,
+      "ino": 4327040841,
       "blocks": 8,
-      "atimeMs": 1528330393410.4956,
-      "mtimeMs": 1527715079763.1953,
-      "ctimeMs": 1527715079763.1953,
-      "birthtimeMs": 1526422689331.1792,
-      "atime": "2018-06-07T00:13:13.410Z",
-      "mtime": "2018-05-30T21:17:59.763Z",
-      "ctime": "2018-05-30T21:17:59.763Z",
-      "birthtime": "2018-05-15T22:18:09.331Z"
+      "atimeMs": 1532073005299.0923,
+      "mtimeMs": 1532073005296.4133,
+      "ctimeMs": 1532073005296.4133,
+      "birthtimeMs": 1532032149327.378,
+      "atime": "2018-07-20T07:50:05.299Z",
+      "mtime": "2018-07-20T07:50:05.296Z",
+      "ctime": "2018-07-20T07:50:05.296Z",
+      "birthtime": "2018-07-19T20:29:09.327Z"
     },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/thankyou.js absPath of file": {
       "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/pages/thankyou.js absPath of file",
@@ -1397,7 +1397,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8b0ed8a7dd140749722c5220b2bb8161",
+        "contentDigest": "65e7445510d8c101ddddb88ff6d3cbbf",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -1406,11 +1406,11 @@
       "absolutePath": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/",
       "relativePath": "",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2018-05-15T22:18:09.308Z",
-      "accessTime": "2018-06-07T00:15:36.567Z",
-      "changeTime": "2018-05-15T22:18:09.308Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-07-19T20:29:09.323Z",
+      "accessTime": "2018-07-20T07:46:50.928Z",
+      "changeTime": "2018-07-19T20:29:09.323Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src",
@@ -1420,20 +1420,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 9,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 4322236681,
       "blocks": 0,
-      "atimeMs": 1528330536566.7788,
-      "mtimeMs": 1526422689308.1711,
-      "ctimeMs": 1526422689308.1711,
+      "atimeMs": 1532072810927.9072,
+      "mtimeMs": 1532032149322.7224,
+      "ctimeMs": 1532032149322.7224,
       "birthtimeMs": 1526350988684.7798,
-      "atime": "2018-06-07T00:15:36.567Z",
-      "mtime": "2018-05-15T22:18:09.308Z",
-      "ctime": "2018-05-15T22:18:09.308Z",
+      "atime": "2018-07-20T07:46:50.928Z",
+      "mtime": "2018-07-19T20:29:09.323Z",
+      "ctime": "2018-07-19T20:29:09.323Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
     },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/header absPath of file": {
@@ -1441,7 +1441,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "322674aaf1161aa00072d909c256d13b",
+        "contentDigest": "82f08e30f37695b38b336b10aadb0c33",
         "type": "Directory",
         "description": "Directory \"src/img/header\"",
         "owner": "gatsby-source-filesystem"
@@ -1453,7 +1453,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-05-15T02:23:08.685Z",
-      "accessTime": "2018-06-07T00:15:36.568Z",
+      "accessTime": "2018-07-20T07:46:50.929Z",
       "changeTime": "2018-05-15T02:23:08.685Z",
       "birthTime": "2018-05-15T02:23:08.685Z",
       "root": "/",
@@ -1471,11 +1471,11 @@
       "blksize": 4194304,
       "ino": 4322236682,
       "blocks": 0,
-      "atimeMs": 1528330536567.7688,
+      "atimeMs": 1532072810929.2644,
       "mtimeMs": 1526350988684.9434,
       "ctimeMs": 1526350988684.9434,
       "birthtimeMs": 1526350988684.8477,
-      "atime": "2018-06-07T00:15:36.568Z",
+      "atime": "2018-07-20T07:46:50.929Z",
       "mtime": "2018-05-15T02:23:08.685Z",
       "ctime": "2018-05-15T02:23:08.685Z",
       "birthtime": "2018-05-15T02:23:08.685Z"
@@ -1485,7 +1485,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "760691029e02462773988030a672d63b",
+        "contentDigest": "49a2ebb246157a256291c08e83dfd28f",
         "type": "Directory",
         "description": "Directory \"src/img/icon\"",
         "owner": "gatsby-source-filesystem"
@@ -1497,7 +1497,7 @@
       "size": 704,
       "prettySize": "704 B",
       "modifiedTime": "2018-05-15T16:57:55.516Z",
-      "accessTime": "2018-06-07T00:15:36.568Z",
+      "accessTime": "2018-07-20T07:46:50.929Z",
       "changeTime": "2018-05-15T16:57:55.516Z",
       "birthTime": "2018-05-15T02:23:08.688Z",
       "root": "/",
@@ -1515,11 +1515,11 @@
       "blksize": 4194304,
       "ino": 4322236684,
       "blocks": 0,
-      "atimeMs": 1528330536567.7856,
+      "atimeMs": 1532072810929.249,
       "mtimeMs": 1526403475516.1497,
       "ctimeMs": 1526403475516.1497,
       "birthtimeMs": 1526350988687.6873,
-      "atime": "2018-06-07T00:15:36.568Z",
+      "atime": "2018-07-20T07:46:50.929Z",
       "mtime": "2018-05-15T16:57:55.516Z",
       "ctime": "2018-05-15T16:57:55.516Z",
       "birthtime": "2018-05-15T02:23:08.688Z"
@@ -1576,7 +1576,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "abbf577d180fd853a284097aa337443a",
+        "contentDigest": "3292ff0f11e1088701987a8460c68e39",
         "mediaType": "image/png",
         "type": "File",
         "description": "File \"src/img/stmedispa.png\"",
@@ -1586,12 +1586,12 @@
       "absolutePath": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png",
       "relativePath": "stmedispa.png",
       "extension": "png",
-      "size": 38365,
-      "prettySize": "38.4 kB",
-      "modifiedTime": "2018-05-15T21:50:54.290Z",
-      "accessTime": "2018-06-07T00:13:13.410Z",
-      "changeTime": "2018-05-15T21:51:26.125Z",
-      "birthTime": "2018-05-15T21:50:54.268Z",
+      "size": 683729,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-07-19T20:29:09.327Z",
+      "accessTime": "2018-07-19T20:29:28.223Z",
+      "changeTime": "2018-07-19T20:29:09.327Z",
+      "birthTime": "2018-07-19T20:29:09.323Z",
       "root": "/",
       "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img",
       "base": "stmedispa.png",
@@ -1605,16 +1605,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4322412273,
-      "blocks": 80,
-      "atimeMs": 1528330393410.111,
-      "mtimeMs": 1526421054289.7917,
-      "ctimeMs": 1526421086125.4573,
-      "birthtimeMs": 1526421054267.739,
-      "atime": "2018-06-07T00:13:13.410Z",
-      "mtime": "2018-05-15T21:50:54.290Z",
-      "ctime": "2018-05-15T21:51:26.125Z",
-      "birthtime": "2018-05-15T21:50:54.268Z"
+      "ino": 4327040840,
+      "blocks": 1336,
+      "atimeMs": 1532032168222.7434,
+      "mtimeMs": 1532032149327.1814,
+      "ctimeMs": 1532032149327.1814,
+      "birthtimeMs": 1532032149322.7163,
+      "atime": "2018-07-19T20:29:28.223Z",
+      "mtime": "2018-07-19T20:29:09.327Z",
+      "ctime": "2018-07-19T20:29:09.327Z",
+      "birthtime": "2018-07-19T20:29:09.323Z"
     },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/icon/express.png absPath of file": {
       "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/icon/express.png absPath of file",
@@ -2509,16 +2509,6 @@
       "ctime": "2018-05-15T02:23:08.709Z",
       "birthtime": "2018-05-15T02:23:08.708Z"
     },
-    "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file >> ImageSharp": {
-      "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file",
-      "internal": {
-        "contentDigest": "abbf577d180fd853a284097aa337443a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/icon/express.png absPath of file >> ImageSharp": {
       "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/icon/express.png absPath of file >> ImageSharp",
       "children": [],
@@ -2994,6 +2984,73 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file >> ImageSharp": {
+      "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/stmedispa.png absPath of file",
+      "internal": {
+        "contentDigest": "3292ff0f11e1088701987a8460c68e39",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file": {
+      "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file",
+      "children": [
+        "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "51b89cac545b0777eb686958b9a5019b",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/portfolio.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png",
+      "relativePath": "portfolio.png",
+      "extension": "png",
+      "size": 894696,
+      "prettySize": "895 kB",
+      "modifiedTime": "2018-07-19T20:29:09.322Z",
+      "accessTime": "2018-07-19T20:29:28.220Z",
+      "changeTime": "2018-07-19T20:29:09.322Z",
+      "birthTime": "2018-07-19T20:29:09.317Z",
+      "root": "/",
+      "dir": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img",
+      "base": "portfolio.png",
+      "ext": ".png",
+      "name": "portfolio",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4327040839,
+      "blocks": 1752,
+      "atimeMs": 1532032168219.652,
+      "mtimeMs": 1532032149322.4724,
+      "ctimeMs": 1532032149322.4724,
+      "birthtimeMs": 1532032149317.464,
+      "atime": "2018-07-19T20:29:28.220Z",
+      "mtime": "2018-07-19T20:29:09.322Z",
+      "ctime": "2018-07-19T20:29:09.322Z",
+      "birthtime": "2018-07-19T20:29:09.317Z"
+    },
+    "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file >> ImageSharp": {
+      "id": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/portfolio.png absPath of file",
+      "internal": {
+        "contentDigest": "51b89cac545b0777eb686958b9a5019b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -3010,7 +3067,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "72f3894279618a2c648b5a04bf65e451",
+        "contentDigest": "353b37d12af0bc221670f9fbc7fa103f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3031,7 +3088,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ca19c3ea078e43b79c3bbe6e44306b74",
+        "contentDigest": "56ef92f3530de64939c40bb551b3e10d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3052,7 +3109,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1ea74d825769edf56acea6196f388f9e",
+        "contentDigest": "620b8818532acb9952858d8a6e5a99c0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3073,7 +3130,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fdd8fed0974859102532c0cdc4e957b",
+        "contentDigest": "2e3bd0cce2355e33d6fb8005bccb7305",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3094,7 +3151,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9866c04874660d49c19ced64d3d2198d",
+        "contentDigest": "b0dd57538fd22851b67a9e34b511c3b4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3115,7 +3172,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36a54037104c3eabdd0882740894daf3",
+        "contentDigest": "6493ac1e18595f1e84640d48a66afbaf",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3136,7 +3193,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6eb549f124c6764b732cf253a7b5c6f1",
+        "contentDigest": "22469cd1de44e004d8eb80dc97506ac6",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -3155,6 +3212,7 @@
         "LAYOUT___index"
       ],
       "/Users/pp-macbookpro/WebAppProjects/Others/Portfolio/src/img/header/header.jpg absPath of file": [
+        null,
         null
       ]
     },

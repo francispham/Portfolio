@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import stmedispa from '../img/stmedispa.png'
 import ninja from '../img/ninja.png'
 import stmedi from '../img/stmedi.png'
+import portfolio from '../img/portfolio.png'
 
 
 const IndexPage = () => (
@@ -38,6 +39,7 @@ const IndexPage = () => (
           <img src={portfolio} alt='portfolio'/>
           <p>➣ <strong>This Portfolio</strong> built with React.js, Gatsby.js
             MongoDB, HTML, CSS, JavaScrip, Netlify</p>
+          <hr/>
         </a>
       </li>
     </ul>
