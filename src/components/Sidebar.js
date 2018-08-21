@@ -1,12 +1,10 @@
-// @flow
+import React from 'react';
+import Link from 'gatsby-link';
+import FaGithub from 'react-icons/lib/fa/github';
+import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+import FaEnvelope from 'react-icons/lib/fa/envelope';
 
-import React from 'react'
-import Link from 'gatsby-link'
-import FaGithub from 'react-icons/lib/fa/github'
-import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square'
-import FaEnvelope from 'react-icons/lib/fa/envelope'
-
-import sidebar from '../img/sidebar.jpg'
+import sidebar from '../img/sidebar.jpg';
 
 
 const Sidebar = (props) => (
@@ -43,6 +41,6 @@ const Sidebar = (props) => (
       </big>
     </div>
   </div>
-)
+);
 
-export default Sidebar
+export default Sidebar;

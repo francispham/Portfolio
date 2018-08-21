@@ -1,27 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-import html5 from '../img/icon/html5.png'
-import css3 from '../img/icon/css3.png'
-import sass from '../img/icon/sass.png'
-import react from '../img/icon/react.png'
-import gatsbyjs from '../img/icon/gatsbyjs.png'
-import jquery from '../img/icon/jquery.png'
-import bootstrap from '../img/icon/bootstrap.png'
+import html5 from '../img/icon/html5.png';
+import css3 from '../img/icon/css3.png';
+import sass from '../img/icon/sass.png';
+import react from '../img/icon/react.png';
+import gatsbyjs from '../img/icon/gatsbyjs.png';
+import jquery from '../img/icon/jquery.png';
+import bootstrap from '../img/icon/bootstrap.png';
 
-import rails from '../img/icon/rails.png'
-import nodejs from '../img/icon/nodejs.png'
-import express from '../img/icon/express.png'
-import postgresql from '../img/icon/postgresql.png'
-import mysql from '../img/icon/mysql.png'
-import mongodb from '../img/icon/mongodb.png'
+import rails from '../img/icon/rails.png';
+import nodejs from '../img/icon/nodejs.png';
+import express from '../img/icon/express.png';
+import postgresql from '../img/icon/postgresql.png';
+import mysql from '../img/icon/mysql.png';
+import mongodb from '../img/icon/mongodb.png';
 
-import javascript from '../img/icon/javascript.png'
-import ruby from '../img/icon/ruby.png'
-import webpack from '../img/icon/webpack.png'
-import github from '../img/icon/github.png'
-import heroku from '../img/icon/heroku.png'
-import netlify from '../img/icon/netlify.png'
-import graphql from '../img/icon/graphql.png'
+import javascript from '../img/icon/javascript.png';
+import ruby from '../img/icon/ruby.png';
+import webpack from '../img/icon/webpack.png';
+import github from '../img/icon/github.png';
+import heroku from '../img/icon/heroku.png';
+import netlify from '../img/icon/netlify.png';
+import graphql from '../img/icon/graphql.png';
 
 
 const Skills = () => {
@@ -73,6 +73,6 @@ const Skills = () => {
       </div>
     </div>
   )
-}
+};
 
-export default Skills
+export default Skills;

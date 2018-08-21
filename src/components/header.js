@@ -1,11 +1,9 @@
-// @flow
+import React from 'react';
+import Link from 'gatsby-link';
+import Img from 'gatsby-image';
 
-import React from 'react'
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
-
-import g from "glamorous"
-import { css } from "glamor"
+import g from 'glamorous';
+import { css } from 'glamor';
 
 const Header = ({ headerImage }) => (
   <g.Div

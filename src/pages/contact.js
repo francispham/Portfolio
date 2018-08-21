@@ -1,7 +1,5 @@
-// @flow
-
-import React from "react";
-import { navigateTo } from "gatsby-link";
+import React from 'react';
+import { navigateTo } from 'gatsby-link';
 
 function encode(data) {
   return Object.keys(data)
@@ -80,4 +78,4 @@ export default class Contact extends React.Component {
       </div>
     );
   }
-}
+};

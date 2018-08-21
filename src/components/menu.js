@@ -1,10 +1,9 @@
-// @flow
+import React from 'react';
+import Link from 'gatsby-link';
 
-import React from 'react'
-import Link from 'gatsby-link'
+import g from 'glamorous';
+import { css } from 'glamor';
 
-import g from "glamorous"
-import { css } from "glamor"
 const linkStyle = css({ float: `right` });
 
 const Menu = ({ siteTitle }) => (
@@ -61,6 +60,6 @@ const Menu = ({ siteTitle }) => (
       </ul>
     </g.Div>
   </g.Div>
-)
+);
 
-export default Menu
+export default Menu;

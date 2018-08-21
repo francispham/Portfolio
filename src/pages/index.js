@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import stmedispa from '../img/stmedispa.png'
-import ninja from '../img/ninja.png'
-import stmedi from '../img/stmedi.png'
-import portfolio from '../img/portfolio.png'
+import stmedispa from '../img/stmedispa.png';
+import ninja from '../img/ninja.png';
+import stmedi from '../img/stmedi.png';
+import portfolio from '../img/portfolio.png';
 
 
 const IndexPage = () => (
@@ -30,8 +30,9 @@ const IndexPage = () => (
       <li>
         <a  href = 'https://github.com/phongpt1989/St-MediSpa' target = '_black'>
           <img src={stmedi} alt='stmedi'/>
-          <p>➣ <strong>St Medi Web App Version 2</strong> built with React.js, Redux.js, Express.js,
-            MongoDB, HTML, CSS, JavaScrip</p>
+          <p>➣ <strong>St Medi Web App Version 2</strong> built with React.js,
+            Redux.js, Express.js, MongoDB, HTML, CSS, JavaScrip</p>
+          <hr/>
         </a>
       </li>
       <li>
@@ -44,6 +45,6 @@ const IndexPage = () => (
       </li>
     </ul>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

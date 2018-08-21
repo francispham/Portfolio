@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Thankyou = () => {
   return (
@@ -7,4 +7,4 @@ const Thankyou = () => {
     </div>
   )
 }
-export default Thankyou
+export default Thankyou;
