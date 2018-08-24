@@ -27,7 +27,8 @@ import graphql from '../img/icon/graphql.png';
 const Skills = () => {
   return (
     <div >
-      <h2>MY SKILLS</h2>
+      <h2 className="animation">MY SKILLS</h2>
+      <hr className="hr"/>
       <div>
         <div className="box">
           <h3 style = {{margin: '15px'}}> Front End </h3>

@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <h2>ABOUT</h2>
+      <h2 className="animation">ABOUT</h2>
+      <hr className="hr"/>
       <p>Graduated from CodeCore Full Stack Web Development Program.</p>
       <p>Currently working as a freelancer, and also available for hire.</p>
       <p>Specialized in <strong> Ruby on Rails, Node.js, PostgresQL, React.js, Bootstrap,

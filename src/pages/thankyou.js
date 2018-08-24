@@ -2,8 +2,9 @@ import React from 'react';
 
 const Thankyou = () => {
   return (
-    <div className ="gridBox">
-      <h2>Thank You for contacting me!</h2>
+    <div>
+      <h2 className="animation">Thank you for contacting me!</h2>
+      <hr className="hr"/>
     </div>
   )
 }

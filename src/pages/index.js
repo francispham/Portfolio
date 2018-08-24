@@ -9,7 +9,8 @@ import portfolio from '../img/portfolio.png';
 
 const IndexPage = () => (
   <div>
-    <h2>MY PROJECTS</h2>
+    <h2 className="animation">MY PROJECTS</h2>
+    <hr className="hr"/>
     <ul style = {{ listStyle: 'none', padding: '10px'}} >
       <li>
         <a  href = 'https://github.com/phongpt1989/drill-ninjaz' target = '_black'>

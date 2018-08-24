@@ -57,3 +57,32 @@ body {
   border-radius: 5px;
 
 }
+
+.animation {
+  text-align: center;
+  font-size: 40px;
+  animation-name:animation;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-duration: 2s;
+}
+
+@keyframes animation{
+  0% {transform: translateY(50px);}
+  100% {transform: translate(0px)}
+}
+
+.hr{
+  height: 2px;
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) ,rgba(0,0,0,0));
+  margin: 50px;
+  animation-name: hr;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-duration: 2s;
+}
+
+@keyframes hr{
+  0% {width: 0px;}
+  100% {width: 90%;}
+}

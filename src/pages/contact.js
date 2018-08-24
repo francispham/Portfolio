@@ -44,7 +44,8 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h2>CONTACT</h2>
+        <h2 className="animation">CONTACT</h2>
+        <hr className="hr"/>
           <p>I am available for hire and open to any ideas of cooperation.</p>
           <p>More Questions? Please send me a message, Thank you!</p>
         <form
@@ -62,18 +63,21 @@ export default class Contact extends React.Component {
           <textarea name = 'message' placeholder = "Your Message" onChange={this.handleChange}/>
           <input className="button" type="submit" value="Send Message"/>
         </form>
-        <br/>
-      <hr/>
 
-      <div style = {{display: 'flex', justifyContent:'center'}}>
-        {FooterLinks.map(link => (
-          <div className="social" style = {{marginRight: '2em'}}>
-            <a target = "_blank" rel = "nofollow" className = {link.name.toLowerCase()} href = {link.link}>
-              {link.name}
-            </a>
-          </div>
-        ))}
-      </div>
+        <br/><hr/>
+
+        <div style = {{display: 'flex', justifyContent:'center'}}>
+          {FooterLinks.map(link => (
+            <div className="social" style = {{marginRight: '2em'}} key={link.name}>
+              <a target = "_blank" rel = "nofollow"
+                className = {link.name.toLowerCase()}
+                href = {link.link}
+              >
+                {link.name}
+              </a>
+            </div>
+          ))}
+        </div>
         <br/>
       </div>
     );
