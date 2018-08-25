@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: black;
+  background: rgba(0, 0, 0, .95);
   height: 56px;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .toolbar__navigation-items a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .toolbar__navigation-items ul {
@@ -42,9 +42,10 @@
 
 .toolbar__navigation-items li {
   padding: 0 0.5rem;
+  margin: auto;
 }
 
 .toolbar__navigation-items a:hover,
 .toolbar__navigation-items a:active {
-  color: lightgreen;
+  color: gray;
 }

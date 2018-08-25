@@ -9,8 +9,7 @@ const Header = ({ headerImage }) => (
   <g.Div
     style={{
       background: '#f4f4f4',
-      marginRight: 'auto',
-
+      marginRight: 'auto'
     }}
   >
     <Img

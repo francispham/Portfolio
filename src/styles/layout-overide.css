@@ -3,13 +3,13 @@ html {
 }
 
 body {
-    /* height: 100%; */
-    border: 2px solid black;
+    height: 100%;
+    /* border: 2px solid black; */
 }
 
 .box {
   border: 1px solid #ddd;
-  paddingTop: 10px
+  padding-top: 10px;
 }
 
 .gridBox {

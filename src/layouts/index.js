@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import g from "glamorous"
-import { css } from "glamor"
 
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
@@ -11,6 +9,7 @@ import Header from '../components/header'
 import Sidebar from '../components/Sidebar'
 import Toolbar from '../components/Toolbar/Toolbar'
 import SideDrawer from '../components/SideDrawer/SideDrawer'
+import Backdrop from '../components/Backdrop/Backdrop'
 
 import './index.css'
 import "../styles/layout-overide.css";
@@ -18,7 +17,7 @@ import "../styles/layout-overide.css";
 import { rhythm } from "../utils/typography";
 
 const Layout = ({ children, data }) => (
-  <g.Div paddingTop={ rhythm(1) }>
+  <div paddingTop={ rhythm(1) } style={{height: '100%'}}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -27,68 +26,58 @@ const Layout = ({ children, data }) => (
       ]}/>
     <Header headerImage={data.headerImage}/>
     <Toolbar siteTitle={data.site.siteMetadata.title}/>
-    <SideDrawer />
-    <div>
-      <p>This is the page content</p>
-      <g.Div
-        style={{
-          margin: "0 auto",
-          maxWidth: 980,
-          height: "100%"
-        }}
-        >
-          <Media query={{ maxWidth: 848 }}>
-            {matches =>
-              matches ? (
-                <g.Div
-                  style={{
-                    margin: "0 auto",
-                    maxWidth: 980,
-                    display: "grid",
-                    gridTemplateColumns: 'repeat(12, 1fr)',
-                    height: "100%",
-                    padding: "25px"
-                  }}>
-                  <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
+    {/* <Backdrop /> */}
+    {/* <SideDrawer /> */}
+    <div
+      style={{
+        margin: "0 auto",
+        height: "100%",
+        padding: "80px",
+      }}
+      >
+        <Media query={{ maxWidth: 848 }}>
+          {matches =>
+            matches ? (
+              <div
+                style={{
+                  margin: "0 auto",
+                  display: "grid",
+                  gridTemplateColumns: 'repeat(12, 1fr)',
+                  height: "100%",
+                  padding: "25px"
+                }}>
+                <div style= {{ gridColumn: 'span 12' }}>{children()}</div>
 
-                  <g.Div
-                    style= {{
-                      display: 'grid',
-                      justifyTtems: 'center',
-                      alignTtems: 'center',
-                    }}>
-                    <Sidebar
-                      title="Francis Pham"
-                      description="Full Stack Web Developer"
-                    />
-                  </g.Div>
-                </g.Div>
-              ) : (
-                <g.Div
-                  style={{
-                    maxWidth: 980,
-                    display: "grid",
-                    gridTemplateColumns: 'repeat(12, 1fr)',
-                    gridGap: '1em',
-                    height: "100%",
-                    padding: "25px"
-                  }}>
-                  <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
+                <div style={{padding: '25px', marginLeft: '100px'}}>
+                  <Sidebar
+                    title="Francis Pham"
+                    description="Full Stack Web Developer"
+                  />
+                </div>
+              </div>
+            ) : (
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: 'repeat(12, 1fr)',
+                  gridGap: '1em',
+                  height: "100%",
+                  padding: "25px"
+                }}>
+                <div style= {{ gridColumn: 'span 8' }}>{children()}</div>
 
-                  <g.Div style= {{ gridColumn: 'span 4' }}>
-                    <Sidebar
-                      title="Francis Pham"
-                      description="Full Stack Web Developer"
-                    />
-                  </g.Div>
-                </g.Div>
-              )
-            }
-          </Media>
-        </g.Div>
+                <div style= {{ gridColumn: 'span 4' }}>
+                  <Sidebar
+                    title="Francis Pham"
+                    description="Full Stack Web Developer"
+                  />
+                </div>
+              </div>
+            )
+          }
+        </Media>
+      </div>
     </div>
-
-  </g.Div>
 )
 
 export default Layout
