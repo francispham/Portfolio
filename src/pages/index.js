@@ -32,7 +32,7 @@ const IndexPage = () => (
         <a  href = 'https://github.com/phongpt1989/St-MediSpa' target = '_black'>
           <img src={stmedi} alt='stmedi'/>
           <p>➣ <strong>St Medi Web App Version 2</strong> built with React.js,
-            Redux.js, Express.js, MongoDB, HTML, CSS, JavaScrip</p>
+            Redux.js, Express.js, MongoDB, HTML, CSS, JavaScript</p>
           <hr/>
         </a>
       </li>
@@ -40,7 +40,7 @@ const IndexPage = () => (
         <a  href = 'https://github.com/phongpt1989/Portfolio' target = '_black'>
           <img src={portfolio} alt='portfolio'/>
           <p>➣ <strong>This Portfolio</strong> built with React.js, Gatsby.js
-            MongoDB, HTML, CSS, JavaScrip, Netlify</p>
+            MongoDB, HTML, CSS, JavaScript, Netlify</p>
           <hr/>
         </a>
       </li>

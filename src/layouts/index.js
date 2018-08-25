@@ -8,8 +8,9 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import Header from '../components/header'
-import Menu from '../components/menu'
 import Sidebar from '../components/Sidebar'
+import Toolbar from '../components/Toolbar/Toolbar'
+import SideDrawer from '../components/SideDrawer/SideDrawer'
 
 import './index.css'
 import "../styles/layout-overide.css";
@@ -25,64 +26,67 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
       ]}/>
     <Header headerImage={data.headerImage}/>
-    <Menu siteTitle={data.site.siteMetadata.title} />
+    <Toolbar siteTitle={data.site.siteMetadata.title}/>
+    <SideDrawer />
+    <div>
+      <p>This is the page content</p>
+      <g.Div
+        style={{
+          margin: "0 auto",
+          maxWidth: 980,
+          height: "100%"
+        }}
+        >
+          <Media query={{ maxWidth: 848 }}>
+            {matches =>
+              matches ? (
+                <g.Div
+                  style={{
+                    margin: "0 auto",
+                    maxWidth: 980,
+                    display: "grid",
+                    gridTemplateColumns: 'repeat(12, 1fr)',
+                    height: "100%",
+                    padding: "25px"
+                  }}>
+                  <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
 
-    <g.Div
-      style={{
-        margin: "0 auto",
-        maxWidth: 980,
-        height: "100%"
-      }}
-    >
-      <Media query={{ maxWidth: 848 }}>
-        {matches =>
-          matches ? (
-            <g.Div
-              style={{
-                margin: "0 auto",
-                maxWidth: 980,
-                display: "grid",
-                gridTemplateColumns: 'repeat(12, 1fr)',
-                height: "100%",
-                padding: "25px"
-              }}>
-              <g.Div style= {{ gridColumn: 'span 12' }}>{children()}</g.Div>
+                  <g.Div
+                    style= {{
+                      display: 'grid',
+                      justifyTtems: 'center',
+                      alignTtems: 'center',
+                    }}>
+                    <Sidebar
+                      title="Francis Pham"
+                      description="Full Stack Web Developer"
+                    />
+                  </g.Div>
+                </g.Div>
+              ) : (
+                <g.Div
+                  style={{
+                    maxWidth: 980,
+                    display: "grid",
+                    gridTemplateColumns: 'repeat(12, 1fr)',
+                    gridGap: '1em',
+                    height: "100%",
+                    padding: "25px"
+                  }}>
+                  <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
 
-              <g.Div
-                style= {{
-                  display: 'grid',
-                  justifyTtems: 'center',
-                  alignTtems: 'center',
-                }}>
-                <Sidebar
-                  title="Francis Pham"
-                  description="Full Stack Web Developer"
-                />
-              </g.Div>
-            </g.Div>
-          ) : (
-            <g.Div
-              style={{
-                maxWidth: 980,
-                display: "grid",
-                gridTemplateColumns: 'repeat(12, 1fr)',
-                gridGap: '1em',
-                height: "100%",
-                padding: "25px"
-              }}>
-              <g.Div style= {{ gridColumn: 'span 8' }}>{children()}</g.Div>
-
-              <g.Div style= {{ gridColumn: 'span 4' }}>
-                <Sidebar
-                  title="Francis Pham"
-                  description="Full Stack Web Developer"
-                />
-              </g.Div>
-            </g.Div>
-          )
-        }
-      </Media>
-    </g.Div>
+                  <g.Div style= {{ gridColumn: 'span 4' }}>
+                    <Sidebar
+                      title="Francis Pham"
+                      description="Full Stack Web Developer"
+                    />
+                  </g.Div>
+                </g.Div>
+              )
+            }
+          </Media>
+        </g.Div>
+    </div>
 
   </g.Div>
 )
