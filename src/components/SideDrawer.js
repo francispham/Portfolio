@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import '../styles/SideDrawer.css';
+import '../styles/side-drawer.css';
 
 const SideDrawer = props => {
   let drawerClasses = 'side-drawer';
