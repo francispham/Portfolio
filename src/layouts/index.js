@@ -7,9 +7,9 @@ import Media from 'react-media'
 
 import Header from '../components/header'
 import Sidebar from '../components/Sidebar'
-import Toolbar from '../components/Toolbar/Toolbar'
-import SideDrawer from '../components/SideDrawer/SideDrawer'
-import Backdrop from '../components/Backdrop/Backdrop'
+import Toolbar from '../components/Toolbar'
+import SideDrawer from '../components/SideDrawer'
+import Backdrop from '../components/Backdrop'
 
 import './index.css'
 import "../styles/layout-overide.css";
