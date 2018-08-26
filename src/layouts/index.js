@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import Header from '../components/header'
-import Sidebar from '../components/sidebar'
+import Sidebar from '../components/Sidebar'
 import Toolbar from '../components/toolbar'
 import SideDrawer from '../components/side-drawer'
 import Backdrop from '../components/backdrop'
