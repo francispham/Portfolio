@@ -6,10 +6,10 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import Header from '../components/header'
-import Sidebar from '../components/Sidebar'
-import Toolbar from '../components/Toolbar'
-import SideDrawer from '../components/SideDrawer'
-import Backdrop from '../components/Backdrop'
+import Sidebar from '../components/sidebar'
+import Toolbar from '../components/toolbar'
+import SideDrawer from '../components/side-drawer'
+import Backdrop from '../components/backdrop'
 
 import './index.css'
 import "../styles/layout-overide.css";
