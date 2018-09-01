@@ -36,7 +36,7 @@ class Layout extends React.Component {
       backdrop = <Backdrop click={this.drawerToggleClickHandler}/>
     }
     return (
-      <div style={{height: '100%'}}>
+      <div style={{height: '100%'}} className="body">
         <Helmet
           title={this.props.data.site.siteMetadata.title}
           meta={[

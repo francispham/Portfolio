@@ -3,10 +3,31 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
-
+  animation: colorchange 30s;
+  -webkit-animation: colorchange 30s;
 }
+
+@keyframes colorchange
+{
+  0%   {background: #FFFDE0;}
+  25%  {background: #FFFDDD;}
+  50%  {background: #FFF444;}
+  75%  {background: #EDECED;}
+  100% {background: #FFFDE0;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: #FFFDE0;}
+  25%  {background: #FFFDDD;}
+  50%  {background: #FFF444;}
+  75%  {background: #EDECED;}
+  100% {background: #FFFDE0;}
+}
+
 article,
 aside,
 details,
@@ -113,7 +134,9 @@ select,
 textarea {
   font: inherit;
   margin: 0;
+  background-color: #EFEFEF;
 }
+
 optgroup {
   font-weight: 700;
 }
