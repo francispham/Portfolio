@@ -15,7 +15,8 @@ const Sidebar = (props) => (
       minWidth: 300,
       padding: '0.5rem',
       marginBottom: '25px',
-      textAlign: 'center'
+      textAlign: 'center',
+      background: 'white'
     }}>
       <img
         src = {sidebar}

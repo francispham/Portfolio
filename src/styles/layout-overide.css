@@ -82,15 +82,12 @@ body {
   100% {width: 90%;}
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-    width: 100vh;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  body {
+    width: 100vh;
   }
   .container > li {
   flex-basis: 100%;
