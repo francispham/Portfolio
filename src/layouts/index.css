@@ -649,28 +649,3 @@ pre tt:after {
 .container > li {
   flex: 1;
 }
-
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-  .container > li {
-  flex-basis: 100%;
-  }
-  .form {
-    padding: 0 20px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 100%;
-  }
-  .container {
-    flex-wrap: wrap;
-  }
-
-  .container > li {
-    flex-basis: 50%;
-  }
-}

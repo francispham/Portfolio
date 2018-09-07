@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    /* border: 2px solid black; */
+    width: 100%;
 }
 
 .box {
@@ -80,4 +80,35 @@ body {
 @keyframes hr{
   0% {width: 0px;}
   100% {width: 90%;}
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+  .container > li {
+  flex-basis: 100%;
+  }
+  .form {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 100%;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container > li {
+    flex-basis: 50%;
+  }
+
 }
