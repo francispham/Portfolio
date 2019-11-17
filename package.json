@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "portfolio",
+  "description": "GatsbyJS ReactJS Netlify Glamorous",
+  "version": "1.1.0",
+  "author": "Francis",
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-image": "^1.0.51",

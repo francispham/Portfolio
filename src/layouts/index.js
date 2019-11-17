@@ -52,9 +52,8 @@ class Layout extends React.Component {
         {backdrop}
         <main
           style={{
-            marginTop: "64px",
             height: "100%",
-            padding: "80px",
+            padding: "60px",
           }}
           >
             <Media query={{ maxWidth: 848 }}>
@@ -68,9 +67,13 @@ class Layout extends React.Component {
                       height: "100%",
                       padding: "25px"
                     }}>
-                    <div style= {{ gridColumn: 'span 12' }}>{this.props.children()}</div>
+                    <div style= {{ gridColumn: 'span 12' }}>
+                      {this.props.children()}
+                    </div>
 
-                    <div style={{padding: '25px', marginLeft: '100px'}}>
+                    <div style={{
+                      gridColumn: "span 12",
+                    }}>
                       <Sidebar
                         title="Francis Pham"
                         description="Full Stack Web Developer"
@@ -82,13 +85,18 @@ class Layout extends React.Component {
                     style={{
                       display: "grid",
                       gridTemplateColumns: 'repeat(12, 1fr)',
-                      gridGap: '1em',
+                      gridGap: '5em',
                       height: "100%",
                       padding: "25px"
                     }}>
-                    <div style= {{ gridColumn: 'span 8' }}>{this.props.children()}</div>
+                    <div style= {{ gridColumn: 'span 8' }}>
+                      {this.props.children()}
+                    </div>
 
-                    <div style= {{ gridColumn: 'span 4' }}>
+                    <div style= {{ 
+                      gridColumn: 'span 4',
+                      maxWidth: 680
+                    }}>
                       <Sidebar
                         title="Francis Pham"
                         description="Full Stack Web Developer"

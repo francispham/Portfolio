@@ -9,10 +9,10 @@ function encode(data) {
 const FooterLinks = [
   {
     name: 'Github',
-    link: 'https://github.com/phongpt1989'
+    link: 'https://github.com/francispham'
   },{
     name: 'LinkedIn',
-    link: 'http://linkedin.com/in/francispham89'
+    link: 'http://linkedin.com/in/francisphamca'
   },{
     name: 'Gmail',
     link: 'mailto:fransicpham89@gmail.com'
@@ -50,7 +50,7 @@ export default class Contact extends React.Component {
           <p>More Questions? Please send me a message, Thank you!</p>
         <form
           className="form flex"
-          name="contactmeme"
+          name="contacted"
           method="post"
           action="/thankyou/"
           data-netlify="true"
