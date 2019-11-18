@@ -4,10 +4,11 @@ import stmedispa from '../img/stmedispa.png';
 import ninja from '../img/ninja.png';
 import store from '../img/store.jpg';
 import portfolio from '../img/portfolio.png';
+import Layout from '../components/layout'
 
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <h2 className="animation">MY PROJECTS</h2>
     <hr className="hr" />
     <ul style={{ listStyle: 'none', padding: '10px' }}>
@@ -51,7 +52,7 @@ const IndexPage = () => (
         </a>
       </li>
     </ul>
-  </div>
+  </Layout>
 )
 
 export default IndexPage;

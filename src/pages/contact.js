@@ -1,5 +1,6 @@
 import React from 'react';
 import { navigateTo } from 'gatsby-link';
+import Layout from '../components/layout'
 
 function encode(data) {
   return Object.keys(data)
@@ -43,7 +44,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
+      <Layout>
         <h2 className="animation">CONTACT</h2>
         <hr className="hr"/>
           <p>I am available for hire and open to any ideas of cooperation.</p>
@@ -69,7 +70,8 @@ export default class Contact extends React.Component {
         <div style = {{display: 'flex', justifyContent:'center'}}>
           {FooterLinks.map(link => (
             <div className="social" style = {{marginRight: '2em'}} key={link.name}>
-              <a target = "_blank" rel = "nofollow"
+              <a target = "_blank" 
+                rel = "nofollow noopener noreferrer"
                 className = {link.name.toLowerCase()}
                 href = {link.link}
               >
@@ -79,7 +81,7 @@ export default class Contact extends React.Component {
           ))}
         </div>
         <br/>
-      </div>
+      </Layout>
     );
   }
 };

@@ -21,11 +21,12 @@ import github from '../img/icon/github.png';
 import heroku from '../img/icon/heroku.png';
 import netlify from '../img/icon/netlify.png';
 import graphql from '../img/icon/graphql.png';
+import Layout from '../components/layout';
 
 
 const Skills = () => {
   return (
-    <div >
+    <Layout >
       <h2 className="animation">MY SKILL SET</h2>
       <hr className="hr"/>
       <div>
@@ -71,7 +72,7 @@ const Skills = () => {
         </div>
         <br/>
       </div>
-    </div>
+    </Layout>
   )
 };
 

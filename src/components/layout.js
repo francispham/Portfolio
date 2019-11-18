@@ -1,18 +1,13 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 import Media from 'react-media'
 
-import Header from '../components/header'
-import Sidebar from '../components/Sidebar'
-import Toolbar from '../components/toolbar'
-import SideDrawer from '../components/side-drawer'
-import Backdrop from '../components/backdrop'
+import Header from './header'
+import Sidebar from './Sidebar'
+import Toolbar from './toolbar'
+import SideDrawer from './side-drawer'
+import Backdrop from './backdrop'
 
-import './index.css'
-import "../styles/layout-overide.css";
+import '../styles/layout.css'
 
 class Layout extends React.Component {
   state = {
@@ -31,21 +26,13 @@ class Layout extends React.Component {
 
   render() {
     let backdrop;
-
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.drawerToggleClickHandler}/>
     }
     return (
       <div style={{height: '100%'}} className="body">
-        <Helmet
-          title={this.props.data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Portfolio Website, Resume, Projects, Languages, Skills' },
-            { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
-          ]}/>
-        <Header headerImage={this.props.data.headerImage}/>
+        <Header />
         <Toolbar
-          siteTitle={this.props.data.site.siteMetadata.title}
           drawerClickHandler={this.drawerToggleClickHandler}
         />
         <SideDrawer show={this.state.sideDrawerOpen}/>
@@ -68,7 +55,7 @@ class Layout extends React.Component {
                       padding: "25px"
                     }}>
                     <div style= {{ gridColumn: 'span 12' }}>
-                      {this.props.children()}
+                      {this.props.children}
                     </div>
 
                     <div style={{
@@ -90,7 +77,7 @@ class Layout extends React.Component {
                       padding: "25px"
                     }}>
                     <div style= {{ gridColumn: 'span 8' }}>
-                      {this.props.children()}
+                      {this.props.children}
                     </div>
 
                     <div style= {{ 
@@ -114,18 +101,3 @@ class Layout extends React.Component {
 }
 
 export default Layout;
-
-export const query = graphql`
-  query headerImageQueryAndSiteTitleQueryAndLayoutQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    headerImage: imageSharp(id: { regex: "/header/" }) {
-      sizes(maxWidth: 1240 ) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-  }
-`;

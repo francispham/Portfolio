@@ -1,26 +1,61 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { useStaticQuery, graphql } from 'gatsby'
+import Helmet from 'react-helmet'
 import Img from 'gatsby-image';
 
 import g from 'glamorous';
-import { css } from 'glamor';
 
-const Header = ({ headerImage }) => (
-  <g.Div
-    style={{
-      background: '#f4f4f4',
-      marginRight: 'auto'
-    }}
-  >
-    <Img
-      title="Header image"
-      alt="Greek food laid out on table"
-      sizes={headerImage.sizes}
-      style={{
-        height: '15vh'
-      }}
-    />
-  </g.Div>
-)
+export default () => {
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      file(relativePath: { eq: "header.jpg" }) {
+        childImageSharp {
+          fluid {
+            srcWebp
+            aspectRatio
+            base64
+            sizes
+            src
+            srcSet
+          }
+        }
+      }
+    }
+  `)
 
-export default Header
+  return (
+    <header>
+      <Helmet
+        titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+        defaultTitle={data.site.siteMetadata.title}
+        meta={[
+          {
+            name: 'description',
+            content: 'Portfolio Website, Resume, Projects, Languages, Skills',
+          },
+          { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
+        ]}
+      />
+      <g.Div
+        style={{
+          background: '#f4f4f4',
+          marginRight: 'auto',
+        }}
+      >
+        <Img
+          title="Header image"
+          alt="Greek food laid out on table"
+          fluid={data.file.childImageSharp.fluid}
+          style={{
+            height: '15vh',
+          }}
+        />
+      </g.Div>
+    </header>
+  )
+}

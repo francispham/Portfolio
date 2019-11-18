@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 import '../styles/side-drawer.css';
 
@@ -12,15 +12,26 @@ const SideDrawer = props => {
   return (
     <nav className={drawerClasses}>
       <ul>
-        <li><Link  to="/about">ABOUT</Link></li>
-        <li><Link  to="/">PORTFOLIO</Link></li>
-        <li><Link  to="/skills">SKILLS</Link></li>
-        <li><Link  to="/contact">CONTACT</Link></li>
+        <li>
+          <Link to="/about">ABOUT</Link>
+        </li>
+        <li>
+          <Link to="/">PORTFOLIO</Link>
+        </li>
+        <li>
+          <Link to="/skills">SKILLS</Link>
+        </li>
+        <li>
+          <Link to="/contact">CONTACT</Link>
+        </li>
         <li>
           <a
-            href='https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0'
-            target="_blank">RESUME
-            </a>
+            href="https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RESUME
+          </a>
         </li>
       </ul>
     </nav>

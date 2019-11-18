@@ -1,11 +1,13 @@
 import React from 'react';
 
+import Layout from '../components/layout'
+
 const Thankyou = () => {
   return (
-    <div>
+    <Layout>
       <h2 className="animation">Thank you for contacting me!</h2>
       <hr className="hr"/>
-    </div>
+    </Layout>
   )
 }
 export default Thankyou;

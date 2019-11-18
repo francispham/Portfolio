@@ -1,10 +1,10 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 import DrawerToggleButton from './drawer-toggle-button';
 import '../styles/toolbar.css';
 
-const toolbar = (props, {siteTitle}) => (
+const toolbar = (props, { siteTitle }) => (
   <header className="toolbar">
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">
@@ -16,20 +16,31 @@ const toolbar = (props, {siteTitle}) => (
       <div className="spacer" />
       <div className="toolbar__navigation-items">
         <ul>
-          <li><Link  to="/about">ABOUT</Link></li>
-          <li><Link  to="/">PORTFOLIO</Link></li>
-          <li><Link  to="/skills">SKILLS</Link></li>
-          <li><Link  to="/contact">CONTACT</Link></li>
+          <li>
+            <Link to="/about">ABOUT</Link>
+          </li>
+          <li>
+            <Link to="/">PORTFOLIO</Link>
+          </li>
+          <li>
+            <Link to="/skills">SKILLS</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
           <li>
             <a
-              href = 'https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0'
-              target = "_blank">RESUME
+              href="https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RESUME
             </a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-);
+)
 
 export default toolbar;
