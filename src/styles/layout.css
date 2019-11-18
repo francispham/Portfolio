@@ -14,16 +14,7 @@ body {
 {
   0%   {background: #FFFDE0;}
   25%  {background: #FFFDDD;}
-  50%  {background: #FFF444;}
-  75%  {background: #EDECED;}
-  100% {background: #FFFDE0;}
-}
-
-@-webkit-keyframes colorchange
-{
-  0%   {background: #FFFDE0;}
-  25%  {background: #FFFDDD;}
-  50%  {background: #FFF444;}
+  50%  {background: rgb(158, 155, 113);}
   75%  {background: #EDECED;}
   100% {background: #FFFDE0;}
 }
