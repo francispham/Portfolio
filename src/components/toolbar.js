@@ -29,13 +29,7 @@ const toolbar = (props, { siteTitle }) => (
             <Link to="/contact">CONTACT</Link>
           </li>
           <li>
-            <a
-              href="https://www.dropbox.com/s/oxw8sez7hv389zq/FrancisResume.pdf?dl=0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              RESUME
-            </a>
+            <Link to="/resume">RESUME</Link>
           </li>
         </ul>
       </div>

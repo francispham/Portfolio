@@ -654,8 +654,10 @@ body {
 }
 
 .box {
-  border: 1px solid #ddd;
+  border: 1px solid lightslategray;
+  border-radius: 10px;
   padding-top: 10px;
+  background-color: #e6e6e6;
 }
 
 .gridBox {

@@ -10,6 +10,7 @@ const Sidebar = props => (
   <div
     style={{
       border: '2px solid #e6e6e6',
+      borderRadius: '10px',
       padding: '0.5rem',
       marginBottom: '25px',
       textAlign: 'center',
@@ -21,6 +22,7 @@ const Sidebar = props => (
       alt="Avatar"
       style={{
         display: 'block',
+        borderRadius: '10px',
       }}
     />
     <h3>{props.title}</h3>

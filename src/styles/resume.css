@@ -1,0 +1,16 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 24px;
+}
+
+.resume {
+  max-width: 960px;
+  margin: 40px auto;
+  border: solid 32px;
+  border-color: #E96668;
+  background: #040404;
+  color: #E74144;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
