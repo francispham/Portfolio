@@ -23,21 +23,21 @@ const IndexPage = () => (
         </a>
       </li>
       <li>
-        <a href="https://github.com/francispham/Portfolio" target="_black">
-          <img src={portfolio} alt="portfolio" />
-          <p>
-            ➣ <strong>This Portfolio</strong> built with ReactJS, GatsbyJS
-            MongoDB, HTML, CSS, JavaScript, Netlify
-          </p>
-          <hr />
-        </a>
-      </li>
-      <li>
         <a href="https://github.com/francispham/drill-ninjaz" target="_black">
           <img src={ninja} alt="ninja" />
           <p>
             ➣ <strong>Drillz Ninja</strong> built with Ruby, Ruby on Rails,
             PostgreSQL, Bootstrap, HTML, CSS, JavaScript
+          </p>
+          <hr />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/francispham/Portfolio" target="_black">
+          <img src={portfolio} alt="portfolio" />
+          <p>
+            ➣ <strong>This Portfolio</strong> built with ReactJS, GatsbyJS
+            MongoDB, HTML, CSS, JavaScript, Netlify
           </p>
           <hr />
         </a>
@@ -54,16 +54,17 @@ const IndexPage = () => (
     </ul>
     <hr />
     <hr />
-    <h2 className="animation">Others Projects</h2>
-    <h3>React FrontEnd:</h3>
+    <h3 className="animation">Other Projects</h3>
+    <hr className="hr" />
+    <h4>React FrontEnd:</h4>
     <a href="https://github.com/francispham/StMedi-CRA" target="_black">
       <p>
-        ➣ <strong>React Application</strong> built with NodeJS,
+        ➣ <strong>React Business Website</strong> built with NodeJS,
         ReactJS & Netlify
       </p>
     </a>
     <hr />
-    <h3>React Authentication:</h3>
+    <h4>React Authentication:</h4>
     <a
       href="https://github.com/francispham/React-Authentication-Client"
       target="_black"
@@ -79,6 +80,16 @@ const IndexPage = () => (
     >
       <p>
         ➣ <strong>Authentication Server</strong> built with NodeJS, ExpressJS
+      </p>
+    </a>
+    <hr />
+    <h4>Web Dev Volunteer @ Assistlist:</h4>
+    <a
+      href="https://github.com/francispham/React-Authentication-Client"
+      target="_black"
+    >
+      <p>
+        ➣ <strong>AssistList Website</strong> built with ReactJS, Ruby on Rails, PostgreSQL, AWS
       </p>
     </a>
   </Layout>

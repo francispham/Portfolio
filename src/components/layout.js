@@ -8,6 +8,7 @@ import SideDrawer from './side-drawer'
 import Backdrop from './backdrop'
 
 import '../styles/layout.css'
+import { ClientError } from 'graphql-request'
 
 class Layout extends React.Component {
   state = {
@@ -48,7 +49,6 @@ class Layout extends React.Component {
                 matches ? (
                   <div
                     style={{
-                      margin: "0 auto",
                       display: "grid",
                       gridTemplateColumns: 'repeat(12, 1fr)',
                       height: "100%",
@@ -56,15 +56,6 @@ class Layout extends React.Component {
                     }}>
                     <div style= {{ gridColumn: 'span 12' }}>
                       {this.props.children}
-                    </div>
-
-                    <div style={{
-                      gridColumn: "span 12",
-                    }}>
-                      <Sidebar
-                        title="Francis Pham"
-                        description="Full Stack Web Developer"
-                      />
                     </div>
                   </div>
                 ) : (
@@ -80,9 +71,10 @@ class Layout extends React.Component {
                       {this.props.children}
                     </div>
 
-                    <div style= {{ 
-                      gridColumn: 'span 4',
-                      maxWidth: 680
+                    <div 
+                      style= {{ 
+                        gridColumn: 'span 4',
+                        maxWidth: 680
                     }}>
                       <Sidebar
                         title="Francis Pham"

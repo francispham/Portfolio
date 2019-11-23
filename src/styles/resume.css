@@ -1,16 +1,37 @@
-.section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 24px;
+.resume {
+    max-width: 960px;
+    margin: 40px auto;
+    color: lightgrey;
+    border: solid 28px;
+    border-color: #E96668;
+    background: #040404;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.resume {
-  max-width: 960px;
-  margin: 40px auto;
-  border: solid 32px;
-  border-color: #E96668;
-  background: #040404;
-  color: #E74144;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.resume section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 24px;
+} 
+
+.resume h1,
+.resume h2,
+.resume h4 {
+    color: #E74144;
+}
+.resume h3 {
+    color: white;
+}
+
+.resume a {
+    color: white;
+}
+.resume a:hover,
+.resume a:active {
+  color: gray;
+}
+
+.resume .infor p {
+    margin: 0px;
 }

@@ -663,11 +663,11 @@ body {
 .gridBox {
   display: grid;
   text-align: center;
+  padding: 10px 20px;
 }
 
 .gridBox img {
   margin-bottom: 10px;
-  padding: 10px;
   width: 80px;
   height: 80px;
 }
@@ -679,11 +679,11 @@ body {
     align-items: left;
 }
 .flex input {
-   margin-bottom: 30px;
-   margin-right: 8px;
-   padding: 4px;
-   margin-top: -4px;
-   border-radius: 5px;
+  margin-bottom: 30px;
+  margin-right: 8px;
+  padding: 4px;
+  margin-top: -4px;
+  border-radius: 5px;
 }
 .flex textarea {
   margin-bottom: 50px;
@@ -728,31 +728,4 @@ body {
 @keyframes hr{
   0% {width: 0px;}
   100% {width: 90%;}
-}
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-  body {
-    width: 100vh;
-  }
-  .container > li {
-  flex-basis: 100%;
-  }
-  .form {
-    padding: 0 20px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 100%;
-  }
-  .container {
-    flex-wrap: wrap;
-  }
-  .container > li {
-    flex-basis: 50%;
-  }
-
 }
