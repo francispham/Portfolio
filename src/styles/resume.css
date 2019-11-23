@@ -26,6 +26,7 @@
 
 .resume a {
     color: white;
+    text-align: left;
 }
 .resume a:hover,
 .resume a:active {
@@ -34,4 +35,5 @@
 
 .resume .infor p {
     margin: 0px;
+    text-align: right;
 }

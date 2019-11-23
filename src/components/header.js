@@ -3,8 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image';
 
-import g from 'glamorous';
-
 export default () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -41,7 +39,7 @@ export default () => {
           { name: 'keywords', content: 'Portfolio Website, Francis Pham' },
         ]}
       />
-      <g.Div
+      <div
         style={{
           background: '#f4f4f4',
           marginRight: 'auto',
@@ -55,7 +53,7 @@ export default () => {
             height: '15vh',
           }}
         />
-      </g.Div>
+      </div>
     </header>
   )
 }

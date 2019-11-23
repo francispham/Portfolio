@@ -19,7 +19,7 @@ const Resume = () => (
                         <p>604.716.5452</p>
                         <p>
                             <a
-                                href="https://francispham.ca/"
+                                href="https://www.francispham.ca/"
                                 target="_black"
                                 rel="noopener noreferrer"
                             >

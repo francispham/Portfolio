@@ -8,7 +8,6 @@ import SideDrawer from './side-drawer'
 import Backdrop from './backdrop'
 
 import '../styles/layout.css'
-import { ClientError } from 'graphql-request'
 
 class Layout extends React.Component {
   state = {
