@@ -43,7 +43,7 @@ class Layout extends React.Component {
             padding: "60px",
           }}
           >
-            <Media query={{ maxWidth: 848 }}>
+            <Media query={{ maxWidth: 1150 }}>
               {matches =>
                 matches ? (
                   <div

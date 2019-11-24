@@ -1,10 +1,15 @@
 .resume {
+    min-width: 500px;
     max-width: 960px;
     margin: 0px auto;
     color: lightgrey;
     border: solid 28px;
     border-color: #E96668;
     background: #040404;
+}
+
+.resume .header {
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .resume section {
@@ -35,4 +40,10 @@
 .resume .infor p {
     margin: 0px;
     text-align: right;
+}
+
+@media (max-width: 900px) {
+    .resume section div {
+        grid-column: span 2;
+    }
 }
