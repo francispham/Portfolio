@@ -7,7 +7,7 @@ import Toolbar from './toolbar'
 import SideDrawer from './side-drawer'
 import Backdrop from './backdrop'
 
-import '../styles/layout.css'
+import '../css/layout.css'
 
 class Layout extends React.Component {
   state = {

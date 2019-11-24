@@ -1,13 +1,17 @@
 html {
-  font-family: sans-serif;
+  font-family:"Optima", serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
+  font-family:"Optima", sans-serif;
   margin: 0;
   animation: colorchange 30s;
   -webkit-animation: colorchange 30s;
+  height: 100%;
+  width: 100%;
 }
 
 @keyframes colorchange
@@ -53,7 +57,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: Green;
+  color: #C05B48;
   text-decoration: none;
 }
 a:active,
@@ -200,7 +204,6 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -213,17 +216,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
-}
+
 img {
   max-width: 100%;
   margin-left: 0;
@@ -245,12 +238,11 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  font-family:"Optima", serif;
 }
 h2 {
   margin-left: 0;
@@ -262,12 +254,11 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  font-family:"Optima", serif;
 }
 h3 {
   margin-left: 0;
@@ -279,12 +270,11 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  font-family:"Optima", serif;
 }
 h4 {
   margin-left: 0;
@@ -634,6 +624,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -644,20 +635,11 @@ pre tt:after {
   flex: 1;
 }
 
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-}
-
 .box {
   border: 1px solid lightslategray;
   border-radius: 10px;
   padding-top: 10px;
-  background-color: #e6e6e6;
+  background-color: #FFFFFF;
 }
 
 .gridBox {

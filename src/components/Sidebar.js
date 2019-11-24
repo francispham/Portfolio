@@ -35,17 +35,17 @@ const Sidebar = props => (
           rel="noopener noreferrer"
           href="https://github.com/francispham"
         >
-          <FaGithub style={{ marginRight: '1em' }} />
+          <FaGithub size={45} style={{ marginRight: '1em' }} />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="http://linkedin.com/in/francisphamca"
         >
-          <FaLinkedinSquare style={{ marginRight: '1em' }} />
+          <FaLinkedinSquare size={45} style={{ marginRight: '1em' }} />
         </a>
         <a href="mailto:francis.pham.ca@gmail.com">
-          <FaEnvelope style={{ marginRight: '1em' }} />
+          <FaEnvelope size={45} style={{ marginRight: '1em' }} />
         </a>
       </big>
     </div>

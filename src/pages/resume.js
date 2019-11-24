@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import '../styles/resume.css';
+import '../css/resume.css';
 
 const Resume = () => (
     <div>
@@ -69,7 +69,7 @@ const Resume = () => (
                         <li>DEVELOPMENT CONCEPTS: MVC Design Pattern, Agile/Scrum Methodology...</li>
                     </ul>
                     <h2>EDUCATION</h2>
-                    <ul>
+                    <ul style={{ listStyleType: "none" }}>
                         <li>
                             Web Application Development Bootcamp,&nbsp;
                             <a 
@@ -93,7 +93,7 @@ const Resume = () => (
                             <p><small>Economics Major & Business Administration Minor</small>. 2015</p>
                         </li>
                     </ul>
-                    <h2>Interests</h2>
+                    <h2>INTERESTS</h2>
                     <div className="interests-container"></div>
                 </div>
                 <div className="work">
@@ -101,7 +101,7 @@ const Resume = () => (
                     <h3>GROUP PROJECTS</h3>
                     <ul>
                         <li>
-                            AssistList 2019: .Stack: <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS S3</em>
+                            AssistList 2019: Key Responsibilities - Weekly meetup with other team members, fixed bugs & Contributed to the website code base. Stack: <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS S3</em>
                             <p>
                                 <a
                                     href="https://www.assistlist.ca"
@@ -112,7 +112,7 @@ const Resume = () => (
                             </p>
                         </li>
                         <li>
-                            Drill Ninjaz 2018: This collaborative platform is designed to test users' coding skills and keep track of progress. The team won second place for this group project. Built with <em>Ruby on Rails & PostgreSQL</em>.
+                            Drill Ninjaz 2018: Key Responsibilities - Collaborated with other team members, Designed, developed, tested some of the app's features. The team won second place for this group project. Built with <em>Ruby on Rails & PostgreSQL</em>.
                             <p>
                                 <a
                                     href="https://github.com/francispham/drill-ninjaz"

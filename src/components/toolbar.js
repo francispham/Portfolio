@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import DrawerToggleButton from './drawer-toggle-button';
-import '../styles/toolbar.css';
+import '../css/toolbar.css';
 
 const toolbar = (props, { siteTitle }) => (
   <header className="toolbar">
