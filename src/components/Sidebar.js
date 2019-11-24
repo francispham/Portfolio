@@ -1,7 +1,9 @@
 import React from 'react';
-import FaGithub from 'react-icons/lib/fa/github';
-import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
-import FaEnvelope from 'react-icons/lib/fa/envelope';
+// import FaGithub from 'react-icons/lib/fa/github';
+// import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+// import FaEnvelope from 'react-icons/lib/fa/envelope';
+
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
 import sidebar from '../img/sidebar.jpg';
 
@@ -35,17 +37,17 @@ const Sidebar = props => (
           rel="noopener noreferrer"
           href="https://github.com/francispham"
         >
-          <FaGithub size={45} style={{ marginRight: '1em' }} />
+          <FaGithub size={40} style={{ marginRight: '1em' }} />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="http://linkedin.com/in/francisphamca"
         >
-          <FaLinkedinSquare size={45} style={{ marginRight: '1em' }} />
+          <FaLinkedin size={40} style={{ marginRight: '1em' }} />
         </a>
         <a href="mailto:francis.pham.ca@gmail.com">
-          <FaEnvelope size={45} style={{ marginRight: '1em' }} />
+          <FaEnvelope size={40} style={{ marginRight: '1em' }} />
         </a>
       </big>
     </div>

@@ -2,34 +2,38 @@
     min-width: 500px;
     max-width: 960px;
     margin: 0px auto;
-    color: lightgrey;
-    border: solid 28px;
+    color: #4B4B4B;
+    border: solid 18px;
     border-color: #E96668;
     background: #040404;
 }
 
+.resume .title h1 {
+    font-size: 3rem;
+}
+
 .resume .header {
-    background-color:rgba(0, 0, 0, 0.5);
+    padding: 80px 50px;
+    background-color:black;
+    font-size: small;
+}
+.resume .main {
+    padding: 30px 50px;
+    background-color:black;
 }
 
-.resume section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    padding: 24px;
-} 
-
-.resume h1,
-.resume h2,
-.resume h4 {
-    color: #E74144;
-}
-.resume h3 {
-    color: white;
+.resume .infor p {
+    margin: 0px;
+    text-align: right;
+    color: whitesmoke;
 }
 
-.resume a {
-    color: white;
+.resume .infor a {
+    color: whitesmoke;
+}
+
+.resume .main a {
+    color: #4B4B4B;
     text-align: left;
 }
 .resume a:hover,
@@ -37,13 +41,36 @@
   color: gray;
 }
 
-.resume .infor p {
-    margin: 0px;
-    text-align: right;
+.resume section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+} 
+
+.resume h1,
+.resume h2,
+.resume h3, 
+.resume h4 {
+    color: #E74144;
+}
+.resume h5 {
+    color: lightgray;
+}
+
+
+.resume svg {
+    margin-right: 2em;
+    color: whitesmoke;
 }
 
 @media (max-width: 900px) {
+    .resume .header {
+        text-align: center;
+    }
     .resume section div {
         grid-column: span 2;
     }
+    .resume .infor p {
+    text-align: left;
+}
 }
