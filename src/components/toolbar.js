@@ -4,14 +4,14 @@ import { Link } from 'gatsby';
 import DrawerToggleButton from './drawer-toggle-button';
 import '../css/toolbar.css';
 
-const toolbar = (props, { siteTitle }) => (
+const toolbar = (props) => (
   <header className="toolbar">
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className="toolbar__logo">
-        <Link to="/">Francis Pham</Link>
+        <Link to="/">FRANCIS PHAM</Link>
       </div>
       <div className="spacer" />
       <div className="toolbar__navigation-items">

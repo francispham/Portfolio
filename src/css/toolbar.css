@@ -1,5 +1,4 @@
 .toolbar {
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -18,19 +17,18 @@
   margin-left: 1rem;
 }
 
-.toolbar__logo a {
+.toolbar a {
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
 }
+.toolbar a:hover,
+.toolbar a:active {
+  color: gray;
+}
 
 .spacer {
   flex: 1;
-}
-
-.toolbar__navigation-items a {
-  color: white;
-  text-decoration: none;
 }
 
 .toolbar__navigation-items ul {
@@ -43,11 +41,6 @@
 .toolbar__navigation-items li {
   padding: 0 0.5rem;
   margin: auto;
-}
-
-.toolbar__navigation-items a:hover,
-.toolbar__navigation-items a:active {
-  color: gray;
 }
 
 @media (max-width: 768px) {
