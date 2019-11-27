@@ -1,19 +1,48 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, useStaticQuery } from 'gatsby';
 import { FaSnowboarding, FaHiking } from 'react-icons/fa'
 import { GiKnifeFork, GiHeadphones } from 'react-icons/gi'
+import Img from 'gatsby-image';
 
 import '../css/resume.css';
 
-const Resume = () => (
-  <div>
+const Resume = () => {
+  const data = useStaticQuery(graphql`
+    query MyImage {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      file(relativePath: {eq: "keyboard.jpg"}) {
+        childImageSharp {
+          fluid {
+            srcWebp
+            aspectRatio
+            base64
+            sizes
+            src
+            srcSet
+          }
+        }
+      }
+    }
+  `)
+  
+
+return (
+  <div className="resume-container">
     <div className="resume">
       <section className="header">
+        <Img
+          fluid={data.file.childImageSharp.fluid}
+          alt="Keyboard"
+        />
         <div className="title">
-          <h1 style={{ marginBottom: '0px' }}>FRANCIS PHAM</h1>
-          <h3>WEB APPLICATION DEVELOPER</h3>
-        </div>
-        <div>
+          <div>
+            <h1 style={{ marginBottom: '0px' }}>FRANCIS PHAM</h1>
+            <h3>WEB APPLICATION DEVELOPER</h3>
+          </div>
           <div className="infor">
             <p>VANCOUVER, BC</p>
             <p>604.716.5452</p>
@@ -216,11 +245,12 @@ const Resume = () => (
         </div>
       </section>
     </div>
-    <div>
+    <div className="link">
       <Link to="/">GoBack</Link>
       <Link to="/">Please Download</Link>
     </div>
   </div>
-)
+  )
+}
 
 export default Resume;

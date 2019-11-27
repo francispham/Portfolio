@@ -1,11 +1,26 @@
+.resume-container {
+    margin: auto;
+    background: #E96668;
+    min-width: 550px;
+}
+
 .resume {
     min-width: 500px;
-    max-width: 960px;
-    margin: 0px auto;
+    padding-top: 25px;
+    max-width: 95%;
+    margin: auto;
     color: #4B4B4B;
-    border: solid 18px;
-    border-color: #E96668;
-    background: #040404;
+}
+
+
+.resume .title {
+    position: absolute;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    top: 10%;
+    left: 10%;
+    right: 5%;
 }
 
 .resume .title h1 {
@@ -13,11 +28,21 @@
 }
 
 .resume .header {
-    padding: 80px 50px;
+    padding-bottom: 50px;
     background-color:black;
     font-size: small;
 }
+.resume .header .gatsby-image-wrapper {
+    padding-top: 100px;
+    height: 30vh;
+    opacity: .3;
+}
+
 .resume .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-gap: 20px;
     padding: 30px 50px;
     background-color:black;
 }
@@ -41,12 +66,6 @@
   color: gray;
 }
 
-.resume section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-} 
-
 .resume h1,
 .resume h2,
 .resume h3, 
@@ -63,14 +82,23 @@
     color: whitesmoke;
 }
 
+.resume .link {
+
+}
+
 @media (max-width: 900px) {
     .resume .header {
         text-align: center;
     }
-    .resume section div {
-        grid-column: span 2;
+    .resume .header .gatsby-image-wrapper {
+        height: 40vh;
     }
+
+    .resume .title div,
+    .resume .main div {
+        grid-column: span 2;
+    }  
     .resume .infor p {
     text-align: left;
-}
+    }
 }
