@@ -2,9 +2,10 @@
     margin: auto;
     background: #E96668;
     min-width: 600px;
+    max-width: 960px;
 }
 .resume-container .gatsby-image-wrapper {
-    height: 20vh;
+    height: 35vh;
     opacity: .3;
 }
 
@@ -47,12 +48,7 @@
     color: whitesmoke;
 }
 .resume-container .link {
-    position: absolute;
-    left: 90%;
-    top: 100%;
-    right: 10%;
-    bottom: 0;
-    display: grid;
+    
 }
 .resume-container .link a {
     color: red;
@@ -82,14 +78,12 @@
     color: whitesmoke;
 }
 
-
-
 @media (max-width: 850px) {
     .resume .header {
         text-align: center;
     }
     .resume-container .gatsby-image-wrapper {
-        height: 30vh;
+        height: 40vh;
     }
 
     .resume section div {
@@ -97,5 +91,10 @@
     }  
     .resume .infor p {
     text-align: left;
+    }
+}
+@media (min-width: 960px) {
+        .resume-container .gatsby-image-wrapper {
+        height: 0;
     }
 }
