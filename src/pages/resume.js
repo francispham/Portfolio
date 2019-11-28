@@ -36,7 +36,7 @@ const Resume = () => {
         style={{
           position: 'absolute',
           left: 0,
-          right: 0,
+          right: 0
         }}
         fluid={data.file.childImageSharp.fluid}
         alt="Keyboard"

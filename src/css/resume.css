@@ -1,16 +1,15 @@
 .resume-container {
     margin: auto;
     background: #E96668;
-    min-width: 600px;
     max-width: 960px;
 }
 .resume-container .gatsby-image-wrapper {
-    height: 35vh;
+    height: 18em;
     opacity: .3;
 }
 
 .resume {
-    min-width: 550px;
+    /* min-width: 550px; */
     padding: 1rem 0;
     max-width: 95%;
     margin: auto;
@@ -93,7 +92,7 @@
         text-align: center;
     }
     .resume-container .gatsby-image-wrapper {
-        height: 40vh;
+        height: 25em;
     }
 
     .resume section div {
@@ -103,7 +102,7 @@
     text-align: left;
     }
 }
-@media (min-width: 960px) {
+@media only screen and (min-width: 965px) {
         .resume-container .gatsby-image-wrapper {
         height: 0;
     }
