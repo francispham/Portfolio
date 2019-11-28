@@ -1,7 +1,7 @@
 .toolbar {
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   background: rgba(0, 0, 0, .95);
   height: 56px;
 }

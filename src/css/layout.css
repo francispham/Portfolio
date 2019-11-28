@@ -519,6 +519,9 @@ th {
 li {
   margin-bottom: calc(1.45rem / 2);
 }
+li img {
+  border-radius: 10px;
+}
 ol li {
   padding-left: 0;
 }
@@ -675,10 +678,16 @@ pre tt:after {
 
 }
 .flex .button {
-  padding: 5px 15px;
-  margin: 5px;
+  display: inline-block;
+  height: 50px;
+  padding: 0 15px;
+  margin: 25px 0;
   max-width: 150px;
   border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-image: linear-gradient(to left, #07252C, #00AD9E);
+  transition: background .25s;
 
 }
 

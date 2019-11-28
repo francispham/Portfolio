@@ -61,8 +61,8 @@ export default class Contact extends React.Component {
           <input type="hidden" name="bot-field" onChange={this.handleChange}/>
           <input name = "name" placeholder= "Your Name" type = "text" onChange={this.handleChange}/>
           <input name = "email" placeholder = "name@name.com" type = "email" onChange={this.handleChange}/>
-          <textarea name = 'message' placeholder = "Your Message" onChange={this.handleChange}/>
-          <input className="button" type="submit" value="Send Message"/>
+          <div><textarea name = 'message' placeholder = "Your Message" onChange={this.handleChange}/></div>
+          <input className="button" type="submit" value="Send"/>
         </form>
 
         <br/><hr/>

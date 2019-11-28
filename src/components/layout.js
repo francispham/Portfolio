@@ -40,10 +40,10 @@ class Layout extends React.Component {
         <main
           style={{
             height: "100%",
-            padding: "60px",
+            padding: "60px"
           }}
           >
-            <Media query={{ maxWidth: 1150 }}>
+            <Media query={{ maxWidth: 1050 }}>
               {matches =>
                 matches ? (
                   <div
@@ -51,7 +51,6 @@ class Layout extends React.Component {
                       display: "grid",
                       gridTemplateColumns: 'repeat(12, 1fr)',
                       height: "100%",
-                      padding: "25px"
                     }}>
                     <div style= {{ gridColumn: 'span 12' }}>
                       {this.props.children}
@@ -63,8 +62,7 @@ class Layout extends React.Component {
                       display: "grid",
                       gridTemplateColumns: 'repeat(12, 1fr)',
                       gridGap: '5em',
-                      height: "100%",
-                      padding: "25px"
+                      height: "100%"
                     }}>
                     <div style= {{ gridColumn: 'span 8' }}>
                       {this.props.children}
