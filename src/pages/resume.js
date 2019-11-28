@@ -32,18 +32,24 @@ const Resume = () => {
 
 return (
   <div className="resume-container">
+      <Img
+        style={{
+          position: "absolute",
+          left: 0,
+          right:0
+        }}
+        fluid={data.file.childImageSharp.fluid}
+        alt="Keyboard"
+      />
     <div className="resume">
       <section className="header">
-        <Img
-          fluid={data.file.childImageSharp.fluid}
-          alt="Keyboard"
-        />
         <div className="title">
           <div>
             <h1 style={{ marginBottom: '0px' }}>FRANCIS PHAM</h1>
             <h3>WEB APPLICATION DEVELOPER</h3>
           </div>
-          <div className="infor">
+        </div>
+        <div className="infor">
             <p>VANCOUVER, BC</p>
             <p>604.716.5452</p>
             <p>
@@ -83,7 +89,6 @@ return (
               </a>
             </p>
           </div>
-        </div>
       </section>
 
       <section className="main">

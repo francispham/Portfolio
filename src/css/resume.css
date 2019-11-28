@@ -1,60 +1,61 @@
 .resume-container {
     margin: auto;
     background: #E96668;
-    min-width: 550px;
+    min-width: 600px;
+}
+.resume-container .gatsby-image-wrapper {
+    height: 20vh;
+    opacity: .3;
 }
 
 .resume {
-    min-width: 500px;
-    padding-top: 25px;
+    min-width: 550px;
+    padding: 1rem 0;
     max-width: 95%;
     margin: auto;
     color: #4B4B4B;
 }
 
-
-.resume .title {
-    position: absolute;
+.resume section {
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    top: 10%;
-    left: 10%;
-    right: 5%;
+    grid-column-gap: 1rem;
+    grid-gap: 1rem;
+    padding: 3em;
+    background-color:black;
+}
+
+.resume .header {
+    padding: 7em 4em;
+    background-color:black;
+    font-size: small;
 }
 
 .resume .title h1 {
     font-size: 3rem;
 }
 
-.resume .header {
-    padding-bottom: 50px;
-    background-color:black;
-    font-size: small;
+.resume .infor {
+    z-index: 999;
 }
-.resume .header .gatsby-image-wrapper {
-    padding-top: 100px;
-    height: 30vh;
-    opacity: .3;
-}
-
-.resume .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-gap: 20px;
-    padding: 30px 50px;
-    background-color:black;
-}
-
 .resume .infor p {
     margin: 0px;
     text-align: right;
     color: whitesmoke;
 }
-
-.resume .infor a {
+.resume .infor a{
     color: whitesmoke;
+}
+.resume-container .link {
+    position: absolute;
+    left: 90%;
+    top: 100%;
+    right: 10%;
+    bottom: 0;
+    display: grid;
+}
+.resume-container .link a {
+    color: red;
 }
 
 .resume .main a {
@@ -76,26 +77,22 @@
     color: lightgray;
 }
 
-
 .resume svg {
     margin-right: 2em;
     color: whitesmoke;
 }
 
-.resume .link {
 
-}
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
     .resume .header {
         text-align: center;
     }
-    .resume .header .gatsby-image-wrapper {
-        height: 40vh;
+    .resume-container .gatsby-image-wrapper {
+        height: 30vh;
     }
 
-    .resume .title div,
-    .resume .main div {
+    .resume section div {
         grid-column: span 2;
     }  
     .resume .infor p {
