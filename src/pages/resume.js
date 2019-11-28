@@ -3,6 +3,7 @@ import { Link, useStaticQuery } from 'gatsby';
 import { FaSnowboarding, FaHiking } from 'react-icons/fa'
 import { GiKnifeFork, GiHeadphones } from 'react-icons/gi'
 import Img from 'gatsby-image';
+import { TiArrowBack } from 'react-icons/ti'
 
 import '../css/resume.css';
 
@@ -145,7 +146,7 @@ const Resume = () => {
               </li>
             </ul>
             <h4>INTERESTS</h4>
-            <div style={{ padding: '1em', textAlign: 'center' }}>
+            <div style={{ textAlign: 'center' }}>
               <FaSnowboarding size={55} />
               <FaHiking size={55} />
               <GiKnifeFork size={55} />
@@ -254,8 +255,9 @@ const Resume = () => {
         </section>
       </div>
       <div className="link">
-        <Link to="/">GoBack</Link>
-        <Link to="/">Please Download</Link>
+        <Link to="/">
+          <TiArrowBack size={60} />
+        </Link>
       </div>
     </div>
   )
