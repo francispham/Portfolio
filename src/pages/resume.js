@@ -46,7 +46,7 @@ const Resume = () => {
           <div className="title">
             <div>
               <h1 style={{ marginBottom: '0px' }}>FRANCIS PHAM</h1>
-              <h3>WEB APPLICATION DEVELOPER</h3>
+              <h4>Passion to Learn Junior Web App Developer</h4>
             </div>
           </div>
           <div className="infor">
@@ -101,16 +101,16 @@ const Resume = () => {
                 Bootstrap4...{' '}
               </li>
               <li>
-                BACKEND: NodeJS, ExpressJS, Ruby on Rails, RESTful, APIs...
+                BACKEND: NodeJS, ExpressJS, Ruby on Rails, RESTful APIs
               </li>
-              <li>DATABASES: PostgreSQL, MongoDB, AWS, FireBase...</li>
+              <li>DATABASES: PostgreSQL, MongoDB, AWS S3, FireBase</li>
               <li>
-                DEVELOPMENT & DEV TOOLS: Git/GitHub or BitBucket,Webpack,
-                Heroku, Netlify, AWS S3...
+                DEVELOPMENT & DEV TOOLS: Git/GitHub, Webpack,
+                Heroku, Netlify
               </li>
               <li>
                 DEVELOPMENT CONCEPTS: MVC Design Pattern, Agile/Scrum
-                Methodology...
+                Methodology
               </li>
             </ul>
             <h4>EDUCATION</h4>
@@ -159,7 +159,7 @@ const Resume = () => {
             <h5>GROUP PROJECTS</h5>
             <ul>
               <li>
-                AssistList 2019: Web Application Volunteer. Key Responsibilities
+                AssistList 2019 - Now: Web Application Volunteer. Key Responsibilities
                 - Weekly meetup with other team members, fixed bugs &
                 contributed to the website code base. Stack:{' '}
                 <em>
@@ -194,20 +194,7 @@ const Resume = () => {
             <h5>FREELANCE & PERSONAL PROJECTS</h5>
             <ul>
               <li>
-                Portfolio Website 2019: .Stack:{' '}
-                <em>GatsbyJS, ReactJS, GraphQL & Netlify</em>
-                <p>
-                  <a
-                    href="https://github.com/francispham/Portfolio"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://github.com/francispham/Portfolio
-                  </a>
-                </p>
-              </li>
-              <li>
-                E-commerce Web Application 2019: .Stack:{' '}
+                E-commerce Web Application 2019 - Now: Stack:{' '}
                 <em>NodeJS, ExpressJS, MongoDB</em>
                 <p>
                   <a
@@ -220,19 +207,16 @@ const Resume = () => {
                 </p>
               </li>
               <li>
-                Client Management Web Application 2018: This business platform
-                allows users to store clients' database on cloud for easy assess
-                and use. Stack:{' '}
-                <em>
-                  NodeJS, ReactJS, Redux, reduxForm, ExpressJS, MongoDB, Heroku
-                </em>
+                Portfolio Website 2019: A Professional Web Application Developer Portfolio Website with 
+                Resume, served on Netlify Server, built with GatsbyJS on top of React Framework. Stack:{' '}
+                <em>GatsbyJS, ReactJS, GraphQL & Netlify</em>
                 <p>
                   <a
-                    href="https://github.com/francispham/NodeWebApp"
+                    href="https://github.com/francispham/Portfolio"
                     target="_black"
                     rel="noopener noreferrer"
                   >
-                    Https://github.com/francispham/NodeWebApp
+                    Https://github.com/francispham/Portfolio
                   </a>
                 </p>
               </li>
@@ -247,6 +231,18 @@ const Resume = () => {
                     rel="noopener noreferrer"
                   >
                     Http://stmedilaser.com/
+                  </a>
+                </p>
+                <p>Client Management Web Application 2019. Stack:{' '}
+                  <em>
+                    NodeJS, ReactJS, Redux, reduxForm, ExpressJS, MongoDB, Heroku
+                  </em>{' '}
+                  <a
+                    href="https://github.com/francispham/NodeWebApp"
+                    target="_black"
+                    rel="noopener noreferrer"
+                  >
+                    Https://github.com/francispham/NodeWebApp
                   </a>
                 </p>
               </li>
