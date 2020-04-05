@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaSnowboarding, FaHiking } from 'react-icons/fa'
-import { GiKnifeFork, GiHeadphones } from 'react-icons/gi'
+import { FaSnowboarding, FaHiking, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
+import { GiKnifeFork, GiHeadphones, GiCrosshair, GiSmartphone, GiSpiderWeb } from 'react-icons/gi'
 import { TiArrowBack } from 'react-icons/ti'
 
 import '../css/resume.css';
@@ -16,9 +16,10 @@ const Resume = () => {
           Passion to learn & efficient problem solver 
           seeking to build Web App to make life better for everyone
         </p>
-        <br />
-        <div className="container" style={{fontSize:'small', justifyContent:'space-around'}}>
+      </header>
+      <div className="container divided" style={{fontSize:'small', justifyContent:'space-around'}}>
           <div>
+            <FaEnvelope />
             <a
               href="mailto:francis.pham.ca@gmail.com"
               target="_black"
@@ -27,9 +28,10 @@ const Resume = () => {
               francis.pham.ca@gmail.com
             </a>
           </div>
-          <div>604.716.5452</div>
-          <div>British Columbia, Canada</div>
+          <div><GiSmartphone />1.604.716.5452</div>
+          <div><GiCrosshair />British Columbia, Canada</div>
           <div>
+            <GiSpiderWeb />
             <a
               href="https://www.francispham.ca/"
               target="_black"
@@ -39,6 +41,7 @@ const Resume = () => {
             </a>
           </div>
           <div>
+            <FaGithub />
             <a
               href="https://github.com/francispham/"
               target="_black"
@@ -48,6 +51,7 @@ const Resume = () => {
             </a>
           </div>
           <div>
+            <FaLinkedin />
             <a
               href="https://linkedin.com/in/francisphamca/"
               target="_black"
@@ -57,7 +61,7 @@ const Resume = () => {
             </a>
           </div>
         </div>
-      </header>
+
 
       <main className="resumeGridBox">
         <div>
@@ -148,12 +152,12 @@ const Resume = () => {
           <h2>INTERESTS</h2>
           <div style={{
             textAlign: 'center',
-            padding: '1rem',
+            padding: '1.5rem',
           }}>
-            <FaSnowboarding size={50} />
-            <FaHiking size={50} />
-            <GiKnifeFork size={50} />
-            <GiHeadphones size={50} />
+            <FaSnowboarding size={45} />
+            <FaHiking size={45} />
+            <GiKnifeFork size={45} />
+            <GiHeadphones size={45} />
           </div>
         </div>
         

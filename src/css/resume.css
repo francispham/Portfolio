@@ -19,9 +19,18 @@
     margin-bottom: 0;
 }
 
+.resume .divided {
+    border: none;
+    padding: 0.5rem;
+    font-size: small;
+    justify-content: space-around;
+    background: rgb(249, 242, 231);
+}
+
 .resume main {
     padding: 1rem;
 }
+.resume .divided a,
 .resume main a {
     color: #4B4B4B;
 }
@@ -65,8 +74,10 @@
     position: sticky;
     text-align: right;
 }
-.resume footer a {
+.resume footer a,
+.resume .divided svg {
     color: #C39F6D;
+    margin-right: 0.5rem;
 }
 .resume footer a:hover,
 .resume footer a:active {

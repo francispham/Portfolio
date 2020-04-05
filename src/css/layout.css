@@ -17,11 +17,11 @@ body {
 
 @keyframes colorchange
 {
-  0%   {background: #FFFDE0;}
-  25%  {background: #FFFDDD;}
-  50%  {background: #E2DFB5;}
-  75%  {background: #FFFDDD;}
-  100% {background: #FFFDE0;}
+  0%   {background: rgb(249, 249, 249);}
+  25%  {background: rgb(165, 165, 164);}
+  50%  {background: rgb(133, 132, 131);}
+  75%  {background: rgb(165, 165, 164);}
+  100% {background: rgb(249, 249, 249);}
 }
 
 article,

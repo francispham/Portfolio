@@ -1,7 +1,4 @@
 import React from 'react';
-// import FaGithub from 'react-icons/lib/fa/github';
-// import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
-// import FaEnvelope from 'react-icons/lib/fa/envelope';
 
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
