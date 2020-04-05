@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaSnowboarding, FaHiking, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import { GiKnifeFork, GiHeadphones, GiCrosshair, GiSmartphone, GiSpiderWeb } from 'react-icons/gi'
-import { TiArrowBack } from 'react-icons/ti'
+
+import { FaSnowboarding, FaHiking, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { GiKnifeFork, GiHeadphones, GiCrosshair, GiSmartphone, GiSpiderWeb } from 'react-icons/gi';
+import { TiArrowBack } from 'react-icons/ti';
+
+import { Button } from '../components/Button'
 
 import '../css/resume.css';
 
@@ -11,7 +14,7 @@ const Resume = () => {
     <div className="resume">
       <header>
         <h1>FRANCIS PHAM</h1>
-        <h4>Junior Software Developer</h4>
+        <h4>Junior Web Developer</h4>
         <p>
           Passion to learn & efficient problem solver 
           seeking to build Web App to make life better for everyone
@@ -61,7 +64,6 @@ const Resume = () => {
             </a>
           </div>
         </div>
-
 
       <main className="resumeGridBox">
         <div>
@@ -163,8 +165,17 @@ const Resume = () => {
         
         <div>
           <h2>SKILLS</h2>
-          <div className="container">
-
+          <div className="container" style={{ 
+            paddingBottom: '1rem',
+            alignContent: 'space-between'
+          }}>
+            <Button>JavaScript</Button><Button>ReactJS</Button>
+            <Button>Redux</Button><Button>GatsbyJS</Button>
+            <Button>NodeJS</Button><Button>ExpressJS</Button>
+            <Button>Git</Button><Button>Ruby on Rails</Button>
+            <Button>GraphQL</Button><Button>PostgreSQL</Button>
+            <Button>MongoDB</Button><Button>HTML5</Button>
+            <Button>CSS3</Button><Button>Styled Components</Button>
           </div>
           <h2>PERSONAL PROJECTS</h2>
           <div className="container">
