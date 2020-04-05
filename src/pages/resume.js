@@ -79,11 +79,11 @@ const Resume = () => {
           </div>
           <ul>
             <li>
-              Building new features in both on Frontend with ReactJS & Redux, and 
-              Backend with Ruby on Rails based on UI/UX requirements from Design & Business teams
+              Building new features using ReactJS & Redux for Frontend, and Rails RESTful APIs 
+              Backend, based on UI/UX requirements from Design & Business teams.
             </li>
             <li>
-              Participating in weekly meetings to have tasks/requirements prioritized and assigned to team members. 
+              Participating in weekly meetings to prioritize and assign tasks to team members. 
             </li>
             <li>
               Fixing bugs, testing, code cleaned up for efficiency to ensure better user experience and application's quality
@@ -134,24 +134,22 @@ const Resume = () => {
               </p>
             </li>
           </ul>
-          <h2>ACHIEVEMENTS</h2>
+          <h2>EDUCATION</h2>
           <div className="container">
-            <strong>Drill Ninjaz Application</strong><em>2018</em>
-            <em>Won Second Place for Well Overall Performance Group Project</em>
+            <strong>Web Application Development Bootcamp</strong>
+            <em>2018</em>
           </div>
-          <div className="infoDetails">
-            <p>
-              Built with <em>Ruby on Rails & PostgreSQL</em>.
-            </p>
-            <p>
-              <a
-                href="https://github.com/francispham/drill-ninjaz"
-                target="_black"
-                rel="noopener noreferrer"
-              >
-                Https://github.com/francispham/drill-ninjaz
-                </a>
-            </p>
+          <div className="container specialPadding">
+            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
+            <p>CodeCore College</p>
+          </div>
+          <div className="container">
+            <strong>Bachelor of Arts</strong>
+            <em>2015</em>
+          </div>
+          <div className="container specialPadding">
+            <em>Economics Major & Business Administration Minor</em>
+            <p>Simon Fraser University</p>
           </div>
         </div>
         
@@ -177,8 +175,9 @@ const Resume = () => {
           <div className="infoDetails">
             <p>
               A Professional Web Application Developer Portfolio Website with Resume, 
-              served on Netlify Server, building with GatsbyJS site generator on top of React.
-              Building stack: <em>ReactJS, GatsbyJS, GraphQL, Styled Components & Netlify</em>
+              served on <strong>Netlify</strong> Server, building with 
+              <strong>GatsbyJS</strong> site generator on top of <strong>ReactJS</strong>.
+              Other tech including <em>GraphQL, Styled Components, Webpack</em>
             </p>
             <p>
               <a
@@ -196,7 +195,11 @@ const Resume = () => {
           </div>
           <div className="infoDetails">
             <p>
-              Stack: <em>NodeJS, ExpressJS, MongoDB</em>
+              An Online Store built in <strong>NodeJS</strong> Ecosystem.
+              Site owner can post products/servers online connected with Cloud
+              Database for Inventory System. Customers can make their payments 
+              via <strong>Stripe</strong>. Building stack including <em>ExpressJS, 
+              MongoDB & RESTful APIs</em>
             </p>
             <p>
               <a
@@ -208,22 +211,24 @@ const Resume = () => {
               </a>
             </p>
           </div>
-          <h2>EDUCATION</h2>
+          <h2>ACHIEVEMENTS</h2>
           <div className="container">
-            <strong>Web Application Development Bootcamp</strong>
-            <em>2018</em>
+            <strong>Drill Ninjaz Application</strong><em>2018</em>
+            <em>Won Second Place for Well Overall Performance Group Project</em>
           </div>
-          <div className="container specialPadding">
-            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
-            <p>CodeCore College</p>
-          </div>
-          <div className="container">
-            <strong>Bachelor of Arts</strong>
-            <em>2015</em>
-          </div>
-          <div className="container specialPadding">
-            <em>Economics Major & Business Administration Minor</em>
-            <p>Simon Fraser University</p>
+          <div className="infoDetails">
+            <p>
+              Built with <em>Ruby on Rails & PostgreSQL</em>.
+            </p>
+            <p>
+              <a
+                href="https://github.com/francispham/drill-ninjaz"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                Https://github.com/francispham/drill-ninjaz
+                </a>
+            </p>
           </div>
           <h2>LANGUAGES</h2>
           <div className="container specialPadding">
