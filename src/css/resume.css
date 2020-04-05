@@ -34,18 +34,19 @@
 .resume main a {
     color: #4B4B4B;
 }
-
-.resume main .infoDetails {
+.resume main .infoDetails, 
+.resume main .specialPadding {
     padding-bottom: 1rem;
 }
-
 .resume main .container em {
     font-size: small;
 }
-
 .resume main svg {
     margin-right: 1.5rem;
     color: #4B4B4B;
+}
+.resume main li {
+    margin-bottom: 0;
 }
 
 .resume .resumeGridBox {

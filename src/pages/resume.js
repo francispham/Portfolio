@@ -14,7 +14,7 @@ const Resume = () => {
     <div className="resume">
       <header>
         <h1>FRANCIS PHAM</h1>
-        <h4>Junior Web Developer</h4>
+        <h4>Junior Web Application Developer</h4>
         <p>
           Passion to learn & efficient problem solver 
           seeking to build Web App to make life better for everyone
@@ -79,11 +79,20 @@ const Resume = () => {
           </div>
           <ul>
             <li>
-              Weekly meetup with other team members, fixed bugs &
-              contributed to the website code base. Stack:{' '}
-              <em>
-                ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS S3
-              </em>
+              Building new features in both on Frontend with ReactJS & Redux, and 
+              Backend with Ruby on Rails based on UI/UX requirements from Design & Business teams
+            </li>
+            <li>
+              Participating in weekly meetings to have tasks/requirements prioritized and assigned to team members. 
+            </li>
+            <li>
+              Fixing bugs, testing, code cleaned up for efficiency to ensure better user experience and application's quality
+            </li> 
+            <li>
+              Performing code peer reviews to maintain quality standards, improve performance, and provide credibility
+            </li>
+            <li>
+              Working stack including <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS</em>
               <p>
                 <a
                   href="https://www.assistlist.ca"
@@ -95,7 +104,7 @@ const Resume = () => {
               </p>
             </li>
           </ul>
-          <h3>Freelance Web Developer</h3>
+          <h3>Web Developer</h3>
           <div className="container">
             <strong>St Medi Spa</strong>
             <em>Vancouver, BC</em>
@@ -105,11 +114,15 @@ const Resume = () => {
             <em>1/2019 - 8/2019</em>
           </div>
           <ul>
-            WordPress Site 2018: 
+            WordPress Site 2018:
             <li>
-              Completed Website update and
-              renovation. Implemented Google Analytics and enhanced overall
-              styling. Created & edited new contents from designers.
+              Provided effective diagnosing, troubleshooting and resolving issues with website, server and 3rd party integrations 
+            </li>
+            <li>
+              Completed  and continued Website updates and renovations based on new design requirements. 
+            </li>
+            <li>
+              Implemented Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost
               <p>
                 <a
                   href="http://stmedilaser.com/"
@@ -119,23 +132,12 @@ const Resume = () => {
                   Http://stmedilaser.com/
                 </a>
               </p>
-              Client Management Web Application 2019. 
-              <li>
-              Stack: <em>NodeJS, ReactJS, Redux, reduxForm, ExpressJS, MongoDB, Heroku</em>{' '}
-                <a
-                  href="https://github.com/francispham/NodeWebApp"
-                  target="_black"
-                  rel="noopener noreferrer"
-                >
-                  Https://github.com/francispham/NodeWebApp
-                </a>
-              </li>
             </li>
           </ul>
           <h2>ACHIEVEMENTS</h2>
           <div className="container">
-            <strong>Drill Ninjaz Application</strong>
-            <em>2018</em>
+            <strong>Drill Ninjaz Application</strong><em>2018</em>
+            <em>Won Second Place for Well Overall Performance Group Project</em>
           </div>
           <div className="infoDetails">
             <p>
@@ -151,22 +153,11 @@ const Resume = () => {
                 </a>
             </p>
           </div>
-          <h2>INTERESTS</h2>
-          <div style={{
-            textAlign: 'center',
-            padding: '1.5rem',
-          }}>
-            <FaSnowboarding size={45} />
-            <FaHiking size={45} />
-            <GiKnifeFork size={45} />
-            <GiHeadphones size={45} />
-          </div>
         </div>
         
         <div>
           <h2>SKILLS</h2>
-          <div className="container" style={{ 
-            paddingBottom: '1rem',
+          <div className="container specialPadding" style={{ 
             alignContent: 'space-between'
           }}>
             <Button>JavaScript</Button><Button>ReactJS</Button>
@@ -174,6 +165,7 @@ const Resume = () => {
             <Button>NodeJS</Button><Button>ExpressJS</Button>
             <Button>Git</Button><Button>Ruby on Rails</Button>
             <Button>GraphQL</Button><Button>PostgreSQL</Button>
+            <Button>RESTful APIs</Button><Button>Jest</Button>
             <Button>MongoDB</Button><Button>HTML5</Button>
             <Button>CSS3</Button><Button>Styled Components</Button>
           </div>
@@ -184,9 +176,9 @@ const Resume = () => {
           </div>
           <div className="infoDetails">
             <p>
-              A Professional Web Application Developer Portfolio Website with
-              Resume, served on Netlify Server, built with GatsbyJS on top of React Framework.
-              Stack: <em>ReactJS, GatsbyJS, GraphQL & Netlify</em>
+              A Professional Web Application Developer Portfolio Website with Resume, 
+              served on Netlify Server, building with GatsbyJS site generator on top of React.
+              Building stack: <em>ReactJS, GatsbyJS, GraphQL, Styled Components & Netlify</em>
             </p>
             <p>
               <a
@@ -200,7 +192,7 @@ const Resume = () => {
           </div>
           <div className="container">
             <strong>E-commerce Web Application</strong>
-            <em>2019</em>
+            <em>2019 - Present</em>
           </div>
           <div className="infoDetails">
             <p>
@@ -221,7 +213,7 @@ const Resume = () => {
             <strong>Web Application Development Bootcamp</strong>
             <em>2018</em>
           </div>
-          <div className="container" style={{ paddingBottom: '1rem' }}>
+          <div className="container specialPadding">
             <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
             <p>CodeCore College</p>
           </div>
@@ -229,12 +221,12 @@ const Resume = () => {
             <strong>Bachelor of Arts</strong>
             <em>2015</em>
           </div>
-          <div className="container" style={{ paddingBottom: '1rem'}}>
+          <div className="container specialPadding">
             <em>Economics Major & Business Administration Minor</em>
             <p>Simon Fraser University</p>
           </div>
           <h2>LANGUAGES</h2>
-          <div className="container">
+          <div className="container specialPadding">
             <div>
               <p>English</p>
               <em>Bilingual Proficiency</em>
@@ -243,6 +235,16 @@ const Resume = () => {
               <p>Vietnamese</p>
               <em>Native</em>
             </div>
+          </div>
+          <h2>INTERESTS</h2>
+          <div style={{
+            textAlign: 'center',
+            padding: '1.5rem',
+          }}>
+            <FaSnowboarding size={45} />
+            <FaHiking size={45} />
+            <GiKnifeFork size={45} />
+            <GiHeadphones size={45} />
           </div>
         </div>
       </main>
