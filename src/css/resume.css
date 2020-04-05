@@ -1,109 +1,85 @@
-.resume-container {
-    margin: auto;
-    background: #E96668;
-    max-width: 960px;
-}
-.resume-container .gatsby-image-wrapper {
-    height: 18em;
-    opacity: .3;
-}
-
 .resume {
-    /* min-width: 550px; */
-    padding: 1rem 0;
-    max-width: 95%;
     margin: auto;
+    max-width: 960px;
     color: #4B4B4B;
 }
 
-.resume section {
+.resume p {
+    margin-bottom: 0;
+}
+
+.resume header {
+    padding: 1rem;
+    background-color:whitesmoke;
+}
+.resume header a {
+    color: black;
+}
+.resume header h1, h4 {
+    margin-bottom: 0;
+}
+
+.resume main {
+    padding: 1rem;
+}
+.resume main a {
+    color: #4B4B4B;
+}
+
+.resume main .infoDetails {
+    padding-bottom: 1rem;
+}
+
+.resume main .container em {
+    font-size: small;
+}
+
+.resume main svg {
+    margin-right: 1.5rem;
+    color: #4B4B4B;
+}
+
+.resume .resumeGridBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem;
     grid-gap: 1rem;
-    padding: 3em;
-    background-color:black;
+    background-color:whitesmoke;
 }
 
-.resume .header {
-    padding: 7em 4em;
-    background-color:black;
-    font-size: small;
-}
-
-.resume .title h1 {
-    font-size: 3rem;
-}
-
-.resume .infor {
-    z-index: 999;
-}
-.resume .infor p {
-    margin: 0px;
-    text-align: right;
-    color: whitesmoke;
-}
-.resume .infor a{
-    color: whitesmoke;
-}
-.resume-container .link {
-    position: fixed;
-    text-align: center;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-}
-.resume-container .link a {
-    color: red;
-    margin-top: 22px;
-}
-.resume-container .link a:hover,
-.resume-container .link a:active {
-  color: #E96668;
-}
-
-.resume .main a {
-    color: #4B4B4B;
-    text-align: left;
-}
 .resume a:hover,
 .resume a:active {
-  color: gray;
+    color: #DDBC8D;
 }
 
-.resume h1,
-.resume h2,
-.resume h3, 
-.resume h4 {
-    color: #E74144;
+.resume h2 {
+    color: #C39F6D;
+    margin-bottom: 0.5rem;
 }
-.resume h5 {
-    color: lightgray;
-}
-
-.resume svg {
-    margin-right: 2em;
-    color: whitesmoke;
+.resume h3, h4 {
+    color: black;
+    margin-bottom: 0.5rem;
 }
 
-@media (max-width: 850px) {
-    .resume .header {
+.resume footer {
+    position: sticky;
+    text-align: right;
+}
+.resume footer a {
+    color: #C39F6D;
+}
+.resume footer a:hover,
+.resume footer a:active {
+    color: #DDBC8D;
+}
+
+
+@media (max-width: 865px) {
+    .resume header {
         text-align: center;
     }
-    .resume-container .gatsby-image-wrapper {
-        height: 25em;
-    }
 
-    .resume section div {
+    .resume main div {
         grid-column: span 2;
     }  
-    .resume .infor p {
-    text-align: left;
-    }
-}
-@media only screen and (min-width: 965px) {
-        .resume-container .gatsby-image-wrapper {
-        height: 0;
-    }
 }

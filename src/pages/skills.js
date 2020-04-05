@@ -31,9 +31,9 @@ const Skills = () => {
       <hr className="hr"/>
       <div>
         <div className="box">
-          <h3 style = {{margin: '15px'}}> THE STACK </h3>
+          <h3 style = {{ margin: '15px' }}> THE STACK </h3>
           <hr/>
-          <div className='container'>
+          <div className='container' style={{ justifyContent:'space-around' }}>
             <div className='gridBox'><img src={gatsbyjs} alt='gatsbyjs'/>Gatsby</div>
             <div className='gridBox'><img src={react} alt='react'/>React</div>
             <div className='gridBox'><img src={nodejs} alt='nodejs'/>Nodejs</div>
@@ -41,7 +41,7 @@ const Skills = () => {
             <div className='gridBox'><img src={rails} alt='rails'/>Rails</div>
           </div>
           <br/>
-          <div className='container'>
+          <div className='container' style={{ justifyContent: 'space-around' }}>
             <div className='gridBox'><img src={bootstrap} alt='bootstrap'/>Bootstrap</div>
             <div className='gridBox'><img src={jquery} alt='jquery'/>Jquery</div>
             <div className='gridBox'><img src={sass} alt='sass'/>Sass</div>
@@ -52,7 +52,7 @@ const Skills = () => {
         </div>
         <br />
         <div className="box">
-          <h3 style = {{margin: '15px'}}>Languages & Tools </h3>
+          <h3 style = {{ margin: '15px' }}>Languages & Tools </h3>
           <hr/>
           <div className='container'>
             <div className='gridBox'><img src={html5} alt='html5'/>HTML5 </div>

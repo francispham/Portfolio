@@ -1,261 +1,244 @@
 import React from 'react';
-import { Link, useStaticQuery } from 'gatsby';
+import { Link } from 'gatsby';
 import { FaSnowboarding, FaHiking } from 'react-icons/fa'
 import { GiKnifeFork, GiHeadphones } from 'react-icons/gi'
-import Img from 'gatsby-image';
 import { TiArrowBack } from 'react-icons/ti'
 
 import '../css/resume.css';
 
 const Resume = () => {
-  const data = useStaticQuery(graphql`
-    query MyImage {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-      file(relativePath: {eq: "keyboard.jpg"}) {
-        childImageSharp {
-          fluid {
-            srcWebp
-            aspectRatio
-            base64
-            sizes
-            src
-            srcSet
-          }
-        }
-      }
-    }
-  `)
-
   return (
-    <div className="resume-container">
-      <Img
-        style={{
-          position: 'absolute',
-          left: 0,
-          right: 0
-        }}
-        fluid={data.file.childImageSharp.fluid}
-        alt="Keyboard"
-      />
-      <div className="resume">
-        <section className="header">
-          <div className="title">
-            <div>
-              <h1 style={{ marginBottom: '0px' }}>FRANCIS PHAM</h1>
-              <h4>Passion to Learn Junior Web App Developer</h4>
-            </div>
-          </div>
-          <div className="infor">
-            <p>VANCOUVER, BC</p>
-            <p>604.716.5452</p>
-            <p>
-              <a
-                href="https://www.francispham.ca/"
-                target="_black"
-                rel="noopener noreferrer"
-              >
-                WWW.FRANCISPHAM.CA
-              </a>
-            </p>
-            <p>
-              <a
-                href="mailto:francis.pham.ca@gmail.com"
-                target="_black"
-                rel="noopener noreferrer"
-              >
-                FRANCIS.PHAM.CA@GMAIL.COM
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://github.com/francispham/"
-                target="_black"
-                rel="noopener noreferrer"
-              >
-                GITHUB.COM/FRANCISPHAM
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://linkedin.com/in/francisphamca/"
-                target="_black"
-                rel="noopener noreferrer"
-              >
-                LINKEDIN.COM/IN/FRANCISPHAMCA
-              </a>
-            </p>
-          </div>
-        </section>
-
-        <section className="main">
+    <div className="resume">
+      <header>
+        <h1>FRANCIS PHAM</h1>
+        <h4>Junior Software Developer</h4>
+        <p>
+          Passion to learn & efficient problem solver 
+          seeking to build Web App to make life better for everyone
+        </p>
+        <br />
+        <div className="container" style={{fontSize:'small', justifyContent:'space-around'}}>
           <div>
-            <h4>SKILLSET</h4>
-            <ul>
-              <li>LANGUAGES: JavaScript, GraphQL, Ruby</li>
-              <li>
-                FRONTEND: ReactJS, Redux, HTML5, CSS3/SASS, jQuery,
-                Bootstrap4...{' '}
-              </li>
-              <li>
-                BACKEND: NodeJS, ExpressJS, Ruby on Rails, RESTful APIs
-              </li>
-              <li>DATABASES: PostgreSQL, MongoDB, AWS S3, FireBase</li>
-              <li>
-                DEVELOPMENT & DEV TOOLS: Git/GitHub, Webpack,
-                Heroku, Netlify
-              </li>
-              <li>
-                DEVELOPMENT CONCEPTS: MVC Design Pattern, Agile/Scrum
-                Methodology
-              </li>
-            </ul>
-            <h4>EDUCATION</h4>
-            <ul style={{ listStyleType: 'none', marginLeft: '10px' }}>
-              <li>
-                Web Application Development Bootcamp, &nbsp;
+            <a
+              href="mailto:francis.pham.ca@gmail.com"
+              target="_black"
+              rel="noopener noreferrer"
+            >
+              francis.pham.ca@gmail.com
+            </a>
+          </div>
+          <div>604.716.5452</div>
+          <div>British Columbia, Canada</div>
+          <div>
+            <a
+              href="https://www.francispham.ca/"
+              target="_black"
+              rel="noopener noreferrer"
+            >
+              francispham.ca
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/francispham/"
+              target="_black"
+              rel="noopener noreferrer"
+            >
+              /francispham
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://linkedin.com/in/francisphamca/"
+              target="_black"
+              rel="noopener noreferrer"
+            >
+              /in/francisphamca
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main className="resumeGridBox">
+        <div>
+          <h2>WORK EXPERIENCE</h2>
+          <h3>Fullstack Developer</h3>
+          <div className="container">
+            <strong>AssistList</strong>
+            <em>Vancouver, BC</em>
+          </div>
+          <div className="container">
+            <em>Achievements/Tasks</em>
+            <em>10/2019 - Present</em>
+          </div>
+          <ul>
+            <li>
+              Weekly meetup with other team members, fixed bugs &
+              contributed to the website code base. Stack:{' '}
+              <em>
+                ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS S3
+              </em>
+              <p>
                 <a
-                  href="https://codecore.ca/"
+                  href="https://www.assistlist.ca"
                   target="_black"
                   rel="noopener noreferrer"
                 >
-                  CodeCore College - 2018
+                  Https://www.assistlist.ca/
                 </a>
-                <p>
-                  <small>
-                    Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML & CSS
-                  </small>
-                </p>
-              </li>
-              <li>
-                Bachelor of Arts, &nbsp;
+              </p>
+            </li>
+          </ul>
+          <h3>Freelance Web Developer</h3>
+          <div className="container">
+            <strong>St Medi Spa</strong>
+            <em>Vancouver, BC</em>
+          </div>
+          <div className="container">
+            <em>Achievements/Tasks</em>
+            <em>1/2019 - 8/2019</em>
+          </div>
+          <ul>
+            WordPress Site 2018: 
+            <li>
+              Completed Website update and
+              renovation. Implemented Google Analytics and enhanced overall
+              styling. Created & edited new contents from designers.
+              <p>
                 <a
-                  href="https://sfu.ca/"
+                  href="http://stmedilaser.com/"
                   target="_black"
                   rel="noopener noreferrer"
                 >
-                  Simon Fraser University - 2015
+                  Http://stmedilaser.com/
                 </a>
-                <p>
-                  <small>Economics Major & Business Administration Minor</small>
-                  .
-                </p>
+              </p>
+              Client Management Web Application 2019. 
+              <li>
+              Stack: <em>NodeJS, ReactJS, Redux, reduxForm, ExpressJS, MongoDB, Heroku</em>{' '}
+                <a
+                  href="https://github.com/francispham/NodeWebApp"
+                  target="_black"
+                  rel="noopener noreferrer"
+                >
+                  Https://github.com/francispham/NodeWebApp
+                </a>
               </li>
-            </ul>
-            <h4>INTERESTS</h4>
-            <div style={{ textAlign: 'center' }}>
-              <FaSnowboarding size={55} />
-              <FaHiking size={55} />
-              <GiKnifeFork size={55} />
-              <GiHeadphones size={55} />
+            </li>
+          </ul>
+          <h2>ACHIEVEMENTS</h2>
+          <div className="container">
+            <strong>Drill Ninjaz Application</strong>
+            <em>2018</em>
+          </div>
+          <div className="infoDetails">
+            <p>
+              Built with <em>Ruby on Rails & PostgreSQL</em>.
+            </p>
+            <p>
+              <a
+                href="https://github.com/francispham/drill-ninjaz"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                Https://github.com/francispham/drill-ninjaz
+                </a>
+            </p>
+          </div>
+          <h2>INTERESTS</h2>
+          <div style={{
+            textAlign: 'center',
+            padding: '1rem',
+          }}>
+            <FaSnowboarding size={50} />
+            <FaHiking size={50} />
+            <GiKnifeFork size={50} />
+            <GiHeadphones size={50} />
+          </div>
+        </div>
+        
+        <div>
+          <h2>SKILLS</h2>
+          <div className="container">
+
+          </div>
+          <h2>PERSONAL PROJECTS</h2>
+          <div className="container">
+            <strong>Personal Portfolio Website</strong>
+            <em>2019 - Present</em>
+          </div>
+          <div className="infoDetails">
+            <p>
+              A Professional Web Application Developer Portfolio Website with
+              Resume, served on Netlify Server, built with GatsbyJS on top of React Framework.
+              Stack: <em>ReactJS, GatsbyJS, GraphQL & Netlify</em>
+            </p>
+            <p>
+              <a
+                href="https://github.com/francispham/Portfolio"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                Https://github.com/francispham/Portfolio
+              </a>
+            </p>
+          </div>
+          <div className="container">
+            <strong>E-commerce Web Application</strong>
+            <em>2019</em>
+          </div>
+          <div className="infoDetails">
+            <p>
+              Stack: <em>NodeJS, ExpressJS, MongoDB</em>
+            </p>
+            <p>
+              <a
+                href="https://github.com/francispham/OnlineStore"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                Https://github.com/francispham/OnlineStore
+              </a>
+            </p>
+          </div>
+          <h2>EDUCATION</h2>
+          <div className="container">
+            <strong>Web Application Development Bootcamp</strong>
+            <em>2018</em>
+          </div>
+          <div className="container" style={{ paddingBottom: '1rem' }}>
+            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
+            <p>CodeCore College</p>
+          </div>
+          <div className="container">
+            <strong>Bachelor of Arts</strong>
+            <em>2015</em>
+          </div>
+          <div className="container" style={{ paddingBottom: '1rem'}}>
+            <em>Economics Major & Business Administration Minor</em>
+            <p>Simon Fraser University</p>
+          </div>
+          <h2>LANGUAGES</h2>
+          <div className="container">
+            <div>
+              <p>English</p>
+              <em>Bilingual Proficiency</em>
             </div>
-            <div className="interests-container"></div>
+            <div>
+              <p>Vietnamese</p>
+              <em>Native</em>
+            </div>
           </div>
-          <div className="work">
-            <h4>WORK EXPERIENCE</h4>
-            <h5>GROUP PROJECTS</h5>
-            <ul>
-              <li>
-                AssistList 2019 - Now: Web Application Volunteer. Key Responsibilities
-                - Weekly meetup with other team members, fixed bugs &
-                contributed to the website code base. Stack:{' '}
-                <em>
-                  ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS S3
-                </em>
-                <p>
-                  <a
-                    href="https://www.assistlist.ca"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://www.assistlist.ca/
-                  </a>
-                </p>
-              </li>
-              <li>
-                Drill Ninjaz 2018: Key Responsibilities - Collaborated with
-                other team members, Designed, developed, tested some of the
-                app's features. The team won second place for this group
-                project. Built with <em>Ruby on Rails & PostgreSQL</em>.
-                <p>
-                  <a
-                    href="https://github.com/francispham/drill-ninjaz"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://github.com/francispham/drill-ninjaz
-                  </a>
-                </p>
-              </li>
-            </ul>
-            <h5>FREELANCE & PERSONAL PROJECTS</h5>
-            <ul>
-              <li>
-                E-commerce Web Application 2019 - Now: Stack:{' '}
-                <em>NodeJS, ExpressJS, MongoDB</em>
-                <p>
-                  <a
-                    href="https://github.com/francispham/OnlineStore"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://github.com/francispham/OnlineStore
-                  </a>
-                </p>
-              </li>
-              <li>
-                Portfolio Website 2019: A Professional Web Application Developer Portfolio Website with 
-                Resume, served on Netlify Server, built with GatsbyJS on top of React Framework. Stack:{' '}
-                <em>GatsbyJS, ReactJS, GraphQL & Netlify</em>
-                <p>
-                  <a
-                    href="https://github.com/francispham/Portfolio"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://github.com/francispham/Portfolio
-                  </a>
-                </p>
-              </li>
-              <li>
-                ST MEDI WordPress Site 2018: Completed Website update and
-                renovation. Implemented Google Analytics and enhanced overall
-                styling. Created & edited new contents from designers.
-                <p>
-                  <a
-                    href="http://stmedilaser.com/"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Http://stmedilaser.com/
-                  </a>
-                </p>
-                <p>Client Management Web Application 2019. Stack:{' '}
-                  <em>
-                    NodeJS, ReactJS, Redux, reduxForm, ExpressJS, MongoDB, Heroku
-                  </em>{' '}
-                  <a
-                    href="https://github.com/francispham/NodeWebApp"
-                    target="_black"
-                    rel="noopener noreferrer"
-                  >
-                    Https://github.com/francispham/NodeWebApp
-                  </a>
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
-      <div className="link">
+        </div>
+      </main>
+      
+      <footer>
         <Link to="/">
-          <TiArrowBack size={60} />
+          <TiArrowBack size={40} />
         </Link>
-      </div>
+      </footer>
     </div>
+    
   )
 }
 
