@@ -54,13 +54,19 @@ const IndexPage = () => (
     </ul>
     <hr />
     <hr />
-    <h3 className="animation">Other Projects</h3>
+    <h3 className="animation">ReactJS Projects</h3>
     <hr className="hr" />
     <h4>React FrontEnd:</h4>
-    <a href="https://github.com/francispham/StMedi-CRA" target="_black">
+    <a href="https://romantic-meitner-5cb990.netlify.app/" target="_black">
       <p>
         ➣ <strong>React Business Website</strong> built with NodeJS,
         ReactJS & Netlify
+      </p>
+    </a>
+    <a href="https://github.com/francispham/advance-react" target="_black">
+      <p>
+        ➣ <strong>Advance React</strong> built with NodeJS, React Hook, 
+        Styled Component, React Spring
       </p>
     </a>
     <hr />
@@ -89,7 +95,7 @@ const IndexPage = () => (
       target="_black"
     >
       <p>
-        ➣ <strong>AssistList Website</strong> built with ReactJS, Ruby on Rails, PostgreSQL, AWS
+        ➣ <strong>AssistList Website</strong> built with ReactJS, Ruby on Rails, PostgreSQL, AWS, Docker
       </p>
     </a>
   </Layout>

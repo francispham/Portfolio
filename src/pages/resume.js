@@ -15,12 +15,14 @@ const Resume = () => {
       <header>
         <h1>FRANCIS PHAM</h1>
         <h4>Junior Web Application Developer</h4>
-        <p>
-          Passion to learn & efficient problem solver 
-          seeking to build Web App to make life better for everyone
+        <p style={{fontSize: 'smaller'}}>
+          <em>
+            "Passion to Learn &  Become an Efficient Problem Solver, Seeking to Build Amazing Web Apps 
+            to Make Life Better for Everyone"
+          </em>
         </p>
       </header>
-      <div className="container divided" style={{fontSize:'small', justifyContent:'space-around'}}>
+      <div className="container divided" style={{fontWeight:'550', justifyContent:'space-around'}}>
           <div>
             <FaEnvelope />
             <a
@@ -70,7 +72,7 @@ const Resume = () => {
           <h2>WORK EXPERIENCE</h2>
           <h3>Fullstack Developer</h3>
           <div className="container">
-            <strong>AssistList</strong>
+            <strong>AssistList Association</strong>
             <em>Vancouver, BC</em>
           </div>
           <div className="container">
@@ -92,14 +94,14 @@ const Resume = () => {
               Performing code peer reviews to maintain quality standards, improve performance, and provide credibility
             </li>
             <li>
-              Working stack including <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS</em>
-              <p>
+              Working stack including <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS, Docker</em>
+              <p> <strong>Website</strong> {' '}
                 <a
                   href="https://www.assistlist.ca"
                   target="_black"
                   rel="noopener noreferrer"
                 >
-                  Https://www.assistlist.ca/
+                  https://www.assistlist.ca/
                 </a>
               </p>
             </li>
@@ -123,13 +125,13 @@ const Resume = () => {
             </li>
             <li>
               Implemented Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost
-              <p>
+              <p> <strong>Website</strong> {' '}
                 <a
-                  href="http://stmedilaser.com/"
+                  href="https://stmedilaser.com/"
                   target="_black"
                   rel="noopener noreferrer"
                 >
-                  Http://stmedilaser.com/
+                  https://stmedilaser.com/
                 </a>
               </p>
             </li>
@@ -167,7 +169,7 @@ const Resume = () => {
             <Button>MongoDB</Button><Button>HTML5</Button>
             <Button>CSS3</Button><Button>Styled Components</Button>
           </div>
-          <h2>PERSONAL PROJECTS</h2>
+          <h2>PROJECTS</h2>
           <div className="container">
             <strong>Personal Portfolio Website</strong>
             <em>2019 - Present</em>
@@ -175,9 +177,18 @@ const Resume = () => {
           <div className="infoDetails">
             <p>
               A Professional Web Application Developer Portfolio Website with Resume, 
-              served on <strong>Netlify</strong> Server, building with 
+              served on <strong>Netlify</strong> Server, building with {' '}
               <strong>GatsbyJS</strong> site generator on top of <strong>ReactJS</strong>.
               Other tech including <em>GraphQL, Styled Components, Webpack</em>
+            </p>
+            <p> <strong>Website</strong> {' '}
+              <a
+                href="https://francispham.ca/"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                https://francispham.ca/
+                </a>
             </p>
             <p>
               <a
@@ -256,7 +267,7 @@ const Resume = () => {
       
       <footer>
         <Link to="/">
-          <TiArrowBack size={40} />
+          <TiArrowBack size={50} />
         </Link>
       </footer>
     </div>

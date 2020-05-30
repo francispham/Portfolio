@@ -7,6 +7,11 @@ const About = () => {
       <h2 className="animation">ABOUT</h2>
       <hr className="hr" />
       <p>
+        Currently working as a Full Stack Developer at AssistList Association.
+        Seeking for building Amazing Web Application to make life better for every
+        human being.   
+      </p>
+      <p>
         Hard-working web developer with an ability for creating refined
         solutions in the least amount of time. Developed an commerce webp,
         customer web portal, documentary launch website, and donations webp for
@@ -14,7 +19,6 @@ const About = () => {
         Technologies. Regular attendee of web developer meetups.
       </p>
       <p>Graduated from CodeCore Full Stack Web Development Program.</p>
-      <p>Currently working as a freelancer, and also available for hire.</p>
       <p>
         Specialized in{' '}
         <strong>
