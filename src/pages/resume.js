@@ -33,7 +33,7 @@ const Resume = () => {
               francis.pham.ca@gmail.com
             </a>
           </div>
-          <div><GiSmartphone />1.604.716.5452</div>
+          <div><GiSmartphone />1.778.991.0893</div>
           <div><GiCrosshair />British Columbia, Canada</div>
           <div>
             <GiSpiderWeb />
