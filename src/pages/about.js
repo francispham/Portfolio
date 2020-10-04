@@ -23,8 +23,8 @@ const About = () => {
         Specialized in{' '}
         <strong>
           {' '}
-          React.js, NodeJS, HTML5, CSS3, Boostrap4, ExpressJS, Ruby on Rails and
-          PostgreSQL{' '}
+          ReactJS, NextJS, GatsbyJS, NodeJS, GraphQL, HTML5, CSS3, Boostrap4, ExpressJS, 
+          Ruby on Rails and PostgreSQL{' '}
         </strong>{' '}
       </p>
       <p>Since the sky is limitless, I am always ready for new challenges...</p>

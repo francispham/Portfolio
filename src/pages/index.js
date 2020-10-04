@@ -13,13 +13,22 @@ const IndexPage = () => (
     <hr className="hr" />
     <ul style={{ listStyle: 'none', padding: '10px' }}>
       <li>
-        <a href="https://github.com/francispham/OnlineStore" target="_black">
+        <a href="https://ecstatic-booth-641e46.netlify.app/" target="_black">
           <img src={store} alt="store" />
           <p>
-            ➣ <strong>E-Commerce Web Application </strong> built with NodeJS
-            ExpressJS & MongoDB
+            ➣ <strong>Gatsby Store </strong> built with ReactJS, Gatsby, Netlify
+            Shopify Storefront
           </p>
           <hr />
+        </a>
+      </li>
+      <li>
+        <a href="https://quirky-shockley-921b7f.netlify.app/" target="_black">
+          <img src={stmedi} alt="stmedi" />
+          <p>
+            ➣ <strong>ST MEDI Business Website</strong> built
+            with ReactJS, GatsbyJS and Netlify
+          </p>
         </a>
       </li>
       <li>
@@ -42,35 +51,51 @@ const IndexPage = () => (
           <hr />
         </a>
       </li>
-      <li>
-        <a href="https://github.com/francispham/NodeWebApp" target="_black">
-          <img src={stmedi} alt="stmedi" />
-          <p>
-            ➣ <strong>St Medi Website & Client Management App</strong> built
-            with ReactJS, Ruby on Rails, PostgreSQL, HTML, CSS, JavaScript
-          </p>
-        </a>
-      </li>
     </ul>
     <hr />
     <hr />
     <h3 className="animation">ReactJS Projects</h3>
     <hr className="hr" />
-    <h4>React FrontEnd:</h4>
-    <a href="https://romantic-meitner-5cb990.netlify.app/" target="_black">
+    <h4>Assistlist Associate:</h4>
+    <a
+      href="https://www.assistlist.ca"
+      target="_black"
+    >
       <p>
-        ➣ <strong>React Business Website</strong> built with NodeJS,
-        ReactJS & Netlify
+        ➣ <strong>AssistList Website</strong> built with ReactJS, Ruby on Rails, PostgreSQL, AWS, Docker
+      </p>
+    </a>
+    <hr />
+    <h4>E-commerce Full Stack</h4>
+    <a href="https://github.com/francispham/fullstack-online-store-fe" target="_black">
+      <p>
+        ➣ <strong>E-Commerce Web Application</strong> Frontend built with ReactJS, 
+        NextJS, GraphQL, Apollo Client
+      </p>
+    </a>
+    <a href="https://github.com/francispham/OnlineStore" target="_black">
+      <p>
+        ➣ <strong>E-Commerce Web Application</strong> Backend built with GraphQL, 
+        GraphQL Yoga, Prisma, Stripe
+      </p>
+    </a>
+    <hr />
+    <h4>Advance React:</h4>
+    <a href="https://github.com/francispham/FramerMotionAdvance" target="_black">
+      <p>
+        ➣ <strong>React Animation</strong> built with Framer Motion
       </p>
     </a>
     <a href="https://github.com/francispham/advance-react" target="_black">
       <p>
-        ➣ <strong>Advance React</strong> built with NodeJS, React Hook, 
-        Styled Component, React Spring
+        ➣ <strong>React Animation</strong> built with React Spring
       </p>
     </a>
-    <hr />
-    <h4>React Authentication:</h4>
+    <a href="https://github.com/francispham/React3D" target="_black">
+      <p>
+        ➣ <strong>React 3D</strong> built with React Spring, ThreeJS, React Three Fiber 
+      </p>
+    </a>
     <a
       href="https://github.com/francispham/React-Authentication-Client"
       target="_black"
@@ -80,24 +105,7 @@ const IndexPage = () => (
         ReactJS, Redux, Redux Form, Redux Thunk
       </p>
     </a>
-    <a
-      href="https://github.com/francispham/React-Authentication-Server"
-      target="_black"
-    >
-      <p>
-        ➣ <strong>Authentication Server</strong> built with NodeJS, ExpressJS
-      </p>
-    </a>
     <hr />
-    <h4>Web Dev Volunteer @ Assistlist:</h4>
-    <a
-      href="https://github.com/francispham/React-Authentication-Client"
-      target="_black"
-    >
-      <p>
-        ➣ <strong>AssistList Website</strong> built with ReactJS, Ruby on Rails, PostgreSQL, AWS, Docker
-      </p>
-    </a>
   </Layout>
 )
 
