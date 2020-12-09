@@ -17,7 +17,7 @@ const FooterLinks = [
     link: 'http://linkedin.com/in/francisphamca'
   },{
     name: 'Gmail',
-    link: 'mailto:fransicpham89@gmail.com'
+    link: 'mailto:francis.pham.ca@gmail.com'
   }
 ]
 
