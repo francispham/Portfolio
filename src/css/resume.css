@@ -3,7 +3,7 @@
     max-width: 960px;
     color: #4B4B4B;
     width: 100%;
-    padding: 5rem 2rem;
+    padding: 2rem 0;
 }
 
 .resume p {
@@ -95,5 +95,5 @@
 
     .resume main div {
         grid-column: span 2;
-    }  
+    }
 }

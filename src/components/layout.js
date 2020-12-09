@@ -42,8 +42,8 @@ class Layout extends React.Component {
             height: "100%",
             padding: "60px"
           }}
-          >
-            <Media query={{ maxWidth: 1050 }}>
+        >
+          <Media query={{ maxWidth: 1050 }}>
               {matches =>
                 matches ? (
                   <div
@@ -68,8 +68,8 @@ class Layout extends React.Component {
                       {this.props.children}
                     </div>
 
-                    <div 
-                      style= {{ 
+                    <div
+                      style= {{
                         gridColumn: 'span 4',
                         maxWidth: 680
                     }}>
@@ -82,7 +82,7 @@ class Layout extends React.Component {
                 )
               }
             </Media>
-          </main>
+        </main>
         </div>
 
     )

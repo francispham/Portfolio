@@ -646,13 +646,22 @@ pre tt:after {
   background-color: white;
 }
 
-.gridBox {
-  display: grid;
-  text-align: center;
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row wrap;
+  justify-content: center;
   padding: 10px 20px;
 }
+.skill-container div {
+  flex: 0 1 calc(20% - 2em);
+  display: grid;
+  text-align: center;
+  margin: 1em;
+}
 
-.gridBox img {
+
+.skill-container div img {
   margin-bottom: 10px;
   width: 80px;
   height: 80px;

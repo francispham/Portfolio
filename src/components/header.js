@@ -1,7 +1,7 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby'
-import Helmet from 'react-helmet'
 import Img from 'gatsby-image';
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -46,8 +46,8 @@ export default () => {
         }}
       >
         <Img
-          title="Header image"
-          alt="Greek food laid out on table"
+          title="Header Image"
+          alt="header"
           fluid={data.file.childImageSharp.fluid}
           style={{
             height: '15vh',
