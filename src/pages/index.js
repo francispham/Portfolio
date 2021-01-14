@@ -70,7 +70,7 @@ const IndexPage = () => {
           }
         }
       },
-      spinddle: file(relativePath: { eq: "spinddle.png" }) {
+      spinndle: file(relativePath: { eq: "spinndle.png" }) {
         childImageSharp {
           fluid {
             srcWebp
@@ -94,10 +94,10 @@ return (
         <li>
           <a href="https://spinndle.com/" target="_black">
             <Img
-              fluid={data.spinddle.childImageSharp.fluid}
+              fluid={data.spinndle.childImageSharp.fluid}
             />
             <p>
-              ➣ <strong>Spinddle Inc.</strong> built with ReactJS, Redux, Django,
+              ➣ <strong>Spinndle Inc.</strong> built with ReactJS, Redux, Django,
               PostgreSQL, AWS, Docker
             </p>
             <hr />
