@@ -70,6 +70,43 @@ const Resume = () => {
       <main className="resumeGridBox">
         <div>
           <h2>WORK EXPERIENCE</h2>
+          <h3>Frontend Developer</h3>
+          <div className="container">
+            <strong>Spinndle Inc.</strong>
+            <em>Vancouver, BC</em>
+          </div>
+          <div className="container">
+            <em>Achievements/Tasks</em>
+            <em>11/2020 - Present</em>
+          </div>
+          <ul>
+            <li>
+              Helping build an SAAS Web Application that provides learning environment for highschool teachers and students, an effective check-in system in place whether learning remote or in person. 
+            </li>
+            <li>
+              Creating new features from scratch using ReactJS & Redux with Thunk for Frontend based on UI/UX requirements from Design & Product Owners.
+            </li>
+            <li>
+              Working closely with co-founders in daily meetings to prioritize and assign tasks. Collaborating efficiently with other designers and developers in small team.
+            </li>
+            <li>
+              Fixing bugs, testing, code cleaned up for efficiency to ensure better user experience and application's quality.
+            </li> 
+            <li>
+              Working stack including {' '}
+              <em>ReactJS, Redux, Redux Thunk, JavaScript, HTML5, CSS3, CSS Variables, Styled Components, Reactstrap, Python, Django, AWS, Git/GitLab.</em>
+              <p> <strong>Website</strong> {' '}
+                <a
+                  href="https://app.spinndle.com/"
+                  target="_black"
+                  rel="noopener noreferrer"
+                >
+                  https://app.spinndle.com/
+                </a>
+              </p>
+            </li>
+          </ul>
+
           <h3>Fullstack Developer</h3>
           <div className="container">
             <strong>AssistList Association</strong>
@@ -77,7 +114,7 @@ const Resume = () => {
           </div>
           <div className="container">
             <em>Achievements/Tasks</em>
-            <em>10/2019 - Present</em>
+            <em>10/2019 - now</em>
           </div>
           <ul>
             <li>
@@ -87,9 +124,6 @@ const Resume = () => {
             <li>
               Participating in weekly meetings to prioritize and assign tasks to team members. 
             </li>
-            <li>
-              Fixing bugs, testing, code cleaned up for efficiency to ensure better user experience and application's quality
-            </li> 
             <li>
               Performing code peer reviews to maintain quality standards, improve performance, and provide credibility
             </li>
@@ -106,17 +140,21 @@ const Resume = () => {
               </p>
             </li>
           </ul>
+
           <h3>Web Developer</h3>
           <div className="container">
-            <strong>St Medi Spa</strong>
+            <em>Achievements/Tasks</em>
+            <em>2018 - 2020</em>
+          </div>
+          <div className="container">
+            <span><strong>StMedi Laser & Skincare</strong> - WorkPress Site</span>
             <em>Vancouver, BC</em>
           </div>
           <div className="container">
-            <em>Achievements/Tasks</em>
-            <em>1/2019 - 8/2019</em>
+            <span><strong>BeeVoke E-commerce</strong> - WorkPress Site</span>
+            <em>Vancouver, BC</em>
           </div>
           <ul>
-            WordPress Site 2018:
             <li>
               Provided effective diagnosing, troubleshooting and resolving issues with website, server and 3rd party integrations 
             </li>
@@ -125,36 +163,34 @@ const Resume = () => {
             </li>
             <li>
               Implemented Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost
-              <p> <strong>Website</strong> {' '}
-                <a
-                  href="https://stmedilaser.com/"
-                  target="_black"
-                  rel="noopener noreferrer"
-                >
-                  https://stmedilaser.com/
-                </a>
-              </p>
+              <div className="container">
+                <span> <strong>Websites</strong>&nbsp;&nbsp;&nbsp;
+                  <small>
+                    <a
+                      href="https://stmedilaser.com/"
+                      target="_black"
+                      rel="noopener noreferrer"
+                    >
+                      https://stmedilaser.com/
+                    </a>
+                  </small>
+                </span>
+                <span>
+                  <small>
+                    <a
+                      href="https://beevoke.ca/"
+                      target="_black"
+                      rel="noopener noreferrer"
+                    >
+                      https://beevoke.ca/
+                    </a>
+                  </small>
+                </span>
+              </div>
             </li>
           </ul>
-          <h2>EDUCATION</h2>
-          <div className="container">
-            <strong>Web Application Development Bootcamp</strong>
-            <em>2018</em>
-          </div>
-          <div className="container specialPadding">
-            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
-            <p>CodeCore College</p>
-          </div>
-          <div className="container">
-            <strong>Bachelor of Arts</strong>
-            <em>2015</em>
-          </div>
-          <div className="container specialPadding">
-            <em>Economics Major & Business Administration Minor</em>
-            <p>Simon Fraser University</p>
-          </div>
         </div>
-        
+
         <div>
           <h2>SKILLS</h2>
           <div className="container specialPadding" style={{ 
@@ -172,7 +208,7 @@ const Resume = () => {
           <h2>PROJECTS</h2>
           <div className="container">
             <strong>Personal Portfolio Website</strong>
-            <em>2019 - Present</em>
+            <em>2021</em>
           </div>
           <div className="infoDetails">
             <p>
@@ -181,7 +217,7 @@ const Resume = () => {
               <strong>GatsbyJS</strong> site generator on top of <strong>ReactJS</strong>.
               Other tech including <em>GraphQL, Styled Components, Webpack</em>
             </p>
-            <p> <strong>Website</strong> {' '}
+            <p><strong>Website</strong> {' '}
               <a
                 href="https://francispham.ca/"
                 target="_black"
@@ -190,7 +226,7 @@ const Resume = () => {
                 https://francispham.ca/
                 </a>
             </p>
-            <p>
+            <small>
               <a
                 href="https://github.com/francispham/Portfolio"
                 target="_black"
@@ -198,30 +234,65 @@ const Resume = () => {
               >
                 Https://github.com/francispham/Portfolio
               </a>
-            </p>
+            </small>
           </div>
           <div className="container">
-            <strong>E-commerce Web Application</strong>
+            <strong>E-commerce Web Applications</strong>
             <em>2019 - Present</em>
           </div>
           <div className="infoDetails">
             <p>
-              An Online Store built in <strong>NodeJS</strong> Ecosystem.
+              Blazing fast online Stores built in <strong>NodeJS</strong> Ecosystem.
               Site owner can post products/servers online connected with Cloud
-              Database for Inventory System. Customers can make their payments 
-              via <strong>Stripe</strong>. Building stack including <em>ExpressJS, 
-              MongoDB & RESTful APIs</em>
+              Database for Inventory System or with Shopify Storefront API. 
+              Customers can make their payments via <strong>Stripe</strong>. 
+              Building stack including <em>GatsbyJS, ReactJS, Shopify API, ExpressJS, MongoDB & RESTful APIs</em>
             </p>
-            <p>
+            <p> <strong>Website</strong> {' '}
+              <a
+                href="https://ecstatic-booth-641e46.netlify.app/"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                https://ecstatic-booth-641e46.netlify.app/
+                </a>
+            </p>
+            <small>
+              <a
+                href="https://github.com/francispham/gatsby-shopify-storefront"
+                target="_black"
+                rel="noopener noreferrer"
+              >
+                1. Https://github.com/francispham/gatsby-shopify-storefront
+              </a><br />
               <a
                 href="https://github.com/francispham/OnlineStore"
                 target="_black"
                 rel="noopener noreferrer"
               >
-                Https://github.com/francispham/OnlineStore
+                2. Https://github.com/francispham/OnlineStore
               </a>
-            </p>
+            </small>
           </div>
+
+          <h2>EDUCATION</h2>
+          <div className="container">
+            <strong>Web Application Development Bootcamp</strong>
+            <em>2018</em>
+          </div>
+          <div className="container specialPadding">
+            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
+            <p>CodeCore College</p>
+          </div>
+          <div className="container">
+            <strong>Bachelor of Arts</strong>
+            <em>2015</em>
+          </div>
+          <div className="container specialPadding">
+            <em>Economics Major & Business Administration Minor</em>
+            <p>Simon Fraser University</p>
+          </div>
+
           <h2>ACHIEVEMENTS</h2>
           <div className="container">
             <strong>Drill Ninjaz Application</strong><em>2018</em>
@@ -231,7 +302,7 @@ const Resume = () => {
             <p>
               Built with <em>Ruby on Rails & PostgreSQL</em>.
             </p>
-            <p>
+            <small>
               <a
                 href="https://github.com/francispham/drill-ninjaz"
                 target="_black"
@@ -239,7 +310,7 @@ const Resume = () => {
               >
                 Https://github.com/francispham/drill-ninjaz
                 </a>
-            </p>
+            </small>
           </div>
           <h2>LANGUAGES</h2>
           <div className="container specialPadding">
@@ -252,15 +323,17 @@ const Resume = () => {
               <em>Native</em>
             </div>
           </div>
+          <div className="container">
           <h2>INTERESTS</h2>
-          <div style={{
-            textAlign: 'center',
-            padding: '1.5rem',
-          }}>
-            <FaSnowboarding size={45} />
-            <FaHiking size={45} />
-            <GiKnifeFork size={45} />
-            <GiHeadphones size={45} />
+            <div style={{
+              textAlign: 'center',
+              padding: '0.5rem',
+            }}>
+              <FaSnowboarding size={30} />
+              <FaHiking size={30} />
+              <GiKnifeFork size={30} />
+              <GiHeadphones size={30} />
+            </div>
           </div>
         </div>
       </main>
