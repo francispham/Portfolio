@@ -1,11 +1,24 @@
 import React, { lazy, Suspense } from 'react';
 import Img from 'gatsby-image';
+import { HourGlass } from 'react-awesome-spinners'
+import styled from 'styled-components';
 
 import { useStaticQuery, graphql } from 'gatsby';
 
 const Layout = lazy(() => import('../components/layout'));
-
-const renderLoader = () => <p>Loading</p>;
+const StyledLoading = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  div {
+    :after {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+`
+const renderLoader = () => <StyledLoading><HourGlass color='#C39F6D' size='20' sizeUnit='rem' /></StyledLoading>;
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -90,7 +103,7 @@ const IndexPage = () => {
   return !isSSR && (
     <Suspense fallback={renderLoader()}>
       <Layout>
-        <h2 className="animation">PROJECTS</h2>
+      <h2 className="animation">PROJECTS</h2>
         <hr className="hr" />
         <ul style={{ listStyle: 'none', padding: '10px' }}>
           <li>
