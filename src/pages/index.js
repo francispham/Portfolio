@@ -103,7 +103,7 @@ const IndexPage = () => {
   return !isSSR && (
     <Suspense fallback={renderLoader()}>
       <Layout>
-      <h2 className="animation">PROJECTS</h2>
+        <h2 className="animation">PROJECTS</h2>
         <hr className="hr" />
         <ul style={{ listStyle: 'none', padding: '10px' }}>
           <li>

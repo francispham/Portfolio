@@ -14,7 +14,7 @@ const Resume = () => {
     <div className="resume">
       <header>
         <h1>FRANCIS PHAM</h1>
-        <h4>Junior Web Application Developer</h4>
+        <h4>Frontend Developer / Lifetime Learner</h4>
         <p style={{fontSize: 'smaller'}}>
           <em>
             "Passion to Learn &  Become an Efficient Problem Solver, Seeking to Build Amazing Web Apps 
@@ -77,20 +77,20 @@ const Resume = () => {
           </div>
           <div className="container">
             <em>Achievements/Tasks</em>
-            <em>11/2020 - Present</em>
+            <em>11/2020 - 4/2021</em>
           </div>
           <ul>
             <li>
-              Helping build an SAAS Web Application that provides learning environment for highschool teachers and students, an effective check-in system in place whether learning remote or in person. 
+              Helping build a SAAS Web Application that provides a learning environment for high school teachers and students with an effective check-in system for learning remote or in person.
             </li>
             <li>
               Creating new features from scratch using ReactJS & Redux with Thunk for Frontend based on UI/UX requirements from Design & Product Owners.
             </li>
             <li>
-              Working closely with co-founders in daily meetings to prioritize and assign tasks. Collaborating efficiently with other designers and developers in small team.
+              Working closely with co-founders in daily meetings to prioritize and assign tasks. Collaborating efficiently with other designers and developers in a small team.
             </li>
             <li>
-              Fixing bugs, testing, code cleaned up for efficiency to ensure better user experience and application's quality.
+              Fixing bugs, testing code cleaned up for efficiency to ensure better user experience and application's quality.
             </li> 
             <li>
               Working stack including {' '}
@@ -125,10 +125,10 @@ const Resume = () => {
               Participating in weekly meetings to prioritize and assign tasks to team members. 
             </li>
             <li>
-              Performing code peer reviews to maintain quality standards, improve performance, and provide credibility
+              Performing code peer reviews to maintain quality standards, improve performance, and provide credibility.
             </li>
             <li>
-              Working stack including <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS, Docker</em>
+              Working stack including <em>ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS, Docker.</em>
               <p> <strong>Website</strong> {' '}
                 <a
                   href="https://www.assistlist.ca"
@@ -156,13 +156,13 @@ const Resume = () => {
           </div>
           <ul>
             <li>
-              Provided effective diagnosing, troubleshooting and resolving issues with website, server and 3rd party integrations 
+              Providing effective diagnosing, troubleshooting and resolving issues with the website, server and 3rd party integrations 
             </li>
             <li>
-              Completed  and continued Website updates and renovations based on new design requirements. 
+              Completing and continuing Website updates and renovations based on new design requirements. 
             </li>
             <li>
-              Implemented Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost
+              Implementing Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost.
               <div className="container">
                 <span> <strong>Websites</strong>&nbsp;&nbsp;&nbsp;
                   <small>
@@ -215,7 +215,7 @@ const Resume = () => {
               A Professional Web Application Developer Portfolio Website with Resume, 
               served on <strong>Netlify</strong> Server, building with {' '}
               <strong>GatsbyJS</strong> site generator on top of <strong>ReactJS</strong>.
-              Other tech including <em>GraphQL, Styled Components, Webpack</em>
+              Other tech including <em>GraphQL, Styled Components, Webpack.</em>
             </p>
             <p><strong>Website</strong> {' '}
               <a
@@ -243,18 +243,18 @@ const Resume = () => {
           <div className="infoDetails">
             <p>
               Blazing fast online Stores built in <strong>NodeJS</strong> Ecosystem.
-              Site owner can post products/servers online connected with Cloud
+              The website owner can post products/servers online connected with Cloud
               Database for Inventory System or with Shopify Storefront API. 
               Customers can make their payments via <strong>Stripe</strong>. 
-              Building stack including <em>GatsbyJS, ReactJS, Shopify API, ExpressJS, MongoDB & RESTful APIs</em>
+              Building stack including <em>GatsbyJS, ReactJS, Shopify API, ExpressJS, MongoDB & RESTful APIs.</em>
             </p>
             <p> <strong>Website</strong> {' '}
               <a
-                href="https://ecstatic-booth-641e46.netlify.app/"
+                href="https://www.vieteat.club/"
                 target="_black"
                 rel="noopener noreferrer"
               >
-                https://ecstatic-booth-641e46.netlify.app/
+                https://www.vieteat.club/
                 </a>
             </p>
             <small>

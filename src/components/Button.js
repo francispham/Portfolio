@@ -11,6 +11,11 @@ export const Button = styled.button`
     background: #C39F6D;
 
     &:hover {
-        background: #DDBC8D;
+      background: #DDBC8D;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
     }
 `;
