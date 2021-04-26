@@ -147,16 +147,16 @@ const Resume = () => {
             <em>2018 - 2020</em>
           </div>
           <div className="container">
-            <span><strong>StMedi Laser & Skincare</strong> - WorkPress Site</span>
+            <span><strong>StMedi Laser & Skincare</strong> - WordPress Site</span>
             <em>Vancouver, BC</em>
           </div>
           <div className="container">
-            <span><strong>BeeVoke E-commerce</strong> - WorkPress Site</span>
+            <span><strong>BeeVoke E-commerce</strong> - WordPress Site</span>
             <em>Vancouver, BC</em>
           </div>
           <ul>
             <li>
-              Providing effective diagnosing, troubleshooting and resolving issues with the website, server and 3rd party integrations 
+              Providing effective diagnosing, troubleshooting and resolving issues with the website, server and 3rd party integrations.
             </li>
             <li>
               Completing and continuing Website updates and renovations based on new design requirements. 
