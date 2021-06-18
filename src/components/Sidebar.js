@@ -22,7 +22,7 @@ const Sidebar = props => {
   `)
 
   return (
-    <div
+    <aside
       style={{
         border: '2px solid #e6e6e6',
         borderRadius: '10px',
@@ -62,7 +62,7 @@ const Sidebar = props => {
           </a>
         </big>
       </div>
-    </div>
+    </aside>
   )
 }
 

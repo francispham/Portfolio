@@ -180,49 +180,51 @@ const IndexPage = () => {
           </li>
         </ul>
         <hr />
-        <hr />
-        <h3 className="animation">More ReactJS Projects</h3>
-        <hr className="hr" />
-        <h4>E-commerce Full Stack</h4>
-        <a href="https://github.com/francispham/fullstack-online-store-fe" target="_black">
-          <p>
-            ➣ <strong>E-Commerce Web Application</strong> Frontend built with ReactJS, 
-            NextJS, GraphQL, Apollo Client
-          </p>
-        </a>
-        <a href="https://github.com/francispham/OnlineStore" target="_black">
-          <p>
-            ➣ <strong>E-Commerce Web Application</strong> Backend built with GraphQL, 
-            GraphQL Yoga, Prisma, Stripe
-          </p>
-        </a>
-        <hr />
-        <h4>Advance ReactJS:</h4>
-        <a href="https://github.com/francispham/FramerMotionAdvance" target="_black">
-          <p>
-            ➣ <strong>React Animation</strong> built with Framer Motion
-          </p>
-        </a>
-        <a href="https://github.com/francispham/advance-react" target="_black">
-          <p>
-            ➣ <strong>React Animation</strong> built with React Spring
-          </p>
-        </a>
-        <a href="https://github.com/francispham/React3D" target="_black">
-          <p>
-            ➣ <strong>React 3D</strong> built with React Spring, ThreeJS, React Three Fiber 
-          </p>
-        </a>
-        <a
-          href="https://github.com/francispham/React-Authentication-Client"
-          target="_black"
-        >
-          <p>
-            ➣ <strong>React Authentication Client</strong> built with NodeJS,
-            ReactJS, Redux, Redux Form, Redux Thunk
-          </p>
-        </a>
-        <hr />
+        <section>
+          <h3 className="animation">More ReactJS Projects</h3>
+          <hr className="hr" />
+          <h4>E-commerce Full Stack</h4>
+          <a href="https://github.com/francispham/fullstack-online-store-fe" target="_black">
+            <p>
+              ➣ <strong>E-Commerce Web Application</strong> Frontend built with ReactJS, 
+              NextJS, GraphQL, Apollo Client
+            </p>
+          </a>
+          <a href="https://github.com/francispham/OnlineStore" target="_black">
+            <p>
+              ➣ <strong>E-Commerce Web Application</strong> Backend built with GraphQL, 
+              GraphQL Yoga, Prisma, Stripe
+            </p>
+          </a>
+          <hr />
+          <h4>Advance ReactJS:</h4>
+          <a href="https://github.com/francispham/FramerMotionAdvance" target="_black">
+            <p>
+              ➣ <strong>React Animation</strong> built with Framer Motion
+            </p>
+          </a>
+          <a href="https://github.com/francispham/advance-react" target="_black">
+            <p>
+              ➣ <strong>React Animation</strong> built with React Spring
+            </p>
+          </a>
+          <a href="https://github.com/francispham/React3D" target="_black">
+            <p>
+              ➣ <strong>React 3D</strong> built with React Spring, ThreeJS, React Three Fiber 
+            </p>
+          </a>
+          <a
+            href="https://github.com/francispham/React-Authentication-Client"
+            target="_black"
+          >
+            <p>
+              ➣ <strong>React Authentication Client</strong> built with NodeJS,
+              ReactJS, Redux, Redux Form, Redux Thunk
+            </p>
+          </a>
+          <hr />
+
+        </section>
       </Layout>
     </Suspense>
   )

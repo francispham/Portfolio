@@ -5,7 +5,7 @@ import DrawerToggleButton from './drawer-toggle-button';
 import '../css/toolbar.css';
 
 const toolbar = (props) => (
-  <header className="toolbar">
+  <div className="toolbar">
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
@@ -34,7 +34,7 @@ const toolbar = (props) => (
         </ul>
       </div>
     </nav>
-  </header>
+  </div>
 )
 
 export default toolbar;

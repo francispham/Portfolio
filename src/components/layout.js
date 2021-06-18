@@ -52,9 +52,9 @@ class Layout extends React.Component {
                       gridTemplateColumns: 'repeat(12, 1fr)',
                       height: "100%",
                     }}>
-                    <div style= {{ gridColumn: 'span 12' }}>
+                    <main style= {{ gridColumn: 'span 12' }}>
                       {this.props.children}
-                    </div>
+                    </main>
                   </div>
                 ) : (
                   <div
@@ -64,9 +64,9 @@ class Layout extends React.Component {
                       gridGap: '5em',
                       height: "100%"
                     }}>
-                    <div style= {{ gridColumn: 'span 8' }}>
+                    <main style= {{ gridColumn: 'span 8' }}>
                       {this.props.children}
-                    </div>
+                    </main>
 
                     <div
                       style= {{

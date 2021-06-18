@@ -90,7 +90,7 @@ const Resume = () => {
               Working closely with co-founders in daily meetings to prioritize and assign tasks. Collaborating efficiently with other designers and developers in a small team.
             </li>
             <li>
-              Fixing bugs, testing code cleaned up for efficiency to ensure better user experience and application's quality.
+              Fixing bugs and testing code cleaned up for efficiency to ensure better user experience and application quality.
             </li> 
             <li>
               Working stack including {' '}
@@ -162,7 +162,7 @@ const Resume = () => {
               Completing and continuing Website updates and renovations based on new design requirements. 
             </li>
             <li>
-              Implementing Google Analytics and SEO for better internet traffics, increasing sales and lower customers acquisition cost.
+              Implementing Google Analytics and SEO for better internet traffics, increasing sales and lower customer acquisition costs.
               <div className="container">
                 <span> <strong>Websites</strong>&nbsp;&nbsp;&nbsp;
                   <small>
@@ -215,7 +215,7 @@ const Resume = () => {
               A Professional Web Application Developer Portfolio Website with Resume, 
               served on <strong>Netlify</strong> Server, building with {' '}
               <strong>GatsbyJS</strong> site generator on top of <strong>ReactJS</strong>.
-              Other tech including <em>GraphQL, Styled Components, Webpack.</em>
+              Other technologies including <em>GraphQL, Styled Components.</em>
             </p>
             <p><strong>Website</strong> {' '}
               <a
@@ -242,9 +242,9 @@ const Resume = () => {
           </div>
           <div className="infoDetails">
             <p>
-              Blazing fast online Stores built in <strong>NodeJS</strong> Ecosystem.
+              A Blazing fast online store built in <strong>NodeJS</strong> Ecosystem.
               The website owner can post products/servers online connected with Cloud
-              Database for Inventory System or with Shopify Storefront API. 
+              Database for Inventory System with Shopify Storefront API. In addition,
               Customers can make their payments via <strong>Stripe</strong>. 
               Building stack including <em>GatsbyJS, ReactJS, Shopify API, ExpressJS, MongoDB & RESTful APIs.</em>
             </p>
