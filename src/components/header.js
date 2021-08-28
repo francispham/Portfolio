@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-export default () => {
+export default function Header() {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {

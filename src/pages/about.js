@@ -8,12 +8,12 @@ const About = () => {
         <h2 className="animation">ABOUT</h2>
         <hr className="hr" />
         <p>
-          Part-time Full Stack Developer at AssistList Association. Working on ReactJS & Redux
-          Frontend, and Ruby on Rails Backend
-        </p>
-        <p>
           Recently worked as a FrontEnd Developer at Spinndle Inc (ReactJS & Redux), where we create 
           environment to help teachers effectively engage their students in deeper learning.  
+        </p>
+        <p>
+          Full Stack Developer at AssistList Association. Working on ReactJS & Redux
+          Frontend, and Ruby on Rails Backend
         </p>
         <p>
           Seeking for building Amazing Web Application to make life better for every

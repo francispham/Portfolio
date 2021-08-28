@@ -81,7 +81,7 @@ const Resume = () => {
           </div>
           <ul>
             <li>
-              Helping build a SAAS Web Application that provides a learning environment for high school teachers and students with an effective check-in system for learning remote or in person.
+              Helping build a SAAS Web Application that provides a learning environment for high school teachers and students with an effective check-in system for learning remotely.
             </li>
             <li>
               Creating new features from scratch using ReactJS & Redux with Thunk for Frontend based on UI/UX requirements from Design & Product Owners.
@@ -114,7 +114,7 @@ const Resume = () => {
           </div>
           <div className="container">
             <em>Achievements/Tasks</em>
-            <em>10/2019 - now</em>
+            <em>10/2019 - 11/2020</em>
           </div>
           <ul>
             <li>
