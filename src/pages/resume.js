@@ -148,9 +148,9 @@ const Resume = () => {
             </div>
             <ul>
               <li>
-                Building a SAAS Web Application that provides a learning
+                Building a SAAS Web Application that provides a online learning
                 environment for high school teachers and students with an
-                effective check-in system for learning remotely.
+                effective check-in system.
               </li>
               <li>
                 Creating new features from scratch using ReactJS & Redux with
@@ -158,8 +158,8 @@ const Resume = () => {
                 Product Owners.
               </li>
               <li>
-                Fixing bugs and testing code cleaned up for efficiency to ensure
-                better user experience and application quality.
+                Fixing bugs and testing code for efficiency to ensure better
+                user experience and application quality.
               </li>
               <li>
                 Working closely with co-founders in daily meetings to prioritize
@@ -170,7 +170,7 @@ const Resume = () => {
                 Working stack including{' '}
                 <em>
                   ReactJS, Redux, Redux Thunk, JavaScript, HTML5, CSS3, CSS
-                  Variables, Styled Components, Reactstrap, Python, Django, AWS,
+                  Variables, Styled Components, Reactstrap, Python, Django,
                   Git/GitLab.
                 </em>
                 <p>
@@ -207,10 +207,6 @@ const Resume = () => {
               <li>
                 Participating in weekly meetings to prioritize and assign tasks
                 to team members.
-              </li>
-              <li>
-                Performing code peer reviews to maintain quality standards,
-                improve performance, and provide credibility.
               </li>
               <li>
                 Working stack including{' '}
