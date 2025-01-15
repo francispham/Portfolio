@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Layout from '../components/layout'
 
 const About = () => {
@@ -8,36 +8,49 @@ const About = () => {
         <h2 className="animation">ABOUT</h2>
         <hr className="hr" />
         <p>
-          Recently worked as a FrontEnd Developer at Spinndle Inc (ReactJS & Redux), where we create 
-          environment to help teachers effectively engage their students in deeper learning.  
+          Based in beautiful Vancouver, British Columbia, I am a React and React
+          Native developer with a solid understanding of building interactive,
+          high-performance web and mobile applications. I specialize in creating
+          seamless user interfaces and efficient code that scales well across
+          both platforms.
         </p>
         <p>
-          Full Stack Developer at AssistList Association. Working on ReactJS & Redux
-          Frontend, and Ruby on Rails Backend
+          For React, I am experienced with hooks, state management libraries
+          (like Redux or Zustand), context API, and component lifecycle methods.
+          On the mobile side, with React Native, I focus on building
+          cross-platform apps that feel native and performant. I am familiar
+          with integrating APIs, handling navigation, managing complex states,
+          and optimizing app performance.
         </p>
         <p>
-          Seeking for building Amazing Web Application to make life better for every
-          human being.  
+          I am passionate about writing clean, reusable code, maintaining good
+          development practices, and staying up-to-date with the latest trends
+          in the React ecosystem. Whether it is creating custom UI components,
+          optimizing app performance, or integrating third-party libraries, I
+          enjoy building solutions that provide great user experiences.
         </p>
-        <p> 
-          Hard-working web developer with an ability for creating refined
+        <p>
+          I am a hard-working web developer with an ability for creating refined
           solutions in the least amount of time. Developed an commerce webp,
-          customer web portal, documentary launch website, and donations webp for
-          a local charity. Passionate about ReactJS & other FrontEnd Related
+          customer web portal, documentary launch website, and donations webp
+          for a local charity. Passionate about ReactJS & other FrontEnd Related
           Technologies. Regular attendee of web developer meetups.
         </p>
         <p>Graduated from CodeCore Full Stack Web Development Program.</p>
         <p>
-          Specialized in{' '}
+          Specialized in
           <strong>
             {' '}
-            ReactJS with Redux, NextJS, GatsbyJS, JavaScript, HTML5, CSS3, NodeJS, GraphQL,  Boostrap4, and Styled Components.{' '}
-          </strong>{' '}
+            JavaScript, ReactJS, NextJS, React Native, HTML5, CSS3, NodeJS
+          </strong>
+          .
         </p>
-        <p>Since the sky is limitless, I am always ready for new challenges...</p>
+        <p>
+          Since the sky is limitless, I am always ready for new challenges...
+        </p>
       </article>
     </Layout>
   )
-};
+}
 
-export default About;
+export default About
