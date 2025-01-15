@@ -12,8 +12,8 @@ import {
   GiKnifeFork,
   GiHeadphones,
   GiCrosshair,
-  GiSmartphone,
   GiSpiderWeb,
+  // GiSmartphone,
 } from 'react-icons/gi'
 import { TiArrowBack } from 'react-icons/ti'
 
@@ -26,7 +26,10 @@ const Resume = () => {
     <div className="resume">
       <header>
         <h1>FRANCIS PHAM</h1>
-        <h4>Frontend Developer / Lifetime Learner</h4>
+        <h4>
+          Frontend Developer, specialized in React and React Native Development
+          & Lifetime Learner
+        </h4>{' '}
         <p style={{ fontSize: 'smaller' }}>
           <em>
             "Passion to Learn & Become an Efficient Problem Solver, Seeking to
@@ -48,13 +51,13 @@ const Resume = () => {
             francis.pham.ca@gmail.com
           </a>
         </div>
-        <div>
+        {/* <div>
           <GiSmartphone />
           1.778.991.0893
-        </div>
+        </div> */}
         <div>
           <GiCrosshair />
-          British Columbia, Canada
+          Vancouver, British Columbia, Canada
         </div>
         <div>
           <GiSpiderWeb />
@@ -69,11 +72,11 @@ const Resume = () => {
         <div>
           <FaGithub />
           <a
-            href="https://github.com/francispham/"
+            href="https://github.com/francispham23/"
             target="_black"
             rel="noopener noreferrer"
           >
-            /francispham
+            /francispham23
           </a>
         </div>
         <div>
@@ -92,34 +95,81 @@ const Resume = () => {
         <div>
           <h2>WORK EXPERIENCE</h2>
           <>
-            <h3>Frontend Developer</h3>
+            <h3>Software Engineer</h3>
             <div className="container">
-              <strong>FansUnite Entertainment Inc.</strong>
-              <em>Vancouver, BC</em>
+              <strong>Betr Holdings, Inc.</strong>
+              <em>Miami, Florida · Remote</em>
             </div>
             <div className="container">
               <em>Achievements/Tasks</em>
-              <em>2021 - Present</em>
+              <em>2023 - Present</em>
             </div>
             <ul>
               <li>
-                Building the front end of a customer-facing product that allows
-                them to manage aspects of their own White Label as well as
-                access to reporting.
+                Developing and launching multiple high-traffic betting platforms
+                across Android, iOS and Web using React Native, supporting over
+                200,000 active users.
+              </li>
+              <li>
+                Enhancing productivity and streamlined development workflows by
+                integrating AI-powered GitHub CodePilot, driving efficiency in
+                daily tasks and code management.
+              </li>
+              <li>
+                Spearheading multiple integrations with technology partners and
+                3rd party services to enhance enrich the product with advanced
+                features and enhanced functionality.
+              </li>
+              <li>
+                Working stack including{' '}
+                <em>
+                  TypeScript, React Native, ReactJS, TanStack Query, Zustand,
+                  RESTful API, Laravel, MySQL.
+                </em>
+                <p>
+                  <small>
+                    <strong>Website</strong>{' '}
+                    <a
+                      href="https://www.betr.app"
+                      target="_black"
+                      rel="noopener noreferrer"
+                    >
+                      https://www.betr.app
+                    </a>
+                  </small>
+                </p>
+              </li>
+            </ul>
+          </>
+          <>
+            <h3>Frontend Developer</h3>
+            <div className="container">
+              <strong>FansUnite Entertainment Inc.</strong>
+              <em>Vancouver, BC · Remote</em>
+            </div>
+            <div className="container">
+              <em>Achievements/Tasks</em>
+              <em>2021 - 2023</em>
+            </div>
+            <ul>
+              <li>
+                Developing the front-end of a customer-facing platform, enabling
+                users to manage their White Label configurations and access
+                detailed reporting features.
               </li>
               <li>
                 Working closely with a Product Manager and UI/UX Designers to
                 refine scope and project deliverables.
               </li>
               <li>
-                Ensure code quality through unit testing as well as assist in
+                Ensuring code quality through unit testing as well as assist in
                 investigation and resolution of support issues.
               </li>
               <li>
                 Working stack including{' '}
                 <em>
-                  ReactJS, TypeScript, HTML5, CSS3, CSS Variables, Styled
-                  Components, Python, Django, AWS, Git/GitHub.
+                  TypeScript, ReactJS, NextJS, React Native, XState, Styled
+                  Components, RESTful API, Django.
                 </em>
                 <p>
                   <small>
@@ -139,12 +189,13 @@ const Resume = () => {
           <>
             <h3>Frontend Developer</h3>
             <div className="container">
-              <strong>Spinndle Inc.</strong>
-              <em>Vancouver, BC</em>
+              <strong>Spinndle Inc. and AssistList Association</strong>
+
+              <em>Vancouver, BC · Remote</em>
             </div>
             <div className="container">
               <em>Achievements/Tasks</em>
-              <em>2020 - 2021</em>
+              <em>2019 - 2021</em>
             </div>
             <ul>
               <li>
@@ -154,7 +205,7 @@ const Resume = () => {
               </li>
               <li>
                 Creating new features from scratch using ReactJS & Redux with
-                Thunk for Frontend based on UI/UX requirements from Design &
+                Thunk for front-end based on UI/UX requirements from Design &
                 Product Owners.
               </li>
               <li>
@@ -162,16 +213,11 @@ const Resume = () => {
                 user experience and application quality.
               </li>
               <li>
-                Working closely with co-founders in daily meetings to prioritize
-                and assign tasks. Collaborating efficiently with other designers
-                and developers in a small team.
-              </li>
-              <li>
                 Working stack including{' '}
                 <em>
-                  ReactJS, Redux, Redux Thunk, JavaScript, HTML5, CSS3, CSS
-                  Variables, Styled Components, Reactstrap, Python, Django,
-                  Git/GitLab.
+                  ReactJS, Redux, Redux Thunk, HTML5, CSS3, CSS Variables,
+                  Styled Components, RESTful API, Django, Ruby on Rails,
+                  PostgreSQL, Git/GitHub.
                 </em>
                 <p>
                   <small>
@@ -181,48 +227,17 @@ const Resume = () => {
                       target="_black"
                       rel="noopener noreferrer"
                     >
-                      https://app.spinndle.com/
+                      https://app.spinndle.com
                     </a>
                   </small>
-                </p>
-              </li>
-            </ul>
-          </>
-          <>
-            <h3>Fullstack Developer</h3>
-            <div className="container">
-              <strong>AssistList Association</strong>
-              <em>Vancouver, BC</em>
-            </div>
-            <div className="container">
-              <em>Achievements/Tasks</em>
-              <em>2019 - 2020</em>
-            </div>
-            <ul>
-              <li>
-                Building new features using ReactJS & Redux for Frontend, and
-                Rails RESTful APIs Backend, based on UI/UX requirements from
-                Design & Business teams.
-              </li>
-              <li>
-                Participating in weekly meetings to prioritize and assign tasks
-                to team members.
-              </li>
-              <li>
-                Working stack including{' '}
-                <em>
-                  ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS,
-                  Docker.
-                </em>
-                <p>
+                  <span> & </span>
                   <small>
-                    <strong>Website</strong>{' '}
                     <a
                       href="https://www.assistlist.ca"
                       target="_black"
                       rel="noopener noreferrer"
                     >
-                      https://www.assistlist.ca/
+                      https://www.assistlist.ca
                     </a>
                   </small>
                 </p>
@@ -240,19 +255,22 @@ const Resume = () => {
             }}
           >
             <Button>TypesScript</Button>
-            <Button>JavaScript</Button>
             <Button>ReactJS</Button>
-            <Button>Redux</Button>
-            <Button>GatsbyJS</Button>
             <Button>NextJS</Button>
-            <Button>Jest</Button>
-            <Button>Styled Components</Button>
+            <Button>React Native</Button>
+            <Button>TanStack Query</Button>
+            <Button>Zustand</Button>
             <Button>CSS3</Button>
             <Button>HTML5</Button>
-            <Button>NodeJS</Button>
-            <Button>GraphQL</Button>
             <Button>RESTful APIs</Button>
+            <Button>JavaScript</Button>
+            <Button>Styled Components</Button>
+            <Button>Tailwind CSS</Button>
+            <Button>MySQL</Button>
+            <Button>AWS</Button>
+            <Button>Git/GitHub</Button>
           </div>
+
           <h2>PROJECTS</h2>
           <>
             <div className="container">
@@ -268,14 +286,16 @@ const Resume = () => {
                 <em>NextJS, ReactJS, Shopify API, Vercel</em>
               </p>
               <p>
-                <strong>Website</strong>{' '}
-                <a
-                  href="https://onepriceauto-development-git-main-francispham.vercel.app"
-                  target="_black"
-                  rel="noopener noreferrer"
-                >
-                  https://www.onepriceauto.co
-                </a>
+                <small>
+                  <strong>Website</strong>{' '}
+                  <a
+                    href="https://onepriceauto-development-git-main-francispham.vercel.app"
+                    target="_black"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.onepriceauto.co
+                  </a>
+                </small>
               </p>
             </div>
           </>
@@ -289,38 +309,35 @@ const Resume = () => {
                 A Professional Web Application Developer Portfolio Website with
                 Resume, served on <strong>Netlify</strong> Server, building with{' '}
                 <strong>GatsbyJS</strong> site generator on top of{' '}
-                <strong>ReactJS</strong>. Other technologies including{' '}
-                <em>GraphQL, Styled Components.</em>
+                <strong>ReactJS</strong> with
+                <strong> GraphQL, Styled Components.</strong>
               </p>
               <p>
-                <strong>Website</strong>{' '}
-                <a
-                  href="https://francispham.ca/"
-                  target="_black"
-                  rel="noopener noreferrer"
-                >
-                  https://francispham.ca/
-                </a>
+                <small>
+                  <strong>Website</strong>{' '}
+                  <a
+                    href="https://francispham.ca/"
+                    target="_black"
+                    rel="noopener noreferrer"
+                  >
+                    https://francispham.ca/
+                  </a>
+                </small>
               </p>
-              <small>
-                <a
-                  href="https://github.com/francispham/Portfolio"
-                  target="_black"
-                  rel="noopener noreferrer"
-                >
-                  Https://github.com/francispham/Portfolio
-                </a>
-              </small>
             </div>
           </>
 
           <h2>EDUCATION</h2>
           <div className="container">
-            <strong>Web Application Development Bootcamp</strong>
+            <strong>Web Application Development Diploma</strong>
             <em>2018</em>
           </div>
           <div className="container specialPadding">
-            <em>Fullstack: JavaScript, ReactJS, Ruby on Rails, HTML5 & CSS3</em>
+            <em>
+              Developer Bootcamp focus on full-stack development with
+              JavaScript, ReactJS, React Native, Ruby on Rails, PostgreSQL,
+              HTML5 & CSS3
+            </em>
             <p>CodeCore College</p>
           </div>
           <div className="container">
@@ -348,7 +365,7 @@ const Resume = () => {
                 target="_black"
                 rel="noopener noreferrer"
               >
-                Https://github.com/francispham/drill-ninjaz
+                https://github.com/francispham/drill-ninjaz
               </a>
             </small>
           </div>
@@ -368,7 +385,6 @@ const Resume = () => {
             <div
               style={{
                 textAlign: 'center',
-                padding: '0.5rem',
               }}
             >
               <FaSnowboarding size={30} />
