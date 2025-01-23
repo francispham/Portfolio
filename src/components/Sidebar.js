@@ -1,9 +1,9 @@
-import React from 'react';
-import Img from 'gatsby-image';
+import React from 'react'
+import Img from 'gatsby-image'
 import { useStaticQuery, graphql } from 'gatsby'
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
-const Sidebar = props => {
+const Sidebar = (props) => {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "sidebar.jpg" }) {
@@ -46,7 +46,7 @@ const Sidebar = props => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/francispham"
+            href="https://github.com/francispham23"
           >
             <FaGithub size={40} style={{ marginRight: '1em' }} />
           </a>
@@ -66,4 +66,4 @@ const Sidebar = props => {
   )
 }
 
-export default Sidebar;
+export default Sidebar
