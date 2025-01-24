@@ -38,8 +38,8 @@ const Sidebar = (props) => {
         fluid={data.file.childImageSharp.fluid}
       />
 
-      <h3>{props.title}</h3>
-      <h4>{props.description}</h4>
+      <h2 style={{ margin: '10px' }}>{props.title}</h2>
+      <h3>{props.description}</h3>
 
       <div className="gridBox">
         <big>

@@ -1,0 +1,30 @@
+import React from 'react'
+
+import { PROJECTS } from '../../data/resume-data'
+
+export const Projects = () => {
+  return (
+    <>
+      <h2>PROJECTS</h2>
+      {PROJECTS.map(({ title, year, description, website }) => (
+        <>
+          <div className="container">
+            <strong>{title}</strong>
+            <em>{year}</em>
+          </div>
+          <div className="infoDetails">
+            <p>{description}</p>
+            <p>
+              <small>
+                <strong>Website </strong>
+                <a href={website} target="_blank" rel="noopener noreferrer">
+                  {website}
+                </a>
+              </small>
+            </p>
+          </div>
+        </>
+      ))}
+    </>
+  )
+}

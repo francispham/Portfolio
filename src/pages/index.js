@@ -124,7 +124,7 @@ const IndexPage = () => {
           <hr className="hr" />
           <ul style={{ listStyle: 'none', padding: '10px' }}>
             <li>
-              <a href="https://www.betr.app/" target="_black">
+              <a href="https://www.betr.app/" target="_blank" rel="noreferrer">
                 <Img fluid={data.betr.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
                   ➣ <strong>Betr Holding Inc.</strong> built with ReactJS,
@@ -134,7 +134,11 @@ const IndexPage = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.assistlist.ca/" target="_black">
+              <a
+                href="https://www.assistlist.ca/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Img fluid={data.assistlist.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
                   ➣ <strong>AssistList Association</strong> built with ReactJS,
@@ -146,7 +150,8 @@ const IndexPage = () => {
             <li>
               <a
                 href="https://ecstatic-booth-641e46.netlify.app/"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
               >
                 <Img fluid={data.store.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
@@ -159,7 +164,8 @@ const IndexPage = () => {
             <li>
               <a
                 href="https://quirky-shockley-921b7f.netlify.app/"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
               >
                 <Img fluid={data.stmedi.childImageSharp.fluid} />
                 <p>
@@ -170,7 +176,7 @@ const IndexPage = () => {
               </a>
             </li>
             <li>
-              <a href="https://spinndle.com/" target="_black">
+              <a href="https://spinndle.com/" target="_blank" rel="noreferrer">
                 <Img fluid={data.spinndle.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
                   ➣ <strong>Spinndle Inc.</strong> built with ReactJS, Redux,
@@ -182,7 +188,8 @@ const IndexPage = () => {
             <li>
               <a
                 href="https://github.com/francispham/Portfolio"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
               >
                 <Img fluid={data.portfolio.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
@@ -195,7 +202,8 @@ const IndexPage = () => {
             <li>
               <a
                 href="https://github.com/francispham/drill-ninjaz"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
               >
                 <Img fluid={data.ninja.childImageSharp.fluid} />
                 <p style={{ listStyle: 'none', padding: '10px' }}>
@@ -213,7 +221,8 @@ const IndexPage = () => {
             <h4>E-commerce Full Stack</h4>
             <a
               href="https://github.com/francispham/fullstack-online-store-fe"
-              target="_black"
+              target="_blank"
+              rel="noreferrer"
             >
               <p>
                 ➣ <strong>E-Commerce Web Application</strong> Frontend built
@@ -222,7 +231,8 @@ const IndexPage = () => {
             </a>
             <a
               href="https://github.com/francispham/OnlineStore"
-              target="_black"
+              target="_blank"
+              rel="noreferrer"
             >
               <p>
                 ➣ <strong>E-Commerce Web Application</strong> Backend built with
@@ -233,7 +243,8 @@ const IndexPage = () => {
             <h4>Advance ReactJS:</h4>
             <a
               href="https://github.com/francispham/FramerMotionAdvance"
-              target="_black"
+              target="_blank"
+              rel="noreferrer"
             >
               <p>
                 ➣ <strong>React Animation</strong> built with Framer Motion
@@ -241,13 +252,18 @@ const IndexPage = () => {
             </a>
             <a
               href="https://github.com/francispham/advance-react"
-              target="_black"
+              target="_blank"
+              rel="noreferrer"
             >
               <p>
                 ➣ <strong>React Animation</strong> built with React Spring
               </p>
             </a>
-            <a href="https://github.com/francispham/React3D" target="_black">
+            <a
+              href="https://github.com/francispham/React3D"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p>
                 ➣ <strong>React 3D</strong> built with React Spring, ThreeJS,
                 React Three Fiber
@@ -255,7 +271,8 @@ const IndexPage = () => {
             </a>
             <a
               href="https://github.com/francispham/React-Authentication-Client"
-              target="_black"
+              target="_blank"
+              rel="noreferrer"
             >
               <p>
                 ➣ <strong>React Authentication Client</strong> built with

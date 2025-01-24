@@ -1,8 +1,9 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-import DrawerToggleButton from './drawer-toggle-button';
-import '../css/toolbar.css';
+import DrawerToggleButton from './drawer-toggle-button'
+import NavLinks from './nav-links'
+import '../css/toolbar.css'
 
 const toolbar = (props) => (
   <div className="toolbar">
@@ -15,26 +16,10 @@ const toolbar = (props) => (
       </div>
       <div className="spacer" />
       <div className="toolbar__navigation-items">
-        <ul>
-          <li>
-            <Link to="/about">ABOUT</Link>
-          </li>
-          <li>
-            <Link to="/">PORTFOLIO</Link>
-          </li>
-          <li>
-            <Link to="/skills">SKILLS</Link>
-          </li>
-          <li>
-            <Link to="/contact">CONTACT</Link>
-          </li>
-          <li>
-            <Link to="/resume">RESUME</Link>
-          </li>
-        </ul>
+        <NavLinks />
       </div>
     </nav>
   </div>
 )
 
-export default toolbar;
+export default toolbar
