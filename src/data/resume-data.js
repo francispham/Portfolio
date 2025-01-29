@@ -39,7 +39,7 @@ export const WORK_EXPERIENCE = [
     achievements: [
       'Developing and launching multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
       'Enhancing productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
-      'Spearheading multiple integrations with technology partners and 3rd party services to enhance enrich the product with advanced features and enhanced functionality.',
+      'Spearheading multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
     stack:
       'TypeScript, React Native, ReactJS, TanStack Query, Zustand, RESTful API, Laravel, MySQL.',
@@ -53,7 +53,7 @@ export const WORK_EXPERIENCE = [
     achievements: [
       'Developing the front-end of a customer-facing platform, enabling users to manage their White Label configurations and access detailed reporting features.',
       'Working closely with a Product Manager and UI/UX Designers to refine scope and project deliverables.',
-      'Ensuring code quality through unit testing as well as assist in investigation and resolution of support issues.',
+      'Enhancing code quality through unit as well as assisting in the investigation and resolution of support issues.',
     ],
     stack:
       'TypeScript, React Native, ReactJS, NextJS, XState, Styled Components, RESTful API, Django.',
