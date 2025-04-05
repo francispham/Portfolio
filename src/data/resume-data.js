@@ -35,7 +35,7 @@ export const WORK_EXPERIENCE = [
     title: 'Software Engineer',
     company: 'Betr Holdings, Inc.',
     location: 'Miami, Florida · Remote',
-    period: '2023 - Present',
+    period: '2023 - 2025',
     achievements: [
       'Developing and launching multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
       'Enhancing productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
