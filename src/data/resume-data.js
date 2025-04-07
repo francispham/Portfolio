@@ -32,7 +32,7 @@ export const LINKS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: 'Software Engineer',
+    title: 'Frontend Developer',
     company: 'Betr Holdings, Inc.',
     location: 'Miami, Florida · Remote',
     period: '2023 - 2025',
@@ -42,7 +42,7 @@ export const WORK_EXPERIENCE = [
       'Spearheading multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
     stack:
-      'TypeScript, React Native, ReactJS, TanStack Query, Zustand, RESTful API, Laravel, MySQL.',
+      'TypeScript, React Native, ReactJS, TanStack Query, Zustand, GraphQL, RESTful API, Laravel.',
     website: 'https://www.betr.app',
   },
   {
