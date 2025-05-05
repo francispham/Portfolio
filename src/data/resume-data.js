@@ -32,7 +32,7 @@ export const LINKS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: 'Frontend Developer',
+    title: 'Software Engineer',
     company: 'Betr Holdings, Inc.',
     location: 'Miami, Florida · Remote',
     period: '2023 - 2025',

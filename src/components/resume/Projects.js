@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import { PROJECTS } from '../../data/resume-data'
 
@@ -7,7 +7,7 @@ export const Projects = () => {
     <>
       <h2>PROJECTS</h2>
       {PROJECTS.map(({ title, year, description, website }) => (
-        <>
+        <Fragment key={title}>
           <div className="container">
             <strong>{title}</strong>
             <em>{year}</em>
@@ -23,7 +23,7 @@ export const Projects = () => {
               </small>
             </p>
           </div>
-        </>
+        </Fragment>
       ))}
     </>
   )

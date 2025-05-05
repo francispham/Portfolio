@@ -6,7 +6,7 @@ export const Languages = () => {
       <h2>LANGUAGES</h2>
       <div className="container specialPadding">
         {LANGUAGES.map(({ name, proficiency }) => (
-          <div>
+          <div key={name}>
             <p>{name}</p>
             <em>{proficiency}</em>
           </div>

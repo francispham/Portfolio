@@ -6,7 +6,7 @@ import { LINKS } from '../data/constant'
 const NavLinks = () => (
   <ul>
     {LINKS.map(({ link, title }) => (
-      <li>
+      <li key={link}>
         <Link to={link}>{title}</Link>
       </li>
     ))}
