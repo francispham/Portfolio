@@ -10,7 +10,7 @@ export const Projects = () => {
         <Fragment key={title}>
           <div className="container">
             <strong>{title}</strong>
-            <em>{year}</em>
+            <em className="year">{year}</em>
           </div>
           <div className="infoDetails">
             <p>{description}</p>

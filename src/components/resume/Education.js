@@ -9,7 +9,7 @@ export const Education = () => {
         <Fragment key={title}>
           <div className="container">
             <strong>{title}</strong>
-            <em>{year}</em>
+            <em className="year">{year}</em>
           </div>
           <div className="container specialPadding">
             <em>{description}</em>

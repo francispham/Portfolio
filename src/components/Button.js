@@ -2,16 +2,18 @@ import styled from 'styled-components'
 
 export const Button = styled.button`
   display: inline-block;
-  padding: 5px 10px;
-  margin: 5px 0;
+  padding: 2px 7px;
+  margin: 4px 0;
   color: white;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 18px;
   font-weight: 500;
   background: #c39f6d;
+  border: 1px solid #333;
 
   &:hover {
     background: #ddbc8d;
+    border: none;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);

@@ -32,52 +32,57 @@ export const LINKS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: 'Software Engineer',
+    title: 'Frontend Developer',
+    type: 'Full-time',
     company: 'Betr Holdings, Inc.',
     location: 'Miami, Florida · Remote',
     period: '2023 - 2025',
-    achievements: [
+    descriptions: [
       'Developing and launching multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
       'Enhancing productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
       'Spearheading multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
-    stack:
-      'TypeScript, React Native, ReactJS, TanStack Query, Zustand, GraphQL, RESTful API, Laravel.',
     website: 'https://www.betr.app',
   },
   {
-    title: 'Frontend Developer',
+    title: '',
     company: 'FansUnite Entertainment Inc.',
-    location: 'Vancouver, BC · Remote',
+    location: '(Acquihired by Betr) · Vancouver, BC · Remote',
     period: '2021 - 2023',
-    achievements: [
-      'Developing the front-end of a customer-facing platform, enabling users to manage their White Label configurations and access detailed reporting features.',
+    descriptions: [
+      'Building the front end of a SaaS platform that lets clients manage White Labels and access advanced reporting tools.',
       'Working closely with a Product Manager and UI/UX Designers to refine scope and project deliverables.',
       'Enhancing code quality through unit as well as assisting in the investigation and resolution of support issues.',
     ],
-    stack:
-      'TypeScript, React Native, ReactJS, NextJS, XState, Styled Components, RESTful API, Django.',
     website: 'https://www.fansunite.com',
   },
   {
     title: 'Frontend Developer',
-    company: 'Spinndle Inc. and AssistList Association',
+    type: 'Contract',
+    company: 'Spinndle Inc.',
     location: 'Vancouver, BC · Remote',
-    period: '2019 - 2021',
-    achievements: [
-      'Building a SAAS Web Application that provides a online learning environment for high school teachers and students with an effective check-in system.',
-      'Creating new features from scratch using ReactJS & Redux with Thunk for front-end based on UI/UX requirements from Design & Product Owners.',
-      'Fixing bugs and testing code for efficiency to ensure better user experience and application quality.',
+    period: '2020 - 2021',
+    descriptions: [
+      'Developing a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
     ],
-    stack:
-      'ReactJS, Redux, Redux Thunk, HTML5, CSS3, CSS Variables, Styled Components, RESTful API, Django, Ruby on Rails, PostgreSQL, Git/GitHub.',
-    website: ['https://app.spinndle.com', 'https://www.assistlist.ca'],
+    website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
+  },
+  {
+    title: 'Full Stack Developer',
+    type: 'Contract',
+    company: 'AssistList Association',
+    location: 'Vancouver, BC · Remote',
+    period: '2019 - 2020',
+    descriptions: [
+      'Developing a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
+    ],
+    website: 'https://www.assistlist.ca',
   },
 ]
 
 export const SKILLS = [
-  'TypesScript',
   'ReactJS',
+  'TypesScript',
   'NextJS',
   'React Native',
   'TanStack Query',
@@ -88,9 +93,17 @@ export const SKILLS = [
   'JavaScript',
   'Styled Components',
   'Tailwind CSS',
-  'MySQL',
-  'AWS',
+  'Redux',
   'Git/GitHub',
+  'CI/CD',
+  'NodeJS',
+  'Ruby on Rails',
+  'PostgreSQL',
+  'Laravel',
+  'MongoDB',
+  'XState',
+  'AWS',
+  'GraphQL Client',
 ]
 
 export const PROJECTS = [
@@ -98,14 +111,14 @@ export const PROJECTS = [
     title: 'E-commerce Web Applications',
     year: '2022',
     description:
-      'A Blazing fast online store built in NodeJS Ecosystem. The website owner can post products/servers online connected with Cloud Database for Inventory System with Shopify Storefront API. Building stack including NextJS, ReactJS, Shopify API, Vercel.',
+      'A blazing-fast online store built in the Node.js ecosystem, featuring real-time inventory management via a cloud database and integration with the Shopify Storefront API. Developed using Next.js, React, Shopify API, and deployed on Vercel.',
     website: 'https://www.onepriceauto.co',
   },
   {
     title: 'Personal Portfolio Website',
     year: '2021',
     description:
-      'A Professional Web Application Developer Portfolio Website with Resume, served on Netlify Server, building with GatsbyJS site generator on top of ReactJS with GraphQL, Styled Component.',
+      'A professional portfolio website for a web application developer, featuring a resume and deployed on Netlify. Built with GatsbyJS  using GraphQL and Styled Components for a fast, modern experience.',
     website: 'https://francispham.ca',
   },
 ]

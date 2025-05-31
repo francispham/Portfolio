@@ -4,54 +4,52 @@ import { WORK_EXPERIENCE } from '../../data/resume-data'
 
 export const WorkExperience = () => {
   return (
-    <div>
+    <>
       <h2>WORK EXPERIENCE</h2>
       {WORK_EXPERIENCE.map((experience, index) => (
         <ExperienceItem key={index} {...experience} />
       ))}
-    </div>
+    </>
   )
 }
 
 const ExperienceItem = ({
   title,
+  type,
   company,
   location,
   period,
-  achievements,
-  stack,
+  descriptions,
   website,
 }) => (
   <>
-    <h3>{title}</h3>
+    {title && (
+      <div className="container">
+        <h3 className="title">{title}</h3>
+        <h5 className="type">
+          <em>{type}</em>
+        </h5>
+      </div>
+    )}
+
     <div className="container">
       <strong>{company}</strong>
-      <em>{location}</em>
+      <em className="location">{location}</em>
     </div>
     <div className="container">
       <em>Achievements/Tasks</em>
       <em>{period}</em>
     </div>
-    <ul>
-      {achievements.map((achievement, index) => (
-        <li key={index}>{achievement}</li>
+    <ul className="list">
+      {descriptions.map((description, index) => (
+        <li key={index}>{description}</li>
       ))}
-      <li>
-        Working stack including <em>{stack}</em>
-        <p>
-          <small>
-            <strong>Website </strong>
-            {Array.isArray(website) ? (
-              <>
-                <WebLink website={website[0]} /> <strong>& </strong>
-                <WebLink website={website[1]} />
-              </>
-            ) : (
-              <WebLink website={website} />
-            )}
-          </small>
-        </p>
-      </li>
+      <p>
+        <small>
+          <strong>Website </strong>
+          <WebLink website={website} />
+        </small>
+      </p>
     </ul>
   </>
 )
