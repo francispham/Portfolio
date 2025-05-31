@@ -33,7 +33,7 @@ export const LINKS = [
 export const WORK_EXPERIENCE = [
   {
     title: 'Frontend Developer',
-    type: 'Full-time',
+    type: 'Permanent Full-time',
     company: 'Betr Holdings, Inc.',
     location: 'Miami, Florida · Remote',
     period: '2023 - 2025',
@@ -58,7 +58,7 @@ export const WORK_EXPERIENCE = [
   },
   {
     title: 'Frontend Developer',
-    type: 'Contract',
+    type: 'Full-time Contract',
     company: 'Spinndle Inc.',
     location: 'Vancouver, BC · Remote',
     period: '2020 - 2021',
@@ -69,7 +69,7 @@ export const WORK_EXPERIENCE = [
   },
   {
     title: 'Full Stack Developer',
-    type: 'Contract',
+    type: 'Part-time Contract',
     company: 'AssistList Association',
     location: 'Vancouver, BC · Remote',
     period: '2019 - 2020',

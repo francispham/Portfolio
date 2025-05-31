@@ -13,7 +13,7 @@ export const Achievements = () => {
             href="https://github.com/francispham/drill-ninjaz"
             target="_black"
             rel="noopener noreferrer"
-            style={{ color: '#C39F6D' }}
+            className="groupLink"
           >
             Group Project
           </a>{' '}

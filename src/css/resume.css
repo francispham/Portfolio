@@ -61,6 +61,10 @@ h5 {
   background-color: whitesmoke;
 }
 
+.resume .groupLink {
+  color: #c39f6d;
+}
+
 .resume a:hover,
 .resume a:active {
   color: #ddbc8d;
