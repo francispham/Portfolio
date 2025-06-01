@@ -21,12 +21,12 @@ const Resume = () => {
       <main className="resumeGridBox">
         <div>
           <WorkExperience />
-          <Achievements />
         </div>
         <div>
           <Skills />
           <Projects />
           <Education />
+          <Achievements />
           <Languages />
           <Interests />
         </div>

@@ -35,7 +35,7 @@ export const WORK_EXPERIENCE = [
     title: 'Frontend Developer',
     type: 'Permanent Full-time',
     company: 'Betr Holdings, Inc.',
-    location: 'Miami, Florida · Remote',
+    location: 'Startup · Miami, Florida · Remote',
     period: '2023 - 2025',
     descriptions: [
       'Developing and launching multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
@@ -43,6 +43,7 @@ export const WORK_EXPERIENCE = [
       'Spearheading multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
     website: 'https://www.betr.app',
+    stack: '',
   },
   {
     title: '',
@@ -51,32 +52,39 @@ export const WORK_EXPERIENCE = [
     period: '2021 - 2023',
     descriptions: [
       'Building the front end of a SaaS platform that lets clients manage White Labels and access advanced reporting tools.',
-      'Working closely with a Product Manager and UI/UX Designers to refine scope and project deliverables.',
+      'Collaborating closely with a Product Manager and UI/UX Designers in an agile environment to refine scope and project deliverables.',
       'Enhancing code quality through unit as well as assisting in the investigation and resolution of support issues.',
     ],
     website: 'https://www.fansunite.com',
+    stack:
+      'TypeScript, React Native, ReactJS, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, NodeJS, Git/GitHub',
   },
   {
     title: 'Frontend Developer',
     type: 'Full-time Contract',
     company: 'Spinndle Inc.',
-    location: 'Vancouver, BC · Remote',
+    location: 'Startup · Vancouver, BC · Remote',
     period: '2020 - 2021',
     descriptions: [
       'Developing a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
+      'Building new ReactJS & Redux (Thunk) features based on UI/UX specs from Design and Product teams.',
     ],
     website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
+    stack:
+      'ReactJS, Redux, Redux Thunk, JavaScript, CSS Variables, Styled Components, Reactstrap, Git/GitLab.',
   },
   {
     title: 'Full Stack Developer',
     type: 'Part-time Contract',
     company: 'AssistList Association',
-    location: 'Vancouver, BC · Remote',
+    location: 'Startup · Vancouver, BC · Remote',
     period: '2019 - 2020',
     descriptions: [
       'Developing a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
+      'Performing code peer reviews to maintain quality standards, improve performance, and provide credibility',
     ],
     website: 'https://www.assistlist.ca',
+    stack: 'ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS, Docker',
   },
 ]
 
@@ -89,20 +97,19 @@ export const SKILLS = [
   'Zustand',
   'CSS3',
   'HTML5',
+  'AWS',
   'RESTful APIs',
   'JavaScript',
   'Styled Components',
+  'XState',
   'Tailwind CSS',
   'Redux',
   'Git/GitHub',
   'CI/CD',
   'NodeJS',
-  'Ruby on Rails',
   'PostgreSQL',
   'Laravel',
   'MongoDB',
-  'XState',
-  'AWS',
   'GraphQL Client',
 ]
 

@@ -21,6 +21,7 @@ const ExperienceItem = ({
   period,
   descriptions,
   website,
+  stack,
 }) => (
   <>
     {title && (
@@ -51,6 +52,11 @@ const ExperienceItem = ({
         </small>
       </p>
     </ul>
+    {stack && (
+      <h6>
+        <em>Working stack including {stack}.</em>
+      </h6>
+    )}
   </>
 )
 

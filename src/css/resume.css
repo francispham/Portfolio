@@ -23,6 +23,12 @@ h5 {
   margin-bottom: 0;
 }
 
+.resume h6 {
+  margin-top: -10px;
+  font-weight: normal;
+  font-size: small;
+}
+
 .resume .divided {
   border: none;
   padding: 0.5rem;
