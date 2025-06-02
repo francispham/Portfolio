@@ -54,7 +54,7 @@ const ExperienceItem = ({
     </ul>
     {stack && (
       <h6>
-        <em>Working stack including {stack}.</em>
+        <em>Working stack: {stack}.</em>
       </h6>
     )}
   </>

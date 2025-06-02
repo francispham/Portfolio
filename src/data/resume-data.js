@@ -38,9 +38,9 @@ export const WORK_EXPERIENCE = [
     location: 'Startup · Miami, Florida · Remote',
     period: '2023 - 2025',
     descriptions: [
-      'Developing and launching multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
-      'Enhancing productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
-      'Spearheading multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
+      'Developed and launched multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
+      'Enhanced productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
+      'Spearheaded multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
     website: 'https://www.betr.app',
     stack: '',
@@ -51,9 +51,9 @@ export const WORK_EXPERIENCE = [
     location: '(Acquihired by Betr) · Vancouver, BC · Remote',
     period: '2021 - 2023',
     descriptions: [
-      'Building the front end of a SaaS platform that lets clients manage White Labels and access advanced reporting tools.',
-      'Collaborating closely with a Product Manager and UI/UX Designers in an agile environment to refine scope and project deliverables.',
-      'Enhancing code quality through unit as well as assisting in the investigation and resolution of support issues.',
+      'Built the front end of a SaaS platform that lets clients manage White Labels and access advanced reporting tools.',
+      'Collaborated closely with a Product Manager and UI/UX Designers in an agile environment to refine scope and project deliverables.',
+      'Enhanced code quality through unit as well as assisting in the investigation and resolution of support issues.',
     ],
     website: 'https://www.fansunite.com',
     stack:
@@ -66,8 +66,8 @@ export const WORK_EXPERIENCE = [
     location: 'Startup · Vancouver, BC · Remote',
     period: '2020 - 2021',
     descriptions: [
-      'Developing a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
-      'Building new ReactJS & Redux (Thunk) features based on UI/UX specs from Design and Product teams.',
+      'Developed a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
+      'Built new ReactJS & Redux (Thunk) features based on UI/UX specs from Design and Product teams.',
     ],
     website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
     stack:
@@ -80,11 +80,11 @@ export const WORK_EXPERIENCE = [
     location: 'Startup · Vancouver, BC · Remote',
     period: '2019 - 2020',
     descriptions: [
-      'Developing a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
-      'Performing code peer reviews to maintain quality standards, improve performance, and provide credibility',
+      'Developed a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
+      'Performed code peer reviews to maintain quality standards, improve performance, and provide credibility.',
     ],
     website: 'https://www.assistlist.ca',
-    stack: 'ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, AWS, Docker',
+    stack: 'ReactJS, Semantic UI React, Ruby on Rails, PostgreSQL, Docker',
   },
 ]
 
@@ -92,6 +92,7 @@ export const SKILLS = [
   'ReactJS',
   'TypesScript',
   'NextJS',
+  'NodeJS',
   'React Native',
   'TanStack Query',
   'Zustand',
@@ -104,9 +105,9 @@ export const SKILLS = [
   'XState',
   'Tailwind CSS',
   'Redux',
+  'Docker',
   'Git/GitHub',
   'CI/CD',
-  'NodeJS',
   'PostgreSQL',
   'Laravel',
   'MongoDB',
