@@ -57,7 +57,7 @@ const Sidebar = (props) => {
           >
             <FaLinkedin size={40} style={{ marginRight: '1em' }} />
           </a>
-          <a href="mailto:francis.pham.ca@gmail.com">
+          <a href="mailto:hello@francispham.ca">
             <FaEnvelope size={40} style={{ marginRight: '1em' }} />
           </a>
         </big>

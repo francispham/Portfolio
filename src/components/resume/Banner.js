@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { GiCrosshair } from 'react-icons/gi'
 import { LINKS } from '../../data/resume-data'
 
@@ -12,7 +11,7 @@ export const Banner = () => {
       {LINKS.map((link, index) => (
         <ContactLink
           key={index}
-          icon={link.icon}
+          Icon={link.icon}
           href={link.href}
           text={link.text}
         />
@@ -22,9 +21,9 @@ export const Banner = () => {
   )
 }
 
-const ContactLink = ({ icon: Icon, href, text }) => (
+const ContactLink = ({ Icon, href, text }) => (
   <div>
-    <Icon />
+    <Icon style={{ position: 'relative', top: '2px' }} />
     <a href={href} target="_blank" rel="noopener noreferrer">
       {text}
     </a>
@@ -33,13 +32,7 @@ const ContactLink = ({ icon: Icon, href, text }) => (
 
 const LocationInfo = () => (
   <div>
-    <GiCrosshair />
+    <GiCrosshair style={{ position: 'relative', top: '2px' }} />
     Vancouver, British Columbia, Canada
   </div>
 )
-
-ContactLink.propTypes = {
-  icon: PropTypes.elementType.isRequired,
-  href: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-}

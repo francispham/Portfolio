@@ -1,10 +1,8 @@
 import React from 'react'
+import HEADER from '../header'
+export const Header = () => {
+  const { name, role, motto } = HEADER
 
-export const Header = ({
-  name = 'FRANCIS PHAM',
-  role = 'Frontend Developer, specialized in React and React Native Development',
-  motto = '"Passion to Learn & Become an Efficient Problem Solver, Seeking to Build Amazing Web Apps to Make Life Better for Everyone"',
-}) => {
   return (
     <header>
       <h1>{name}</h1>

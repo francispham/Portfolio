@@ -10,15 +10,15 @@ function encode(data) {
 const FooterLinks = [
   {
     name: 'Github',
-    link: 'https://github.com/francispham',
+    link: 'https://github.com/francispham23',
   },
   {
     name: 'LinkedIn',
     link: 'http://linkedin.com/in/francisphamca',
   },
   {
-    name: 'Gmail',
-    link: 'mailto:francis.pham.ca@gmail.com',
+    name: 'Email',
+    link: 'mailto:hello@francispham.ca',
   },
 ]
 

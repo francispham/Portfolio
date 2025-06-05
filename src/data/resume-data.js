@@ -10,8 +10,8 @@ import { GiSpiderWeb, GiKnifeFork, GiHeadphones } from 'react-icons/gi'
 export const LINKS = [
   {
     icon: FaEnvelope,
-    href: 'mailto:francis.pham.ca@gmail.com',
-    text: 'francis.pham.ca@gmail.com',
+    href: 'mailto:hello@francispham.ca',
+    text: 'hello@francispham.ca',
   },
   {
     icon: GiSpiderWeb,
