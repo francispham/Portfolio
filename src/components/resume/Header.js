@@ -1,5 +1,6 @@
 import React from 'react'
-import HEADER from '../header'
+import { HEADER } from '../../data/constant'
+
 export const Header = () => {
   const { name, role, motto } = HEADER
 
