@@ -38,7 +38,7 @@ export const WORK_EXPERIENCE = [
     location: 'Startup · Miami, Florida · Remote',
     period: '2023 - 2025',
     descriptions: [
-      'Developed and launched multiple high-traffic betting platforms across Android, iOS and Web using React Native, supporting over 200,000 active users.',
+      'Developed and launched multiple high-traffic betting platforms across Android, iOS and Web using ReactJS, React Native, and NextJS supporting over 200,000 active users.',
       'Enhanced productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
       'Spearheaded multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
@@ -51,13 +51,13 @@ export const WORK_EXPERIENCE = [
     location: '(Acquihired by Betr) · Vancouver, BC · Remote',
     period: '2021 - 2023',
     descriptions: [
-      'Built the front end of a SaaS platform that lets clients manage White Labels and access advanced reporting tools.',
+      'Built front ends for a ReactJS SaaS platform with advanced white-label management and reporting, and a NextJS sportsbook app for EU clients.',
       'Collaborated closely with a Product Manager and UI/UX Designers in an agile environment to refine scope and project deliverables.',
       'Enhanced code quality through unit as well as assisting in the investigation and resolution of support issues.',
     ],
     website: 'https://www.fansunite.com',
     stack:
-      'TypeScript, React Native, ReactJS, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, NodeJS, Git/GitHub',
+      'ReactJS, NodeJS, NextJS, TypeScript, React Native, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, Git/GitHub',
   },
   {
     title: 'Frontend Developer',
@@ -67,11 +67,11 @@ export const WORK_EXPERIENCE = [
     period: '2020 - 2021',
     descriptions: [
       'Developed a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
-      'Built new ReactJS & Redux (Thunk) features based on UI/UX specs from Design and Product teams.',
+      'Built new ReactJS & Redux (Thunk) features with based on UI/UX specs from Design and Product teams.',
     ],
     website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
     stack:
-      'ReactJS, Redux, Redux Thunk, JavaScript, CSS Variables, Styled Components, Reactstrap, Git/GitLab.',
+      'ReactJS, Redux, Redux Thunk, JavaScript, CSS, HTML, NodeJS, CSS Variables, Styled Components, Reactstrap, Python, Django, Git/GitLab.',
   },
   {
     title: 'Full Stack Developer',
@@ -108,9 +108,9 @@ export const SKILLS = [
   'Docker',
   'Git/GitHub',
   'CI/CD',
+  'ExpressJS',
   'PostgreSQL',
   'Laravel',
-  'MongoDB',
   'GraphQL Client',
 ]
 
@@ -119,14 +119,14 @@ export const PROJECTS = [
     title: 'E-commerce Web Applications',
     year: '2022',
     description:
-      'A blazing-fast online store built in the Node.js ecosystem, featuring real-time inventory management via a cloud database and integration with the Shopify Storefront API. Developed using Next.js, React, Shopify API, and deployed on Vercel.',
+      'A blazing-fast online store built in the Node.js ecosystem, featuring real-time inventory management via a cloud database and integration with the Shopify Storefront API. Developed using NextJS, React, Shopify API, and deployed on Vercel.',
     website: 'https://www.onepriceauto.co',
   },
   {
     title: 'Personal Portfolio Website',
     year: '2021',
     description:
-      'A professional portfolio website for a web application developer, featuring a resume and deployed on Netlify. Built with GatsbyJS  using GraphQL and Styled Components for a fast, modern experience.',
+      'A professional portfolio website for a web application developer, featuring a resume and deployed on Vercel. Built with GatsbyJS using GraphQL Client and Styled Components for a fast, modern experience.',
     website: 'https://francispham.ca',
   },
 ]
