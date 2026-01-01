@@ -7,8 +7,8 @@ export const Interests = () => {
     <>
       <h2>INTERESTS</h2>
       <div
-        className="container"
-        style={{ justifyContent: 'center', marginTop: '0.5rem' }}
+        className="container infoDetails"
+        style={{ justifyContent: 'center' }}
       >
         {INTERESTS.map(({ icon, label }) => (
           <InterestIcon key={label} Icon={icon} />
@@ -19,5 +19,5 @@ export const Interests = () => {
 }
 
 const InterestIcon = ({ Icon }) => {
-  return <Icon size={30} />
+  return <Icon size={25} />
 }
