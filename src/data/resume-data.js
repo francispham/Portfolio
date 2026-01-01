@@ -67,7 +67,7 @@ export const WORK_EXPERIENCE = [
     period: '2020 - 2021',
     descriptions: [
       'Developed a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
-      'Built new React & Redux (Thunk) features with based on UI/UX specs from Design and Product teams.',
+      'Built new React & Redux features with based on UI/UX specs from Design and Product teams.',
     ],
     website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
     stack:
@@ -125,7 +125,7 @@ export const PROJECTS = [
     title: 'E-commerce Web Application - One Price Auto',
     year: '2022',
     description:
-      'Built and deployed a high-performance, SEO-friendly storefront for One Price Auto using NextJS. Implemented real-time inventory updates backed by a cloud database and integrated the Shopify Storefront API to power product/catalog experiences.',
+      'Built and deployed a high-performance, SEO-friendly NextJS storefront with real-time inventory updates backed by the Shopify Storefront API to power product/catalog experiences.',
     website: 'https://www.onepriceauto.co',
   },
 ]
@@ -135,7 +135,7 @@ export const EDUCATION = [
     title: 'Web Application Development Diploma',
     year: '2018',
     description:
-      'Developer Bootcamp focus on full-stack development with JavaScript, React, React Native, Ruby on Rails, PostgreSQL, HTML5 & CSS3',
+      'Developer Bootcamp focus on full-stack development with React, React Native, and Rails',
     school: 'CodeCore College',
   },
   {
