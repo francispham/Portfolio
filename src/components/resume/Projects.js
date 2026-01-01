@@ -5,7 +5,7 @@ import { PROJECTS } from '../../data/resume-data'
 export const Projects = () => {
   return (
     <>
-      <h2>PROJECTS</h2>
+      <h2>PRODUCTION PROJECTS</h2>
       {PROJECTS.map(({ title, year, description, website }) => (
         <Fragment key={title}>
           <div className="container">

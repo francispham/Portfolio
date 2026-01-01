@@ -1,29 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 export const Achievements = () => {
   return (
-    <>
+    <Fragment>
       <h2>ACHIEVEMENTS</h2>
-      <div className="container">
-        <strong>Drill Ninjaz Application</strong>
-        <em>2018</em>
-        <em>
-          Won Second Place for Well Overall Performance{' '}
-          <a
-            href="https://github.com/francispham/drill-ninjaz"
-            target="_black"
-            rel="noopener noreferrer"
-            className="groupLink"
-          >
-            Group Project
-          </a>{' '}
-        </em>
-      </div>
-      <div className="infoDetails">
+      <div className="container specialPadding">
+        <strong>Founder / Acting CTO — Glossé Nails</strong>
+        <em>2025 - now</em>
         <p>
-          Built with <em>Ruby on Rails & PostgreSQL</em>.
+          Led end-to-end development of customer-facing and internal
+          applications using React, React Native, and TypeScript while driving
+          product, marketing, and operational strategy.
         </p>
       </div>
-    </>
+    </Fragment>
   )
 }

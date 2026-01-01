@@ -1,12 +1,12 @@
 html {
-  font-family:"Optima", serif;
+  font-family: 'Optima', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height: 100%;
 }
 
 body {
-  font-family:"Optima", sans-serif;
+  font-family: 'Optima', sans-serif;
   /* animation: colorchange 30s; */
   /* -webkit-animation: colorchange 30s; */
   margin: 0;
@@ -58,13 +58,13 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #C39F6D;
+  color: #c39f6d;
   text-decoration: none;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: #DDBC8D;
+  color: #ddbc8d;
 }
 abbr[title] {
   border-bottom: none;
@@ -81,7 +81,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 mark {
   background-color: #ff0;
@@ -98,10 +98,10 @@ sup {
   vertical-align: baseline;
 }
 sub {
-  bottom: -.25em;
+  bottom: -0.25em;
 }
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 img {
   border-style: none;
@@ -131,7 +131,7 @@ select,
 textarea {
   font: inherit;
   margin: 0;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 optgroup {
@@ -145,29 +145,29 @@ button,
 select {
   text-transform: none;
 }
-[type=reset],
-[type=submit],
+[type='reset'],
+[type='submit'],
 button,
-html [type=button] {
+html [type='button'] {
   -webkit-appearance: button;
 }
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
 button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
-  padding: .35em .625em .75em;
+  padding: 0.35em 0.625em 0.75em;
 }
 legend {
   box-sizing: border-box;
@@ -180,26 +180,26 @@ legend {
 textarea {
   overflow: auto;
 }
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: .54;
+  opacity: 0.54;
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -244,7 +244,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
-  font-family:"Optima", serif;
+  font-family: 'Optima', serif;
 }
 h2 {
   margin-left: 0;
@@ -260,7 +260,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
-  font-family:"Optima", serif;
+  font-family: 'Optima', serif;
 }
 h3 {
   margin-left: 0;
@@ -276,7 +276,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
-  font-family:"Optima", sans-serif;
+  font-family: 'Optima', sans-serif;
 }
 h4 {
   margin-left: 0;
@@ -288,7 +288,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family:"Optima", sans-serif;
+  font-family: 'Optima', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -584,10 +584,10 @@ td,
 th {
   text-align: left;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
-  font-feature-settings: "tnum";
-  -moz-font-feature-settings: "tnum";
-  -ms-font-feature-settings: "tnum";
-  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: 'tnum';
+  -moz-font-feature-settings: 'tnum';
+  -ms-font-feature-settings: 'tnum';
+  -webkit-font-feature-settings: 'tnum';
   padding-left: 0.96667rem;
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
@@ -605,8 +605,8 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono',
+    'Liberation Mono', Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -620,13 +620,13 @@ code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
-  content: " ";
+  content: ' ';
 }
 pre code:before,
 pre code:after,
 pre tt:before,
 pre tt:after {
-  content: "";
+  content: '';
 }
 
 .container {
@@ -660,7 +660,6 @@ pre tt:after {
   margin: 1em;
 }
 
-
 .skill-container div img {
   margin-bottom: 10px;
   width: 80px;
@@ -668,10 +667,10 @@ pre tt:after {
 }
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 .flex input {
   margin-bottom: 30px;
@@ -699,31 +698,40 @@ pre tt:after {
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background: #C39F6D;
+  background: #c39f6d;
   box-shadow: 0 2px 10px rgba(50, 50, 73, 0.2),
-      0 37.5px 75px -5px rgba(0, 0, 0, 0.1);
+    0 37.5px 75px -5px rgba(0, 0, 0, 0.1);
 }
 .flex .button:hover {
-  background: #DDBC8D;
-  }
+  background: #ddbc8d;
+}
 
 .animation {
   text-align: center;
   font-size: 40px;
-  animation-name:animation;
+  animation-name: animation;
   animation-fill-mode: forwards;
   animation-play-state: running;
   animation-duration: 2s;
 }
 
-@keyframes animation{
-  0% {transform: translateY(50px);}
-  100% {transform: translate(0px)}
+@keyframes animation {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translate(0px);
+  }
 }
 
-.hr{
+.hr {
   height: 2px;
-  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) ,rgba(0,0,0,0));
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
   margin: 50px;
   animation-name: hr;
   animation-fill-mode: forwards;
@@ -731,7 +739,11 @@ pre tt:after {
   animation-duration: 2s;
 }
 
-@keyframes hr{
-  0% {width: 0px;}
-  100% {width: 90%;}
+@keyframes hr {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
 }
