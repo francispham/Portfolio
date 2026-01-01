@@ -57,7 +57,7 @@ export const WORK_EXPERIENCE = [
     ],
     website: 'https://www.fansunite.com',
     stack:
-      'React, NodeJS, NextJS, TypeScript, React Native, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, Git/GitHub',
+      'React, NextJS, TypeScript, React Native, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, Git/GitHub',
   },
   {
     title: 'Frontend Developer',
@@ -71,7 +71,7 @@ export const WORK_EXPERIENCE = [
     ],
     website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
     stack:
-      'React, Redux, Redux Thunk, JavaScript, CSS, HTML, NodeJS, CSS Variables, Styled Components, Reactstrap, Python, Django, Git/GitLab.',
+      'React, Redux, Redux Thunk, JavaScript, CSS, HTML, NodeJS, CSS Variables, Styled Components, Reactstrap, Python, Django, Git/GitLab',
   },
   {
     title: 'Full Stack Developer',
