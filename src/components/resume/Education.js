@@ -12,8 +12,10 @@ export const Education = () => {
             <em className="year">{year}</em>
           </div>
           <div className="container infoDetails">
-            <em>{description}</em>
-            <p>{school}</p>
+            <strong>
+              <small>{school}</small>
+            </strong>
+            <p>{description}</p>
           </div>
         </Fragment>
       ))}
