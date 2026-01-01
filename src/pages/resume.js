@@ -25,8 +25,8 @@ const Resume = () => {
         <div>
           <Skills />
           <Projects />
-          <Education />
           <Achievements />
+          <Education />
           <Languages />
           <Interests />
         </div>

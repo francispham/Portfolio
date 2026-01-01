@@ -11,7 +11,7 @@ export const Education = () => {
             <strong>{title}</strong>
             <em className="year">{year}</em>
           </div>
-          <div className="container specialPadding">
+          <div className="container infoDetails">
             <em>{description}</em>
             <p>{school}</p>
           </div>

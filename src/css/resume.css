@@ -24,7 +24,7 @@ h5 {
 }
 
 .resume h6 {
-  margin-top: -10px;
+  margin-top: -0.5rem;
   margin-bottom: 1.2rem;
   font-weight: normal;
   font-size: small;
@@ -45,12 +45,17 @@ h5 {
 .resume main a {
   color: #4b4b4b;
 }
-.resume main .infoDetails,
+.resume main .infoDetails {
+  padding-bottom: 0.5rem;
+}
 .resume main .specialPadding {
   padding-bottom: 0.9rem;
 }
 .resume main .container em {
   font-size: small;
+}
+.resume main .details-container {
+  padding-left: 0.1rem;
 }
 .resume main svg {
   margin-right: 1.5rem;
@@ -110,7 +115,7 @@ svg:hover {
 }
 
 .resume .list {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .resume .type,
 .resume .location,
