@@ -8,7 +8,7 @@ export const LINKS = [
 
 export const HEADER = {
   name: 'FRANCIS PHAM',
-  role: 'Frontend Developer, specialized in React and React Native Development',
+  role: 'Frontend Engineer (specialized in React & React Native) | Full-Stack Experience',
   motto:
-    '"Passion to Learn & Become an Efficient Problem Solver, Seeking to Build Amazing Web Apps to Make Life Better for Everyone"',
+    '"Experienced in building scalable web & mobile platforms with real production usage and leading technical delivery end-to-end."',
 }
