@@ -14,8 +14,8 @@ export const Achievements = () => {
         </small>
         <p>
           Led end-to-end development of customer-facing and internal
-          applications using React, React Native, and Convex while driving
-          product, marketing, and operational strategy.
+          applications using React, NextJS, React Native, Expo, Vercel and
+          Convex while driving product, marketing, and operational strategy.
         </p>
       </div>
     </Fragment>
