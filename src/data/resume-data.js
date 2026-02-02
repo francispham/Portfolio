@@ -32,13 +32,13 @@ export const LINKS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: 'Frontend Developer',
+    title: 'Software Engineer',
     type: 'Permanent Full-time',
     company: 'Betr Holdings, Inc.',
     location: 'Startup · Miami, Florida · Remote',
     period: '2023 - 2025',
     descriptions: [
-      'Developed and launched multiple high-traffic betting platforms across Android, iOS and Web using React and React Native, supporting over 200,000 active users.',
+      'Built and launched multiple high-traffic betting platforms across Android, iOS and Web using React and React Native, supporting over 200,000 active users.',
       'Enhanced productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
       'Spearheaded multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
     ],
@@ -57,7 +57,7 @@ export const WORK_EXPERIENCE = [
     ],
     website: 'https://www.fansunite.com',
     stack:
-      'React, NextJS, TypeScript, React Native, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, Git/GitHub',
+      'React, NextJS, React Native, TypeScript, NodeJS, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, GitHub',
   },
   {
     title: 'Frontend Developer',
@@ -80,7 +80,7 @@ export const WORK_EXPERIENCE = [
     location: 'Startup · Vancouver, BC · Remote',
     period: '2019 - 2020',
     descriptions: [
-      'Developed a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
+      'Launched a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
       'Performed code peer reviews to maintain quality standards, improve performance, and provide credibility.',
     ],
     website: 'https://www.assistlist.ca',
