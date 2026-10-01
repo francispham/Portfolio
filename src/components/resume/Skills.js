@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { Button } from '../../components/Button'
 import { SKILLS } from '../../data/resume-data'
 
 export const Skills = () => {
@@ -14,7 +13,9 @@ export const Skills = () => {
         }}
       >
         {SKILLS.map((skill) => (
-          <Button key={skill}>{skill}</Button>
+          <span className="resume-skill" key={skill}>
+            {skill}
+          </span>
         ))}
       </div>
     </>

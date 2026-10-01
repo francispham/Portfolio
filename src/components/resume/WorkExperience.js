@@ -23,7 +23,7 @@ const ExperienceItem = ({
   website,
   stack,
 }) => (
-  <>
+  <section className="resume-experience">
     {title && (
       <div className="container">
         <h3 className="title">{title}</h3>
@@ -36,30 +36,34 @@ const ExperienceItem = ({
     <div className="details-container">
       <div className="container">
         <strong>{company}</strong>
-        <em className="location">{location}</em>
+        {location && <em className="location">{location}</em>}
       </div>
       <div className="container">
-        <em>Achievements/Tasks</em>
+        {descriptions.length > 0 && <em>Achievements/Tasks</em>}
         <em>{period}</em>
       </div>
-      <ul className="list">
-        {descriptions.map((description, index) => (
-          <li key={index}>{description}</li>
-        ))}
-        <p>
+      {descriptions.length > 0 && (
+        <ul className="list">
+          {descriptions.map((description, index) => (
+            <li key={index}>{description}</li>
+          ))}
+        </ul>
+      )}
+      {website && (
+        <p className="resume-website">
           <small>
             <strong>Website </strong>
             <WebLink website={website} />
           </small>
         </p>
-      </ul>
+      )}
       {stack && (
         <h6>
           <em>Working stack: {stack}.</em>
         </h6>
       )}
     </div>
-  </>
+  </section>
 )
 
 const WebLink = ({ website }) => (

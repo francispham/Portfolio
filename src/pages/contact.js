@@ -1,108 +1,142 @@
 import React, { useState } from 'react'
-
+import { navigate } from 'gatsby'
 import Layout from '../components/layout'
 
-function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
-const FooterLinks = [
-  {
-    name: 'Github',
-    link: 'https://github.com/francispham23',
-  },
-  {
-    name: 'LinkedIn',
-    link: 'http://linkedin.com/in/francisphamca',
-  },
-  {
-    name: 'Email',
-    link: 'mailto:hello@francispham.ca',
-  },
-]
-
 const Contact = () => {
-  const [formState, setFormState] = useState({})
-
-  const handleChange = (e) => {
-    setFormState({ ...formState, [e.target.name]: e.target.value })
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState('')
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    if (submitting) return
+    const form = event.currentTarget
+    setSubmitting(true)
+    setError('')
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(form)).toString(),
+      })
+      if (!response.ok) throw new Error('Submission failed')
+      await navigate('/thankyou/')
+    } catch {
+      setError(
+        'Your message couldn’t be sent. Please try again, or email hello@francispham.ca directly.'
+      )
+      setSubmitting(false)
+    }
   }
-
-  const handleSubmit = (e) => {
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contactmeme', ...formState }),
-    })
-      .then(() => (window.location = '/thankyou/'))
-      .catch((error) => alert(error))
-
-    e.preventDefault()
-  }
-
   return (
-    <Layout>
-      <h2 className="animation">CONTACT</h2>
-      <hr className="hr" />
-      <p>I am available for hire and open to any ideas of cooperation.</p>
-      <p>More Questions? Please send me a message, Thank you!</p>
-      <form
-        className="form flex"
-        name="contacted"
-        method="post"
-        action="/thankyou/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-      >
-        <input type="hidden" name="bot-field" onChange={handleChange} />
-        <input
-          name="name"
-          placeholder="Your Name"
-          type="text"
-          onChange={handleChange}
-        />
-        <input
-          name="email"
-          placeholder="name@name.com"
-          type="email"
-          onChange={handleChange}
-        />
-        <div>
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            onChange={handleChange}
-          />
-        </div>
-        <input className="button" type="submit" value="Send" />
-      </form>
-
-      <br />
-      <hr />
-
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        {FooterLinks.map((link) => (
-          <div
-            className="social"
-            style={{ marginRight: '2em' }}
-            key={link.name}
-          >
+    <Layout
+      title="Contact"
+      path="/contact"
+      description="Get in touch with Francis Pham about engineering roles, web and mobile projects, or collaboration."
+    >
+      <section className="page-intro">
+        <p className="eyebrow">Get in touch</p>
+        <h1>
+          A conversation is
+          <br />
+          <em>a good place to start.</em>
+        </h1>
+        <p>
+          Have an engineering opportunity or a project in mind? I’d like to hear
+          about it.
+        </p>
+      </section>
+      <div className="contact-grid">
+        <section className="contact-details" aria-labelledby="contact-title">
+          <h2 id="contact-title">Say hello.</h2>
+          <a className="contact-link" href="mailto:hello@francispham.ca">
+            hello@francispham.ca <span aria-hidden="true">↗</span>
+          </a>
+          <p>Based in Vancouver, British Columbia.</p>
+          <div className="social-links">
             <a
+              href="https://www.linkedin.com/in/francisphamca/"
               target="_blank"
-              rel="nofollow noopener noreferrer"
-              className={link.name.toLowerCase()}
-              href={link.link}
+              rel="noopener noreferrer"
             >
-              {link.name}
+              LinkedIn ↗
+            </a>
+            <a
+              href="https://github.com/francispham23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
             </a>
           </div>
-        ))}
+        </section>
+        <form
+          className="contact-form"
+          name="contacted"
+          method="POST"
+          action="/thankyou/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}
+          aria-label="Contact Francis"
+          aria-busy={submitting}
+        >
+          <input type="hidden" name="form-name" value="contacted" />
+          <p hidden>
+            <label>
+              Leave this field empty{' '}
+              <input name="bot-field" tabIndex="-1" autoComplete="off" />
+            </label>
+          </p>
+          <div className="form-row">
+            <div className="field">
+              <label htmlFor="contact-name">Your name</label>
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                autoComplete="name"
+                placeholder="Alex Chen"
+                required
+                maxLength={200}
+              />
+            </div>
+            <div className="field">
+              <label htmlFor="contact-email">Email address</label>
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                autoComplete="email"
+                spellCheck={false}
+                placeholder="alex@example.com"
+                required
+                maxLength={254}
+              />
+            </div>
+          </div>
+          <div className="field">
+            <label htmlFor="contact-message">What do you have in mind?</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              placeholder="Tell me a little about the opportunity…"
+              required
+              maxLength={5000}
+            />
+          </div>
+          <p className="form-status" role="status" aria-live="polite">
+            {error}
+          </p>
+          <button
+            className="button-primary"
+            type="submit"
+            disabled={submitting}
+          >
+            {submitting ? 'Sending…' : 'Send message'}
+            <span aria-hidden="true">↗</span>
+          </button>
+        </form>
       </div>
-      <br />
     </Layout>
   )
 }
-
 export default Contact

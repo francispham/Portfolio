@@ -32,15 +32,26 @@ export const LINKS = [
 
 export const WORK_EXPERIENCE = [
   {
+    title: 'Senior Frontend Developer',
+    type: 'Full-time',
+    company: 'DelGate Logistics / It’s Here Delivery',
+    location: 'Vancouver, BC · Onsite',
+    period: 'Jul 2026 - Present',
+    descriptions: [
+      'Introduced AI-agent engineering workflows with Figma and route validation plus responsive screenshot diffs to automate UI checks before merge.',
+      'Led React, TypeScript, and Vite delivery from scaffold to production across warehouses, orders, customers, settings, and billing.',
+      'Built reusable layouts, settings shells, and UI patterns; migrated key detail pages to reduce duplication and accelerate feature delivery.',
+    ],
+  },
+  {
     title: 'Software Engineer',
-    type: 'Permanent Full-time',
+    type: 'Full-time',
     company: 'Betr Holdings, Inc.',
-    location: 'Startup · Miami, Florida · Remote',
+    location: 'Miami, FL · Remote',
     period: '2023 - 2025',
     descriptions: [
-      'Built and launched multiple high-traffic betting platforms across Android, iOS and Web using React and React Native, supporting over 200,000 active users.',
-      'Enhanced productivity and streamlined development workflows by integrating AI-powered GitHub CodePilot, driving efficiency in daily tasks and code management.',
-      'Spearheaded multiple integrations with technology partners and 3rd party services to enrich the product with advanced features and enhanced functionality.',
+      'Built and launched React and React Native betting experiences for web, iOS, and Android, supporting 200,000+ active users.',
+      'Integrated technology partners and third-party services; improved development workflows with GitHub Copilot.',
     ],
     website: 'https://www.betr.app',
     stack: '',
@@ -48,84 +59,85 @@ export const WORK_EXPERIENCE = [
   {
     title: '',
     company: 'FansUnite Entertainment Inc.',
-    location: '(Acquihired by Betr) · Vancouver, BC · Remote',
+    location: 'Vancouver, BC · Acquihired by Betr',
     period: '2021 - 2023',
     descriptions: [
-      'Built front-end experiences for a React SaaS platform with advanced white-label management and reporting, and delivered a Next.js sportsbook application for EU clients.',
-      'Collaborated closely with a Product Manager and UI/UX Designers in an agile environment to refine scope and project deliverables.',
-      'Enhanced code quality through unit as well as assisting in the investigation and resolution of support issues.',
+      'Built a React SaaS platform with white-label management and reporting, and a Next.js sportsbook for EU clients.',
+      'Worked with product and design teams; contributed unit tests and investigated production support issues.',
     ],
     website: 'https://www.fansunite.com',
-    stack:
-      'React, NextJS, React Native, TypeScript, NodeJS, CSS, HTML, TanStack Query, Zustand, GraphQL, RESTful API, Styled Components, GitHub',
+    stack: 'React, Next.js, TypeScript, TanStack Query, Zustand, GraphQL',
   },
   {
     title: 'Frontend Developer',
-    type: 'Full-time Contract',
+    type: 'Full-time contract',
     company: 'Spinndle Inc.',
-    location: 'Startup · Vancouver, BC · Remote',
+    location: 'Vancouver, BC · Remote',
     period: '2020 - 2021',
     descriptions: [
-      'Developed a SaaS Web Application for e-learning with guided roadmap and efficient real-time check-in system.',
-      'Built new React & Redux features with based on UI/UX specs from Design and Product teams.',
+      'Built React and Redux features for an e-learning SaaS platform with guided roadmaps and real-time check-ins.',
     ],
-    website: 'https://www.linkedin.com/in/spinndle-inc-b7404018a/',
-    stack:
-      'React, Redux, Redux Thunk, JavaScript, CSS, HTML, NodeJS, CSS Variables, Styled Components, Reactstrap, Python, Django, Git/GitLab',
+    website: 'https://spinndle.com',
+    stack: 'React, Redux, JavaScript, Styled Components, Django',
   },
   {
     title: 'Full Stack Developer',
-    type: 'Part-time Contract',
+    type: 'Part-time contract',
     company: 'AssistList Association',
-    location: 'Startup · Vancouver, BC · Remote',
+    location: 'Vancouver, BC · Remote',
     period: '2019 - 2020',
     descriptions: [
-      'Launched a marketplace platform that empowers the community to buy, sell, and donate medical equipment.',
-      'Performed code peer reviews to maintain quality standards, improve performance, and provide credibility.',
+      'Helped launch a medical-equipment marketplace with React and Rails; reviewed code for quality and performance.',
     ],
     website: 'https://www.assistlist.ca',
-    stack: 'React, Semantic UI React, Ruby on Rails, PostgreSQL, Docker',
+    stack: 'React, Ruby on Rails, PostgreSQL, Docker',
   },
 ]
 
 export const SKILLS = [
   'React',
   'React Native',
-  'NextJS',
-  'NodeJS',
-  'Convex',
+  'Next.js',
+  'Node.js',
+  'Expo',
   'TypeScript',
   'JavaScript',
   'TanStack Query',
   'Zustand',
   'Redux',
-  'CSS3',
-  'HTML5',
+  'Convex',
+  'CSS',
+  'HTML',
   'CI/CD',
-  'RESTful APIs',
+  'AWS',
   'GraphQL Client',
   'Styled Components',
   'Tailwind CSS',
-  'ExpressJS',
   'PostgreSQL',
-  'AWS',
+  'RESTful API',
   'Docker',
   'Git/GitHub',
 ]
 
 export const PROJECTS = [
   {
-    title: 'Business Website - Glossé Nails',
+    title: 'Glossé Nails Website',
     year: '2025',
     description:
-      'Built a production-grade NextJS application with responsive UI, SEO optimization, analytics integrations, and booking system integration.',
+      'Next.js business website with responsive UI, SEO, analytics, and booking integration.',
     website: 'https://glossenails.ca',
   },
   {
-    title: 'E-commerce Web Application - One Price Auto',
+    title: 'Glossé Staff Application',
+    year: '2025 - Present',
+    description:
+      'Internal business application in development using React Native, Expo, and Convex.',
+  },
+  {
+    title: 'One Price Auto Storefront',
     year: '2022',
     description:
-      'Built and deployed a high-performance, SEO-friendly NextJS storefront with real-time inventory updates backed by the Shopify Storefront API to power product/catalog experiences.',
+      'Next.js storefront with product and inventory data from the Shopify Storefront API.',
     website: 'https://www.onepriceauto.co',
   },
 ]
@@ -134,8 +146,7 @@ export const EDUCATION = [
   {
     title: 'Web Application Development Diploma',
     year: '2018',
-    description:
-      'Developer Bootcamp focus on full-stack development with React, React Native, and Rails',
+    description: 'Full-stack development with React, React Native, and Rails',
     school: 'CodeCore College',
   },
   {

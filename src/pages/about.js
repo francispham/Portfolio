@@ -1,56 +1,108 @@
 import React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
+import ResponsiveImage from '../components/ResponsiveImage'
 import Layout from '../components/layout'
+import { WORK_EXPERIENCE } from '../data/resume-data'
 
 const About = () => {
+  const data = useStaticQuery(graphql`
+    query AboutPortrait {
+      file(relativePath: { eq: "francis-snow.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 800, quality: 85) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
   return (
-    <Layout>
-      <article>
-        <h2 className="animation">ABOUT</h2>
-        <hr className="hr" />
-        <p>
-          Based in beautiful Vancouver, British Columbia, I am a React and React
-          Native developer with a solid understanding of building interactive,
-          high-performance web and mobile applications. I specialize in creating
-          seamless user interfaces and efficient code that scales well across
-          both platforms.
-        </p>
-        <p>
-          For React, I am experienced with hooks, state management libraries
-          (like Redux or Zustand), context API, and component lifecycle methods.
-          On the mobile side, with React Native, I focus on building
-          cross-platform apps that feel native and performant. I am familiar
-          with integrating APIs, handling navigation, managing complex states,
-          and optimizing app performance.
-        </p>
-        <p>
-          I am passionate about writing clean, reusable code, maintaining good
-          development practices, and staying up-to-date with the latest trends
-          in the React ecosystem. Whether it is creating custom UI components,
-          optimizing app performance, or integrating third-party libraries, I
-          enjoy building solutions that provide great user experiences.
-        </p>
-        <p>
-          I am a hard-working web developer with an ability for creating refined
-          solutions in the least amount of time. Developed an commerce webp,
-          customer web portal, documentary launch website, and donations webp
-          for a local charity. Passionate about ReactJS & other FrontEnd Related
-          Technologies. Regular attendee of web developer meetups.
-        </p>
-        <p>Graduated from CodeCore Full Stack Web Development Program.</p>
-        <p>
-          Specialized in
-          <strong>
-            {' '}
-            JavaScript, ReactJS, NextJS, React Native, HTML5, CSS3, NodeJS
-          </strong>
-          .
-        </p>
-        <p>
-          Since the sky is limitless, I am always ready for new challenges...
-        </p>
-      </article>
+    <Layout
+      title="About"
+      path="/about"
+      description="Meet Francis Pham, a Vancouver software engineer with experience in consumer platforms, React Native apps, and business technology."
+    >
+      <section className="page-intro">
+        <p className="eyebrow">A little about me</p>
+        <h1>
+          An engineer.
+          <br />A <em>business perspective.</em>
+        </h1>
+      </section>
+      <section className="about-grid" aria-labelledby="about-title">
+        <figure className="portrait-wrap">
+          <ResponsiveImage
+            loading="eager"
+            className="portrait"
+            fluid={data.file.childImageSharp.fluid}
+            alt="Francis Pham outdoors on a snowy day"
+          />
+          <figcaption className="portrait-caption">
+            <span>Francis Pham</span>
+            <span>Vancouver, BC</span>
+          </figcaption>
+        </figure>
+        <div className="about-copy">
+          <h2 id="about-title">
+            Good software starts with understanding people.
+          </h2>
+          <p>
+            I’m a software engineer based in Vancouver. My work spans web and
+            mobile applications, from betting platforms and e-commerce to
+            education technology and community marketplaces.
+          </p>
+          <p>
+            I work primarily with React, React Native, Next.js, and TypeScript.
+            I enjoy turning product ideas into clear interfaces, connecting them
+            to the right data, and building components that make a codebase
+            easier to work with.
+          </p>
+          <p>
+            As Head of Technology & Co-Founder at Glossé Nails, I also work on
+            the technology behind a local business: its public website, internal
+            applications, and digital presence. That experience gives me a
+            practical view of how software supports the people who use it every
+            day.
+          </p>
+          <p>
+            I studied Economics at Simon Fraser University and completed
+            CodeCore’s full-stack web development program. Outside of work,
+            you’ll find me hiking, snowboarding, cooking, or listening to music.
+          </p>
+          <Link className="text-link" to="/resume">
+            View my full résumé <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
+      </section>
+      <section className="section" aria-labelledby="experience-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">The path so far</p>
+            <h2 id="experience-title">Experience.</h2>
+          </div>
+        </div>
+        <div className="experience-list">
+          {WORK_EXPERIENCE.map((experience) => (
+            <article className="experience-item" key={experience.company}>
+              <span className="experience-period">{experience.period}</span>
+              <div>
+                <h3>{experience.company}</h3>
+                <p className="experience-role">
+                  {[experience.title, experience.location]
+                    .filter(Boolean)
+                    .join(' · ')}
+                </p>
+                {experience.descriptions.length > 0 && (
+                  <p className="experience-summary">
+                    {experience.descriptions[0]}
+                  </p>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </Layout>
   )
 }
-
 export default About
