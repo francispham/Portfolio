@@ -1,11 +1,17 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 const NotFoundPage = () => (
-  <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+  <Layout title="Page Not Found" path="/404">
+    <section className="page-intro simple-page">
+      <p className="eyebrow">404 / Page not found</p>
+      <h1>A small detour.</h1>
+      <p>This page doesn’t exist. Let’s get you back to the work.</p>
+      <Link className="button-primary" to="/">
+        Back to my work <span aria-hidden="true">↗</span>
+      </Link>
+    </section>
   </Layout>
-);
-
-export default NotFoundPage;
+)
+export default NotFoundPage

@@ -1,9 +1,9 @@
 export const LINKS = [
-  { link: '/about', title: 'ABOUT' },
-  { link: '/', title: 'PORTFOLIO' },
-  { link: '/skills', title: 'SKILLS' },
-  { link: '/contact', title: 'CONTACT' },
-  { link: '/resume', title: 'RESUME' },
+  { link: '/', title: 'Work' },
+  { link: '/about', title: 'About' },
+  { link: '/skills', title: 'Expertise' },
+  { link: '/contact', title: 'Contact' },
+  { link: '/resume', title: 'Résumé' },
 ]
 
 export const HEADER = {

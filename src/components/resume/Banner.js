@@ -23,7 +23,7 @@ export const Banner = () => {
 
 const ContactLink = ({ Icon, href, text }) => (
   <div>
-    <Icon style={{ position: 'relative', top: '2px' }} />
+    <Icon aria-hidden="true" style={{ position: 'relative', top: '2px' }} />
     <a href={href} target="_blank" rel="noopener noreferrer">
       {text}
     </a>
@@ -32,7 +32,10 @@ const ContactLink = ({ Icon, href, text }) => (
 
 const LocationInfo = () => (
   <div>
-    <GiCrosshair style={{ position: 'relative', top: '2px' }} />
+    <GiCrosshair
+      aria-hidden="true"
+      style={{ position: 'relative', top: '2px' }}
+    />
     Vancouver, British Columbia, Canada
   </div>
 )

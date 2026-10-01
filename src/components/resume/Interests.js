@@ -11,13 +11,17 @@ export const Interests = () => {
         style={{ justifyContent: 'center' }}
       >
         {INTERESTS.map(({ icon, label }) => (
-          <InterestIcon key={label} Icon={icon} />
+          <InterestIcon key={label} Icon={icon} label={label} />
         ))}
       </div>
     </>
   )
 }
 
-const InterestIcon = ({ Icon }) => {
-  return <Icon size={25} />
+const InterestIcon = ({ Icon, label }) => {
+  return (
+    <span role="img" aria-label={label}>
+      <Icon size={25} aria-hidden="true" />
+    </span>
+  )
 }
